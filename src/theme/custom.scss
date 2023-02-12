@@ -1,0 +1,136 @@
+@use '@angular/material' as mat;
+@import 'vars';
+
+$typography: mat.define-legacy-typography-config(
+	$font-family: $font-regular,
+	$display-4: mat.define-typography-level(112px, 112px, 300, $font-family: $font-extra-bold, $letter-spacing: -0.05em),
+	$display-3: mat.define-typography-level(56px, 56px, 400, $font-family: $font-extra-bold, $letter-spacing: -0.02em),
+	$display-2: mat.define-typography-level(45px, 48px, 400, $font-family: $font-extra-bold, $letter-spacing: -0.005em),
+	$display-1: mat.define-typography-level(34px, 40px, 400, $font-family: $font-extra-bold),
+	$headline:
+		mat.define-typography-level(
+			$font-family: $font-extra-bold,
+			$font-weight: 800,
+			$font-size: 24px,
+			$line-height: 1,
+			$letter-spacing: normal,
+		),
+	$title:
+		mat.define-typography-level(
+			$font-family: $font-bold,
+			$font-weight: 800,
+			$font-size: 20px,
+			$line-height: 1,
+			$letter-spacing: normal,
+		),
+	$subheading-2:
+		mat.define-typography-level(
+			$font-family: $font-semi-bold,
+			$font-weight: inherit,
+			$font-size: 16px,
+			$line-height: 1,
+			$letter-spacing: normal,
+		),
+	$subheading-1:
+		mat.define-typography-level(
+			$font-family: $font-medium,
+			$font-weight: 500,
+			$font-size: 15px,
+			$line-height: 1,
+			$letter-spacing: normal,
+		),
+	$body-1:
+		mat.define-typography-level(
+			$font-family: $font-regular,
+			$font-weight: 400,
+			$font-size: 14px,
+			$line-height: 20px,
+			$letter-spacing: normal,
+		),
+	$body-2:
+		mat.define-typography-level(
+			$font-family: $font-semi-bold,
+			$font-weight: 600,
+			$font-size: 14px,
+			$line-height: 20px,
+			$letter-spacing: normal,
+		),
+	$caption:
+		mat.define-typography-level(
+			$font-family: $font-regular,
+			$font-weight: 400,
+			$font-size: 12px,
+			$line-height: 1,
+			$letter-spacing: normal,
+		),
+	$button:
+		mat.define-typography-level(
+			$font-family: $font-bold,
+			$font-weight: 800,
+			$font-size: 14px,
+			$line-height: 1,
+			$letter-spacing: 2px,
+		),
+	$input:
+		mat.define-typography-level(
+			$font-family: $font-medium,
+			$font-weight: 400,
+			$font-size: 16px,
+			$line-height: 1,
+			$letter-spacing: normal,
+		),
+);
+
+$light-primary-text: #ffffff;
+$dark-primary-text: rgba(#222222, 0.87);
+
+$mat-primary: (
+	main: #00b131,
+	lighter: #b3e8c1,
+	darker: #00981f,
+	200: #00b131,
+	contrast: (
+		main: $light-primary-text,
+		lighter: $dark-primary-text,
+		darker: $light-primary-text,
+	),
+);
+
+$mat-accent: (
+	main: #222222,
+	lighter: #bdbdbd,
+	darker: #141414,
+	200: #222222,
+	contrast: (
+		main: $light-primary-text,
+		lighter: $dark-primary-text,
+		darker: $light-primary-text,
+	),
+);
+
+$mat-warn: (
+	main: #ec3c3c,
+	lighter: #f9c5c5,
+	darker: #e42727,
+	200: #ec3c3c,
+	contrast: (
+		main: $light-primary-text,
+		lighter: $dark-primary-text,
+		darker: $light-primary-text,
+	),
+);
+
+$movie-app-theme: mat.define-dark-theme(
+	(
+		color: (
+			primary: mat.define-palette($mat-primary, main, lighter, darker),
+			accent: mat.define-palette($mat-accent, main, lighter, darker),
+			warn: mat.define-palette($mat-warn, main, lighter, darker),
+		),
+		typography: $typography,
+		density: 0,
+	)
+);
+
+@include mat.core();
+@include mat.all-component-themes($movie-app-theme);

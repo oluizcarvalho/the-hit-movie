@@ -1,0 +1,125 @@
+$primary: #00b131;
+$primary-lighter: #b3e8c1;
+$primary-darker: #00981f;
+
+$accent: #222222;
+$accent-lighter: #bdbdbd;
+$accent-darker: #141414;
+
+$warn: #ec3c3c;
+$warn-lighter: #f9c5c5;
+$warn-darker: #ff3737;
+
+$green: #00b131;
+$green-darker: #b3e8c1;
+
+$white: #ffffff;
+$white-darker: #f0f1f7;
+
+$backgroud: #121212;
+
+$black: #161616;
+$black-lighter: #201f1f;
+$black-darker: #1a1a1a;
+
+$gray: #d9d9d9;
+$gray-darker: #545454;
+$gray-lighter: #ebebeb;
+
+@mixin font-extra-bold() {
+  font-family: 'RobotoExtraBoldItalic', sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@mixin font-medium() {
+  font-family: 'RobotoMedium', sans-serif;
+}
+
+@mixin font-regular() {
+  font-family: 'Roboto', sans-serif;
+}
+
+@mixin font-bold() {
+  font-family: 'RobotoBold', sans-serif;
+}
+
+@mixin font-button() {
+  font-family: 'RobotoBold', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+$font-extra-bold: 'RobotoExtraBoldItalic', sans-serif;
+$font-medium: 'RobotoMedium', sans-serif;
+$font-regular: 'Roboto', sans-serif;
+$font-bold: 'RobotoBold', sans-serif;
+$font-black: 'RobotoBlack', sans-serif;
+$font-italic: 'RobotoItalic', sans-serif;
+$font-semi-bold: 'RobotoSemiBold', sans-serif;
+
+@mixin border-top-left-radius($value) {
+  -webkit-border-top-left-radius: $value;
+  -moz-border-radius-topleft: $value;
+  border-top-left-radius: $value;
+}
+
+@mixin border-top-right-radius($value) {
+  -webkit-border-top-right-radius: $value;
+  -moz-border-radius-topright: $value;
+  border-top-right-radius: $value;
+}
+
+@mixin border-bottom-left-radius($value) {
+  -webkit-border-bottom-left-radius: $value;
+  -moz-border-radius-bottomleft: $value;
+  border-bottom-left-radius: $value;
+}
+
+@mixin border-bottom-right-radius($value) {
+  -webkit-border-bottom-right-radius: $value;
+  -moz-border-radius-bottomright: $value;
+  border-bottom-right-radius: $value;
+}
+
+@mixin border-radius($value) {
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  border-radius: $value;
+}
+
+@mixin translate($left, $top) {
+  transform: translate($left, $top);
+  -webkit-transform: translate($left, $top);
+  -moz-transform: translate($left, $top);
+  -o-transform: translate($left, $top);
+  -ms-transform: translate($left, $top);
+}
+
+@mixin user-select($value) {
+  -webkit-user-select: $value;
+  -moz-user-select: $value;
+  -ms-user-select: $value;
+  user-select: $value;
+}
+
+@mixin box-shadow($props...) {
+  -webkit-box-shadow: $props;
+  -moz-box-shadow: $props;
+  -ms-box-shadow: $props;
+  box-shadow: $props;
+}
+
+@mixin rotate($value) {
+  transform: rotate($value);
+}
+
+@mixin transition($value) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -ms-transition: $value;
+  -o-transition: $value;
+  transition: $value;
+}

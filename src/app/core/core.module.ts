@@ -9,8 +9,8 @@ import { TemplatePageTitleStrategy } from './strategy/title-page.strategy';
 
 @NgModule({
 	declarations: [HeaderComponent],
-	imports: [CommonModule, RouterModule, BrowserModule, BrowserAnimationsModule, HttpClientModule],
-	exports: [HttpClientModule, RouterModule, BrowserModule, BrowserAnimationsModule],
+	imports: [CommonModule, BrowserModule, BrowserAnimationsModule, RouterModule, HttpClientModule],
+	exports: [BrowserModule, BrowserAnimationsModule, RouterModule, HttpClientModule, HeaderComponent],
 	providers: [
 		{
 			provide: TitleStrategy,

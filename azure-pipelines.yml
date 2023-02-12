@@ -19,13 +19,3 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-
-- task: AzureStaticWebApp@0
-  inputs:
-    app_location: '/'
-    output_location: 'dist/movie-app'
-    skip_app_build: true
-    skip_api_build: true
-    azure_static_web_apps_api_token: $(Static-Web-App-Token)
-    deployment_environment: 'prod'
-    production_branch: 'master'

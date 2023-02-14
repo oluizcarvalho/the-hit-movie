@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-const API_KEYS = ['k_rnlpdi92', 'k_rnlpdi92', 'k_rnlpdi92'];
+const API_KEYS = ['k_rnlpdi92', 'k_cdkg573e'];
 
 @Injectable({
 	providedIn: 'root',

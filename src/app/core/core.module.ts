@@ -6,10 +6,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TemplatePageTitleStrategy } from './strategy/title-page.strategy';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
 	declarations: [HeaderComponent],
-	imports: [CommonModule, BrowserModule, BrowserAnimationsModule, RouterModule, HttpClientModule],
+	imports: [
+		CommonModule,
+		BrowserModule,
+		BrowserAnimationsModule,
+		RouterModule,
+		HttpClientModule,
+		MatIconModule,
+		MatButtonModule,
+	],
 	exports: [BrowserModule, BrowserAnimationsModule, RouterModule, HttpClientModule, HeaderComponent],
 	providers: [
 		{

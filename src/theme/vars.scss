@@ -1,10 +1,10 @@
-$primary: #00b131;
-$primary-lighter: #b3e8c1;
-$primary-darker: #00981f;
+$primary: #13152b;
+$primary-lighter: #b8b9bf;
+$primary-darker: #0b0c1a;
 
-$accent: #222222;
-$accent-lighter: #bdbdbd;
-$accent-darker: #141414;
+$accent: #d4b69c;
+$accent-lighter: #f2e9e1;
+$accent-darker: #c39e80;
 
 $warn: #ec3c3c;
 $warn-lighter: #f9c5c5;
@@ -16,7 +16,7 @@ $green-darker: #b3e8c1;
 $white: #ffffff;
 $white-darker: #f0f1f7;
 
-$backgroud: #121212;
+$backgroud: #13152b;
 
 $black: #161616;
 $black-lighter: #201f1f;
@@ -26,39 +26,16 @@ $gray: #d9d9d9;
 $gray-darker: #545454;
 $gray-lighter: #ebebeb;
 
-@mixin font-extra-bold() {
-  font-family: 'RobotoExtraBoldItalic', sans-serif;
-  font-weight: bolder;
-  font-style: italic;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-@mixin font-medium() {
-  font-family: 'RobotoMedium', sans-serif;
-}
-
-@mixin font-regular() {
-  font-family: 'Roboto', sans-serif;
-}
-
-@mixin font-bold() {
-  font-family: 'RobotoBold', sans-serif;
-}
-
 @mixin font-button() {
-  font-family: 'RobotoBold', sans-serif;
+  font-family: $font-bold;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-$font-extra-bold: 'RobotoExtraBoldItalic', sans-serif;
-$font-medium: 'RobotoMedium', sans-serif;
-$font-regular: 'Roboto', sans-serif;
-$font-bold: 'RobotoBold', sans-serif;
-$font-black: 'RobotoBlack', sans-serif;
-$font-italic: 'RobotoItalic', sans-serif;
-$font-semi-bold: 'RobotoSemiBold', sans-serif;
+$font-regular: 'BigShouldersRegular', cursive;
+$font-medium: 'BigShouldersMedium', cursive;
+$font-semi-bold: 'BigShouldersSemiBold', cursive;
+$font-bold: 'BigShouldersBold', cursive;
 
 @mixin border-top-left-radius($value) {
   -webkit-border-top-left-radius: $value;

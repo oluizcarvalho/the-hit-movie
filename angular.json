@@ -49,6 +49,7 @@
 						"styles": [
 							"src/styles.scss",
 							"src/theme/custom.scss",
+							"src/theme/fonts.scss",
 							"src/theme/grid.scss",
 							"src/theme/reset.scss"
 						],

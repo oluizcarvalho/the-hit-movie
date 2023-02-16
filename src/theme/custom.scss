@@ -3,13 +3,13 @@
 
 $typography: mat.define-legacy-typography-config(
 	$font-family: $font-regular,
-	$display-4: mat.define-typography-level(112px, 112px, 300, $font-family: $font-extra-bold, $letter-spacing: -0.05em),
-	$display-3: mat.define-typography-level(56px, 56px, 400, $font-family: $font-extra-bold, $letter-spacing: -0.02em),
-	$display-2: mat.define-typography-level(45px, 48px, 400, $font-family: $font-extra-bold, $letter-spacing: -0.005em),
-	$display-1: mat.define-typography-level(34px, 40px, 400, $font-family: $font-extra-bold),
+	$display-4: mat.define-typography-level(112px, 112px, 300, $font-family: $font-bold, $letter-spacing: -0.05em),
+	$display-3: mat.define-typography-level(56px, 56px, 400, $font-family: $font-bold, $letter-spacing: -0.02em),
+	$display-2: mat.define-typography-level(45px, 48px, 400, $font-family: $font-bold, $letter-spacing: -0.005em),
+	$display-1: mat.define-typography-level(34px, 40px, 400, $font-family: $font-bold),
 	$headline:
 		mat.define-typography-level(
-			$font-family: $font-extra-bold,
+			$font-family: $font-bold,
 			$font-weight: 800,
 			$font-size: 24px,
 			$line-height: 1,
@@ -85,10 +85,10 @@ $light-primary-text: #ffffff;
 $dark-primary-text: rgba(#222222, 0.87);
 
 $mat-primary: (
-	main: #00b131,
-	lighter: #b3e8c1,
-	darker: #00981f,
-	200: #00b131,
+	main: $primary,
+	lighter: $primary-lighter,
+	darker: $primary-darker,
+	200: $primary,
 	contrast: (
 		main: $light-primary-text,
 		lighter: $dark-primary-text,
@@ -97,14 +97,14 @@ $mat-primary: (
 );
 
 $mat-accent: (
-	main: #222222,
-	lighter: #bdbdbd,
-	darker: #141414,
-	200: #222222,
+	main: $accent,
+	lighter: $accent-lighter,
+	darker: $accent-darker,
+	200: $accent,
 	contrast: (
-		main: $light-primary-text,
+		main: $dark-primary-text,
 		lighter: $dark-primary-text,
-		darker: $light-primary-text,
+		darker: $dark-primary-text,
 	),
 );
 
@@ -120,12 +120,39 @@ $mat-warn: (
 	),
 );
 
+$dark-bg-lighter-5: lighten($backgroud, 5%);
+$dark-bg-lighter-10: lighten($backgroud, 10%);
+$dark-bg-lighter-20: lighten($backgroud, 20%);
+$dark-bg-lighter-30: lighten($backgroud, 30%);
+$light-bg-alpha-4: rgba(#fafafa, 0.04);
+$light-bg-alpha-12: rgba(#fafafa, 0.12);
+$light-focused: rgba($light-primary-text, 0.12);
+
+$mat-dark-theme-background: (
+	background: $backgroud,
+	status-bar: $dark-bg-lighter-20,
+	app-bar: $dark-bg-lighter-5,
+	hover: $light-bg-alpha-4,
+	card: $dark-bg-lighter-5,
+	dialog: $dark-bg-lighter-5,
+	tooltip: $dark-bg-lighter-20,
+	disabled-button: $light-bg-alpha-12,
+	raised-button: $dark-bg-lighter-5,
+	focused-button: $light-focused,
+	selected-button: $dark-bg-lighter-20,
+	selected-disabled-button: $dark-bg-lighter-30,
+	disabled-button-toggle: $dark-bg-lighter-10,
+	unselected-chip: $dark-bg-lighter-20,
+	disabled-list-option: $dark-bg-lighter-10,
+);
+
 $movie-app-theme: mat.define-dark-theme(
 	(
 		color: (
 			primary: mat.define-palette($mat-primary, main, lighter, darker),
 			accent: mat.define-palette($mat-accent, main, lighter, darker),
 			warn: mat.define-palette($mat-warn, main, lighter, darker),
+			background: $mat-dark-theme-background
 		),
 		typography: $typography,
 		density: 0,

@@ -2,11 +2,47 @@
 
 html,
 body {
-  min-width: 100vw;
-  min-height: 100vh;
-
-  * {
-    outline: none;
-  }
+	min-width: 100vw;
+	min-height: 100vh;
+	font-family: $font-regular;
+    background-color: $backgroud;
+    color: $white;
+	* {
+		outline: none;
+	}
 }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+p {
+	font-family: $font-regular;
+}
+
+h1 {
+	font-family: $font-bold;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-family: $font-bold;
+}
+
+h3 {
+	font-family: $font-semi-bold;
+}
+
+h4 {
+	font-family: $font-medium;
+}
+
+strong,
+b {
+	font-family: $font-bold;
+}
+
+button,
+.mat-button-base {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+}

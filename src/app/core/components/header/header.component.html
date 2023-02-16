@@ -1,1 +1,12 @@
-<p>header works!</p>
+<nav class="navbar" (scroll)="onScroll()" [ngClass]="navbarfixed ? 'fixed' : 'nofixed'">
+	<ul class="navbar-nav">
+		<li class="nav-item active">
+			<a class="nav-link" href="#">Séries</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Filmes</a>
+		</li>
+		<li class="search"></li>
+	</ul>
+	<mat-icon color="accent" fontIcon="search"></mat-icon>
+</nav>

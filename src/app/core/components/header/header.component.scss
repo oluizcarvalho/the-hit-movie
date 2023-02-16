@@ -1,0 +1,54 @@
+@import "../../../../theme/vars";
+
+nav {
+	background-color: $backgroud;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 100px;
+	box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.2);
+
+	ul {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		li {
+			position: relative;
+			list-style: none;
+
+			a {
+				position: relative;
+				margin: 0 15px;
+				text-decoration: none;
+				color: $accent;
+				letter-spacing: 2px;
+				transition: 0.6s;
+				text-transform: uppercase;
+			}
+
+			&:hover {
+				color: #007bff;
+			}
+		}
+	}
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+	transition: 0.2s linear;
+	top: 0px;
+}
+
+.nofixed {
+	position: static;
+	transition: 0.2s linear;
+	top: -50px;
+}

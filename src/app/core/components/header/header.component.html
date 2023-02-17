@@ -1,5 +1,9 @@
-<nav class="navbar" (scroll)="onScroll()" [ngClass]="navbarfixed ? 'fixed' : 'nofixed'">
+<nav class="navbar">
 	<ul class="navbar-nav">
+		<img class="icon" src="../../../../assets/icons/onlyIcon.png" alt="Icon The Hit Movie">
+		<li class="nav-item active">
+			<a class="nav-name" href="#">The Hit Movie</a>
+		</li>
 		<li class="nav-item active">
 			<a class="nav-link" href="#">Séries</a>
 		</li>
@@ -8,5 +12,7 @@
 		</li>
 		<li class="search"></li>
 	</ul>
-	<mat-icon color="accent" fontIcon="search"></mat-icon>
+	<button mat-icon-button aria-label="Search button">
+		<mat-icon color="accent" fontIcon="search"></mat-icon>
+	</button>
 </nav>

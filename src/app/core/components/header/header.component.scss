@@ -1,9 +1,9 @@
 @import "../../../../theme/vars";
 
 nav {
-	background-color: $backgroud;
+	background: $backgroud;
+	z-index: 3;
 	position: fixed;
-	top: 2px;
 	left: 0;
 	display: flex;
 	justify-content: space-between;

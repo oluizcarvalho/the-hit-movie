@@ -20,23 +20,22 @@ export interface Movie {
 	year: string;
 	releaseState: string;
 	image: string;
-	runtimeMins: string;
-	runtimeStr: string;
-	plot: string;
-	contentRating: string;
-	imDbRating: string;
-	imDbRatingCount: string;
-	metacriticRating: string;
+	runtimeMins?: string;
+	runtimeStr?: string;
+	plot?: string;
+	contentRating?: string;
+	imDbRating?: string;
+	imDbRatingCount?: string;
+	metacriticRating?: string;
 	genres: string;
 	genreList: GenreList[];
 	directors: string;
-	directorList: DirectorList[];
+	directorList?: DirectorList[];
 	stars: string;
 	starList: StarList[];
-	backdrops?: Backdrop[];
 }
 
-export interface GetInTheaters {
+export interface GetMovies {
 	items: Movie[];
 	errorMessage: string;
 }

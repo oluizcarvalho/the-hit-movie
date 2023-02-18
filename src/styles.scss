@@ -1,13 +1,15 @@
 @import './theme/vars';
-@import "./theme/fonts";
+@import './theme/fonts';
+@import 'swiper/swiper-bundle.min.css';
 
 html,
 body {
 	min-width: 100vw;
 	min-height: 100vh;
+	overflow-x: hidden;
 	font-family: $font-regular;
-    background-color: $backgroud;
-    color: $white;
+	background: $backgroud;
+	color: $white;
 	* {
 		outline: none;
 	}
@@ -46,4 +48,26 @@ button,
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 700;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+::-webkit-scrollbar {
+	background-color: #cfcfcf;
+	width: 8px;
+	border-radius: 4px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #a0a0a0;
+	border-radius: 4px;
 }

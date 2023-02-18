@@ -120,16 +120,16 @@ $mat-warn: (
 	),
 );
 
-$dark-bg-lighter-5: lighten($backgroud, 5%);
-$dark-bg-lighter-10: lighten($backgroud, 10%);
-$dark-bg-lighter-20: lighten($backgroud, 20%);
-$dark-bg-lighter-30: lighten($backgroud, 30%);
+$dark-bg-lighter-5: lighten($primary, 5%);
+$dark-bg-lighter-10: lighten($primary, 10%);
+$dark-bg-lighter-20: lighten($primary, 20%);
+$dark-bg-lighter-30: lighten($primary, 30%);
 $light-bg-alpha-4: rgba(#fafafa, 0.04);
 $light-bg-alpha-12: rgba(#fafafa, 0.12);
 $light-focused: rgba($light-primary-text, 0.12);
 
 $mat-dark-theme-background: (
-	background: $backgroud,
+	background: $primary,
 	status-bar: $dark-bg-lighter-20,
 	app-bar: $dark-bg-lighter-5,
 	hover: $light-bg-alpha-4,

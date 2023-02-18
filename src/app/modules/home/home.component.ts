@@ -114,8 +114,8 @@ export class HomeComponent implements OnInit, OnDestroy {
 			)
 			.subscribe({
 				next: value => {
-					this.inTheatersList = value[0].items.slice(0, COUNT_THEATERS);
-					const commingSoonFiltered = value[1].items.filter(movie => !movie.image.includes('nopicture'));
+					this.inTheatersList = value[0].slice(0, COUNT_THEATERS);
+					const commingSoonFiltered = value[1].filter(movie => !movie.image.includes('nopicture'));
 					this.comingSoonList = commingSoonFiltered.slice(0, COUNT_COMING_SOON);
 					this.fanFavoritesList = value[2].data.fanPicksTitles.edges.slice(0, COUNT_FAN_FAVORITES);
 				},

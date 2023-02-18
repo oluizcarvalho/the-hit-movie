@@ -2,27 +2,48 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 import { ApiKeyService } from '../../core/services/api-key.service';
-import { GetMovies, GetPosters } from '../models/movie.model';
+import { GetMovies, GetPosters, Movie } from '../models/movie.model';
 import { GetSearchTitle } from '../models/search-movie.model';
 import { GetFanFavorites } from '../models/imdb.model';
+import { AbstractCacheService } from '../../core/services/cache.service';
+import { map, shareReplay } from 'rxjs';
 
 @Injectable({
 	providedIn: 'root',
 })
-export class MovieService {
+export class MovieService extends AbstractCacheService<Movie[]> {
 	private baseUrl = environment.baseUrl;
-	constructor(private http: HttpClient, private apiKey: ApiKeyService) {}
+
+	constructor(private http: HttpClient, private apiKey: ApiKeyService) {
+		super();
+	}
 
 	getSearchTitle(term: string) {
 		return this.http.get<GetSearchTitle>(this.baseUrl + `/Search/${this.apiKey.value}/${term}`);
 	}
 
 	getInTheaters() {
-		return this.http.get<GetMovies>(this.baseUrl + `/InTheaters/${this.apiKey.value}`);
+		let movies$ = this.getValue('InTheaters');
+		if (!movies$) {
+			movies$ = this.http.get<GetMovies>(this.baseUrl + `/InTheaters/${this.apiKey.value}`).pipe(
+				map(res => res.items),
+				shareReplay(1)
+			);
+			this.setValue(movies$, 'InTheaters');
+		}
+		return movies$;
 	}
 
 	getComingSoon() {
-		return this.http.get<GetMovies>(this.baseUrl + `/ComingSoon/${this.apiKey.value}`);
+		let movies$ = this.getValue('ComingSoon');
+		if (!movies$) {
+			movies$ = this.http.get<GetMovies>(this.baseUrl + `/ComingSoon/${this.apiKey.value}`).pipe(
+				map(res => res.items),
+				shareReplay(1)
+			);
+			this.setValue(movies$, 'ComingSoon');
+		}
+		return movies$;
 	}
 
 	getFanFavorites() {

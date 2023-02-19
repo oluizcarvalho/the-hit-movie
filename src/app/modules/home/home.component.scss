@@ -53,7 +53,7 @@ section {
 
 		@media (min-width: 600px) {
 			&:not(:hover) {
-				opacity: 0.7;
+				opacity: 0.6;
 			}
 		}
 	}
@@ -76,10 +76,8 @@ section {
 			scroll-snap-stop: always;
 		}
 
-		@media (max-width: 600px) {
-			&::-webkit-scrollbar {
-				display: none;
-			}
+		&::-webkit-scrollbar {
+			display: none;
 		}
 	}
 }

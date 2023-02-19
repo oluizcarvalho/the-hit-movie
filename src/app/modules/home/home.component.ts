@@ -1,10 +1,10 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MovieService } from '../../shared/services/movie.service';
 import { Movie } from '../../shared/models/movie.model';
-import { finalize, takeUntil } from 'rxjs/operators';
+import { catchError, finalize, takeUntil } from 'rxjs/operators';
 import SwiperCore, { Autoplay, Lazy, Navigation, Pagination, SwiperOptions } from 'swiper';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { forkJoin, Subject } from 'rxjs';
+import { forkJoin, of, Subject } from 'rxjs';
 import { Edge } from '../../shared/models/imdb.model';
 
 const COUNT_THEATERS = 10;
@@ -103,9 +103,21 @@ export class HomeComponent implements OnInit, OnDestroy {
 	private getData(): void {
 		this.isLoading = true;
 		forkJoin([
-			this.movieService.getInTheaters(),
-			this.movieService.getComingSoon(),
-			this.movieService.getFanFavorites(),
+			this.movieService.getInTheaters().pipe(
+				catchError(() => {
+					return of(null);
+				})
+			),
+			this.movieService.getComingSoon().pipe(
+				catchError(() => {
+					return of(null);
+				})
+			),
+			this.movieService.getFanFavorites().pipe(
+				catchError(() => {
+					return of(null);
+				})
+			),
 		])
 			.pipe(
 				finalize(() => {
@@ -114,10 +126,10 @@ export class HomeComponent implements OnInit, OnDestroy {
 			)
 			.subscribe({
 				next: value => {
-					this.inTheatersList = value[0].slice(0, COUNT_THEATERS);
-					const commingSoonFiltered = value[1].filter(movie => !movie.image.includes('nopicture'));
-					this.comingSoonList = commingSoonFiltered.slice(0, COUNT_COMING_SOON);
-					this.fanFavoritesList = value[2].data.fanPicksTitles.edges.slice(0, COUNT_FAN_FAVORITES);
+					this.inTheatersList = value[0]?.slice(0, COUNT_THEATERS) ?? [];
+					const commingSoonFiltered = value[1]?.filter(movie => !movie.image.includes('nopicture'));
+					this.comingSoonList = commingSoonFiltered?.slice(0, COUNT_COMING_SOON) ?? [];
+					this.fanFavoritesList = value[2]?.data.fanPicksTitles.edges.slice(0, COUNT_FAN_FAVORITES) ?? [];
 				},
 				error: err => {
 					console.error(err);

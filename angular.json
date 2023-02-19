@@ -95,7 +95,8 @@
 							"browserTarget": "movie-app:build:production"
 						},
 						"development": {
-							"browserTarget": "movie-app:build:development"
+							"browserTarget": "movie-app:build:development",
+							"liveReload": false
 						}
 					},
 					"defaultConfiguration": "development"

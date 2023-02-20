@@ -35,8 +35,19 @@ export interface Movie {
 	starList: StarList[];
 }
 
+export interface MovieGeneric extends Partial<Movie> {
+	rank?: string;
+	rankUpDown?: string;
+	crew?: string;
+}
+
 export interface GetMovies {
 	items: Movie[];
+	errorMessage: string;
+}
+
+export interface GetMoviesGeneric {
+	items: MovieGeneric[];
 	errorMessage: string;
 }
 

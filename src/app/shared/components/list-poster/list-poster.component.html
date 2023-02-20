@@ -1,0 +1,32 @@
+<section>
+	<div *ngIf="titleSection" class="col-12 text-center mb-4 mt-5">
+		<h1>{{ titleSection }}</h1>
+	</div>
+	<div class="col-10 offset-1">
+		<ul *ngIf="!isLoading">
+			<li class="mr-4" *ngFor="let movie of listPoster; trackBy: trackByFn">
+				<div [routerLink]="['/details', movie?.id]" routerLinkActive="router-link-active" class="poster">
+					<img
+						loading="lazy"
+						class="h-100 w-auto"
+						[src]="movie?.image | resizeImage : '384x528'"
+						[alt]="movie?.title"
+					/>
+				</div>
+			</li>
+		</ul>
+		<ngx-skeleton-loader
+			animation="pulse"
+			*ngIf="isLoading"
+			[count]="countPosters + 3"
+			[theme]="{
+				'width.%': widthSkeletonImages,
+				height: '305px',
+				'margin-right': countPosters === 1 ? '0%' : '1%',
+				'background-color': '#0b0c1a',
+				border: '1px solid #0b0c1a',
+				'animation-duration': '2s'
+			}"
+		></ngx-skeleton-loader>
+	</div>
+</section>

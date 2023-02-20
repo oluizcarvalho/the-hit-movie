@@ -1,15 +1,14 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MovieService } from '../../shared/services/movie.service';
-import { Movie } from '../../shared/models/movie.model';
+import { MovieGeneric } from '../../shared/models/movie.model';
 import { catchError, finalize, takeUntil } from 'rxjs/operators';
 import SwiperCore, { Autoplay, Lazy, Navigation, Pagination, SwiperOptions } from 'swiper';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { forkJoin, of, Subject } from 'rxjs';
-import { Edge } from '../../shared/models/imdb.model';
 
 const COUNT_THEATERS = 10;
 const COUNT_COMING_SOON = 20;
-const COUNT_FAN_FAVORITES = 20;
+const COUNT_MOST_POPULAR = 20;
 
 const COUNT_POSTER_SWIPER = new Map([
 	[Breakpoints.XSmall, 1],
@@ -28,9 +27,10 @@ SwiperCore.use([Navigation, Pagination, Lazy, Autoplay]);
 })
 export class HomeComponent implements OnInit, OnDestroy {
 	private _destroyed = new Subject<void>();
-	public inTheatersList: Movie[] = [];
-	public comingSoonList: Movie[] = [];
-	public fanFavoritesList: Edge[] = [];
+	public inTheatersList: MovieGeneric[] = [];
+	public comingSoonList: MovieGeneric[] = [];
+	public mostPopularMoviesList: MovieGeneric[] = [];
+	public mostPopularTVsList: MovieGeneric[] = [];
 
 	public config: SwiperOptions = {
 		initialSlide: 4,
@@ -113,7 +113,12 @@ export class HomeComponent implements OnInit, OnDestroy {
 					return of(null);
 				})
 			),
-			this.movieService.getFanFavorites().pipe(
+			this.movieService.getMostPopularMovies().pipe(
+				catchError(() => {
+					return of(null);
+				})
+			),
+			this.movieService.getMostPopularTVs().pipe(
 				catchError(() => {
 					return of(null);
 				})
@@ -127,9 +132,10 @@ export class HomeComponent implements OnInit, OnDestroy {
 			.subscribe({
 				next: value => {
 					this.inTheatersList = value[0]?.slice(0, COUNT_THEATERS) ?? [];
-					const commingSoonFiltered = value[1]?.filter(movie => !movie.image.includes('nopicture'));
+					const commingSoonFiltered = value[1]?.filter(movie => !movie.image?.includes('nopicture'));
 					this.comingSoonList = commingSoonFiltered?.slice(0, COUNT_COMING_SOON) ?? [];
-					this.fanFavoritesList = value[2]?.data.fanPicksTitles.edges.slice(0, COUNT_FAN_FAVORITES) ?? [];
+					this.mostPopularMoviesList = value[2]?.slice(0, COUNT_MOST_POPULAR) ?? [];
+					this.mostPopularTVsList = value[3]?.slice(0, COUNT_MOST_POPULAR) ?? [];
 				},
 				error: err => {
 					console.error(err);

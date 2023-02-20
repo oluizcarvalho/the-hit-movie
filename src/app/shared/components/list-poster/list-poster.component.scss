@@ -1,0 +1,56 @@
+@import 'src/theme/vars';
+
+section {
+  h1 {
+    color: $accent;
+    font-size: 40px;
+  }
+
+  .poster {
+    width: 210px;
+    height: 305px;
+
+    img {
+      object-fit: cover;
+      object-position: center;
+      cursor: pointer;
+
+      @media (min-width: 600px) {
+        &:hover {
+          border: 2px solid $accent-darker;
+          padding: 2px;
+          border-radius: 4px;
+        }
+      }
+    }
+
+    @media (min-width: 600px) {
+      &:not(:hover) {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  ul {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 1rem 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-padding-left: 1rem;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+
+    li {
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

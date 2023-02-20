@@ -1,8 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { MovieGeneric } from '../../models/movie.model';
-import SwiperCore, { Navigation, SwiperOptions } from 'swiper';
+import SwiperCore, { Navigation, Mousewheel, SwiperOptions } from 'swiper';
 
-SwiperCore.use([Navigation]);
+SwiperCore.use([Navigation, Mousewheel]);
 
 @Component({
 	selector: 'app-list-poster',
@@ -24,6 +24,10 @@ export class ListPosterComponent {
 		centeredSlides: false,
 		slidesPerView: 'auto',
 		allowTouchMove: true,
+		mousewheel: {
+			eventsTarget: 'container',
+			forceToAxis: true,
+		},
 		spaceBetween: 10,
 	};
 

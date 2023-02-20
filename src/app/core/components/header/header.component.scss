@@ -39,14 +39,14 @@ nav {
 
 			a:hover {
 				//color: #007bff;
-				color: #a1896d;
+				color: $accent-darker;
 			}
 		}
 	}
 }
 .icon {
-	width: 56px;
-	height: 52px;
+	width: 130px;
+	height: auto;
 }
 .nav-name{
 	margin-right: 16px;

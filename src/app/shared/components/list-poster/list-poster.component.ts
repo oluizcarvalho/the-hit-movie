@@ -1,5 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { MovieGeneric } from '../../models/movie.model';
+import SwiperCore, { Navigation, SwiperOptions } from 'swiper';
+
+SwiperCore.use([Navigation]);
 
 @Component({
 	selector: 'app-list-poster',
@@ -12,6 +15,17 @@ export class ListPosterComponent {
 	@Input() isLoading = true;
 	@Input() countPosters: number = 0;
 	@Input() widthSkeletonImages: number = 100;
+
+	public config: SwiperOptions = {
+		initialSlide: 0,
+		navigation: true,
+		grabCursor: true,
+		scrollbar: false,
+		centeredSlides: false,
+		slidesPerView: 'auto',
+		allowTouchMove: true,
+		spaceBetween: 10,
+	};
 
 	trackByFn(index: number) {
 		return index;

@@ -86,7 +86,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 					if (result.breakpoints[query]) {
 						this.countPosters = COUNT_POSTER_SWIPER.get(query) ?? 1;
 						this.widthSkeletonPoster = this.getCalcWidthPoster(this.countPosters);
-						this.widthSkeletonImages = this.getCalcWidthPoster(this.countPosters + 3);
+						this.widthSkeletonImages = this.getCalcWidthPoster(this.countPosters + 2);
 					}
 				}
 			});

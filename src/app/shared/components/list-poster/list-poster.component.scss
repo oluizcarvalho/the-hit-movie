@@ -1,56 +1,49 @@
 @import 'src/theme/vars';
+#list {
+	::ng-deep .swiper-slide {
+		width: auto;
+	}
+}
 
 section {
-  h1 {
-    color: $accent;
-    font-size: 40px;
-  }
+	h1 {
+		color: $accent;
+		font-size: 40px;
+	}
 
-  .poster {
-    width: 210px;
-    height: 305px;
+	.poster {
+		width: 220px;
+		height: 315px;
 
-    img {
-      object-fit: cover;
-      object-position: center;
-      cursor: pointer;
+		img {
+			object-fit: cover;
+			object-position: center;
+			cursor: pointer;
 
-      @media (min-width: 600px) {
-        &:hover {
-          border: 2px solid $accent-darker;
-          padding: 2px;
-          border-radius: 4px;
-        }
-      }
-    }
+			height: auto;
+			width: 100%;
 
-    @media (min-width: 600px) {
-      &:not(:hover) {
-        opacity: 0.6;
-      }
-    }
-  }
+			@media (min-width: 600px) {
+				&:hover {
+					border: 2px solid $accent-darker;
+					border-radius: 4px;
+				}
+			}
+		}
 
-  ul {
-    align-items: flex-start;
-    display: flex;
-    flex-wrap: nowrap;
-    list-style: none;
-    margin: 1rem 0;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    scroll-padding-left: 1rem;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    padding-bottom: 2px;
+		@media (max-width: 600px) {
+			width: 240px;
 
-    li {
-      scroll-snap-align: start;
-      scroll-snap-stop: always;
-    }
+			img {
+				width: 100%;
+				min-height: 100%;
+			}
+		}
 
-    &::-webkit-scrollbar {
-      display: none;
-    }
-  }
+		@media (min-width: 600px) {
+			&:not(:hover) {
+				opacity: 0.6;
+			}
+		}
+	}
 }

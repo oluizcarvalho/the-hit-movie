@@ -1,0 +1,30 @@
+@import '../../../theme/vars';
+
+#details {
+	padding-top: 24px;
+
+	h1 {
+		font-size: 40px;
+		line-height: 150%;
+		letter-spacing: 0.05em;
+		color: $white;
+		margin-bottom: 8px;
+	}
+
+	p {
+		font-family: $font-medium;
+		font-size: 18px;
+		line-height: 22px;
+		color: rgba(255, 255, 255, 0.5);
+		padding-bottom: 1rem;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.2);
+		object-position: top;
+		max-height: min(500px, 60vh);
+	}
+}

@@ -1,1 +1,19 @@
-<p>details works!</p>
+<section id="details" class="container-fluid">
+	<div class="row">
+		<div class="col-10 offset-1">
+			<h1>{{ details.title }}</h1>
+			<p>Original title: {{ details.fullTitle }}</p>
+			<p>Year: {{ details.year }} - Duration: {{ details.runtimeStr }}</p>
+		</div>
+		<div class="col-10 offset-1">
+			<img class="img-fluid" [alt]="details.posters.title" [src]="details.posters.backdrops[0].link" />
+		</div>
+		<div class="col-10 offset-1">
+			<mat-chip-listbox [selectable]="false">
+				<mat-chip-option *ngFor="let genre of details.genreList" selected [color]="'accent'">
+					{{ genre.value }}
+				</mat-chip-option>
+			</mat-chip-listbox>
+		</div>
+	</div>
+</section>

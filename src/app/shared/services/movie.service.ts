@@ -6,6 +6,7 @@ import { GetMovies, GetMoviesGeneric, GetPosters, MovieGeneric } from '../models
 import { GetSearchTitle } from '../models/search-movie.model';
 import { AbstractCacheService } from '../../core/services/cache.service';
 import { map, shareReplay } from 'rxjs';
+import { DetailsModel } from '../models/details.model';
 
 enum KEYS {
 	InTheaters = 'InTheaters',
@@ -102,7 +103,11 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		return observable$;
 	}
 
-	getPosters(id: string) {
-		return this.http.get<GetPosters>(this.baseUrl + `/Posters/${this.apiKey.value}/${id}`);
+	getDetails(tt: string) {
+		return this.http.get<DetailsModel>(`${this.baseUrl}/Title/${this.apiKey.value}/${tt}/Posters,`);
+	}
+
+	getPosters(tt: string) {
+		return this.http.get<GetPosters>(`${this.baseUrl}/Posters/${this.apiKey.value}/${tt}`);
 	}
 }

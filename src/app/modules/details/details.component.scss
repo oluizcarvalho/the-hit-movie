@@ -5,10 +5,16 @@
 
 	h1 {
 		font-size: 40px;
-		line-height: 150%;
 		letter-spacing: 0.05em;
 		color: $white;
 		margin-bottom: 8px;
+	}
+
+	h2 {
+		font-family: $font-semi-bold;
+		font-size: 32px;
+		letter-spacing: 0.05em;
+		color: $white;
 	}
 
 	p {
@@ -22,8 +28,27 @@
 		width: 100%;
 		height: auto;
 		object-fit: cover;
-		box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.2);
-		object-position: top;
+		box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2);
+		object-position: 50% 25%;
 		max-height: min(500px, 60vh);
+	}
+
+	.chips {
+		display: flex;
+		flex-direction: row;
+		justify-content: start;
+		align-items: center;
+		gap: 8px;
+
+		div {
+			padding: 4px 24px;
+			border: 1px solid #d4b69c;
+			border-radius: 32px;
+			font-size: 18px;
+			font-family: $font-medium;
+			line-height: 24px;
+			color: #d4b69c;
+			cursor: pointer;
+		}
 	}
 }

@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TemplatePageTitleStrategy } from './strategy/title-page.strategy';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 @NgModule({
 	declarations: [HeaderComponent],
@@ -19,8 +20,18 @@ import { MatButtonModule } from '@angular/material/button';
 		HttpClientModule,
 		MatIconModule,
 		MatButtonModule,
+		NgxSkeletonLoaderModule.forRoot({
+			animation: 'progress-dark',
+		}),
 	],
-	exports: [BrowserModule, BrowserAnimationsModule, RouterModule, HttpClientModule, HeaderComponent],
+	exports: [
+		BrowserModule,
+		BrowserAnimationsModule,
+		RouterModule,
+		HttpClientModule,
+		HeaderComponent,
+		NgxSkeletonLoaderModule,
+	],
 	providers: [
 		{
 			provide: TitleStrategy,

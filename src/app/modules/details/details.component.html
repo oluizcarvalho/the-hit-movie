@@ -1,19 +1,138 @@
 <section id="details" class="container-fluid">
 	<div class="row">
-		<div class="col-12 col-md-10 offset-md-1 mb-3">
-			<h1>{{ details.title }}</h1>
-			<p class="pb-2">Original title: {{ details.fullTitle }}</p>
-			<p>Year: {{ details.year }} - Duration: {{ details.runtimeStr }}</p>
+		<div class="col-12 col-md-10 offset-md-1 mb-3 d-flex flex-column">
+			<h1 *ngIf="!loading">{{ details.title }}</h1>
+			<ngx-skeleton-loader
+				*ngIf="loading"
+				[count]="1"
+				[theme]="{
+					width: '30%',
+					height: '32px',
+					margin: 0,
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'margin-bottom': '4px',
+					'animation-duration': '2s'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
+			<ng-container *ngIf="!loading">
+				<p class="pb-2">Original title: {{ details.fullTitle }}</p>
+				<p>
+					Year: {{ details.year }} <span *ngIf="details.runtimeStr"> - Duration: {{ details.runtimeStr }}</span>
+				</p>
+			</ng-container>
+			<ngx-skeleton-loader
+				*ngIf="loading"
+				[count]="2"
+				[theme]="{
+					width: '20%	',
+					height: '18px',
+					margin: 0,
+					'margin-bottom': '4px',
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'animation-duration': '2s',
+					display: 'block'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
 		</div>
 		<div class="col-12 col-md-10 offset-md-1 mb-3">
-			<img class="img-fluid" [alt]="details.posters.title" [src]="details.posters.backdrops[0].link" />
+			<img *ngIf="!loading" class="img-fluid" [alt]="details.posters.title" [src]="details.posters.backdrops[0].link" />
+			<ngx-skeleton-loader
+				*ngIf="loading"
+				[count]="1"
+				[theme]="{
+					width: '100%',
+					height: 'min(500px, 60vh)',
+					margin: 0,
+					'margin-bottom': '12px',
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'animation-duration': '2s',
+					display: 'block'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
 		</div>
-		<div class="col-12 col-md-10 offset-md-1">
-			<mat-chip-set>
-				<mat-chip-option *ngFor="let genre of details.genreList" [selectable]="false" [color]="'accent'">
+		<div class="col-12 col-md-10 offset-md-1 d-flex">
+			<div *ngIf="!loading" class="chips">
+				<div *ngFor="let genre of details.genreList">
 					{{ genre.value }}
-				</mat-chip-option>
-			</mat-chip-set>
+				</div>
+			</div>
+			<ngx-skeleton-loader
+				*ngIf="loading"
+				[count]="3"
+				[theme]="{
+					width: '85px',
+					height: '34px',
+					margin: 0,
+					'margin-bottom': '24px',
+					'margin-right': '16px',
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'border-radius': '32px',
+					'animation-duration': '2s'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
+		</div>
+		<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-4">
+			<h2 class="mb-3">Summary</h2>
+			<p *ngIf="!loading">
+				{{ details.plotLocal || details.plot }}
+			</p>
+			<ngx-skeleton-loader
+				*ngIf="loading"
+				[count]="1"
+				[theme]="{
+					width: '100%',
+					height: '40px',
+					margin: 0,
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'animation-duration': '2s'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
+		</div>
+		<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-4">
+			<h2 *ngIf="details.directors" class="mb-3">Directors</h2>
+			<ngx-skeleton-loader
+				*ngIf="loading"
+				[count]="1"
+				[theme]="{
+					width: '100px',
+					height: '32px',
+					margin: 0,
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'animation-duration': '2s'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
+			<div *ngIf="!loading">
+				<ng-container *ngFor="let director of details.directorList">
+					<h4>
+						{{ director.name }}
+					</h4>
+				</ng-container>
+			</div>
+			<ngx-skeleton-loader
+				*ngIf="loading"
+				[count]="1"
+				[theme]="{
+					width: '40%',
+					height: '24px',
+					margin: 0,
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'animation-duration': '2s'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
 		</div>
 	</div>
 </section>

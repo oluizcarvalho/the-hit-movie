@@ -20,12 +20,10 @@ export class DetailsComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		console.log(this.tt);
 		if (this.tt) this.getDetailsMovie(this.tt);
 	}
 
 	private getDetailsMovie(tt: string) {
-		this.loading = true;
 		this.movieService
 			.getDetails(tt)
 			.pipe(finalize(() => (this.loading = false)))

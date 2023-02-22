@@ -92,8 +92,8 @@ export interface DetailsModel {
 	year: string;
 	image: string;
 	releaseDate: string;
-	runtimeMins: string;
-	runtimeStr: string;
+	runtimeMins: string | null;
+	runtimeStr: string | null;
 	plot: string;
 	plotLocal: string;
 	plotLocalIsRtl: boolean;

@@ -9,11 +9,11 @@
 			<img class="img-fluid" [alt]="details.posters.title" [src]="details.posters.backdrops[0].link" />
 		</div>
 		<div class="col-10 offset-1">
-			<mat-chip-listbox [selectable]="false">
-				<mat-chip-option *ngFor="let genre of details.genreList" selected [color]="'accent'">
+			<mat-chip-set>
+				<mat-chip-option *ngFor="let genre of details.genreList" [selectable]="false" [color]="'accent'">
 					{{ genre.value }}
 				</mat-chip-option>
-			</mat-chip-listbox>
+			</mat-chip-set>
 		</div>
 	</div>
 </section>

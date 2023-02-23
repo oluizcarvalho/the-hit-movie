@@ -13,7 +13,7 @@ export class ListPosterComponent {
 	@Input() listPoster: MovieGeneric[] = [];
 	@Input() titleSection: string = '';
 	@Input() isLoading = true;
-	@Input() countPosters: number = 0;
+	@Input() countPosters: number = 5;
 	@Input() widthSkeletonImages: number = 100;
 
 	public config: SwiperOptions = {

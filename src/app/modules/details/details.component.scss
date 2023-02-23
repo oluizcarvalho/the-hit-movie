@@ -4,7 +4,7 @@
 	padding-top: 24px;
 
 	h1 {
-		font-size: 40px;
+		font-size: 48px;
 		letter-spacing: 0.05em;
 		color: $white;
 		margin-bottom: 8px;
@@ -12,7 +12,7 @@
 
 	h2 {
 		font-family: $font-semi-bold;
-		font-size: 32px;
+		font-size: 40px;
 		letter-spacing: 0.05em;
 		color: $white;
 	}
@@ -21,7 +21,7 @@
 		font-family: $font-medium;
 		font-size: 18px;
 		line-height: 22px;
-		color: rgba(255, 255, 255, 0.5);
+		color: #FFFFFF99;
 	}
 
 	img {
@@ -36,7 +36,7 @@
 	.chips {
 		display: flex;
 		flex-direction: row;
-		justify-content: start;
+		justify-content: flex-start;
 		align-items: center;
 		gap: 8px;
 
@@ -49,6 +49,58 @@
 			line-height: 24px;
 			color: #d4b69c;
 			cursor: pointer;
+		}
+	}
+
+	.director-list {
+		font-family: $font-medium;
+		font-size: 20px;
+		line-height: 22px;
+		color: $white;
+		gap: 8px;
+		display: flex;
+
+		.name:hover {
+			cursor: pointer;
+			color: $gray;
+		}
+	}
+
+	::ng-deep .swiper-slide {
+		width: auto;
+	}
+
+	.actors {
+		width: 220px;
+		height: 350px;
+
+		img {
+			object-fit: cover;
+			object-position: center;
+			cursor: pointer;
+
+			height: auto;
+			width: 100%;
+
+			@media (min-width: 600px) {
+				&:hover {
+					border: 2px solid $accent-darker;
+					border-radius: 4px;
+				}
+			}
+		}
+
+		strong {
+			font-weight: $font-medium;
+			font-size: 20px;
+			line-height: 22px;
+			color: $white;
+		}
+
+		span {
+          font-size: 18px;
+          line-height: 22px;
+          color: #FFFFFF99;
 		}
 	}
 }

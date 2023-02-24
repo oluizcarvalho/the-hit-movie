@@ -1,29 +1,48 @@
 @font-face {
-  font-family: 'BigShouldersBold';
-  src: url('../assets/fonts/BigShouldersDisplay-Bold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
+	font-family: 'BigShouldersRegular';
+	src: url('../assets/fonts/BigShouldersDisplay-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'BigShouldersRegular';
-  src: url('../assets/fonts/BigShouldersDisplay-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+	font-family: 'BigShouldersMedium';
+	src: url('../assets/fonts/BigShouldersDisplay-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'BigShouldersMedium';
-  src: url('../assets/fonts/BigShouldersDisplay-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
+	font-family: 'BigShouldersSemiBold';
+	src: url('../assets/fonts/BigShouldersDisplay-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'BigShouldersSemiBold';
-  src: url('../assets/fonts/BigShouldersDisplay-SemiBold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
+	font-family: 'BigShouldersBold';
+	src: url('../assets/fonts/BigShouldersDisplay-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
 }
 
+@font-face {
+	font-family: 'InterRegular';
+	src: url('../assets/fonts/Inter-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'InterMedium';
+	src: url('../assets/fonts/Inter-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'InterSemiBold';
+	src: url('../assets/fonts/Inter-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}

@@ -18,10 +18,21 @@
 	}
 
 	p {
-		font-family: $font-medium;
+		font-family: $font-text-regular;
+		font-style: normal;
+		font-weight: 400;
 		font-size: 18px;
 		line-height: 22px;
-		color: #FFFFFF99;
+		color: $white;
+	}
+
+	.descriptions {
+		p {
+			font-family: $font-text-semi-bold;
+			font-size: 18px;
+			line-height: 22px;
+			color: $white-darker;
+		}
 	}
 
 	img {
@@ -38,24 +49,23 @@
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: center;
-		gap: 8px;
+		gap: 16px;
 
 		div {
-			padding: 4px 24px;
-			border: 1px solid #d4b69c;
+			padding: 8px 32px;
+			border: 1px solid $accent;
 			border-radius: 32px;
-			font-size: 18px;
-			font-family: $font-medium;
+			font-size: 20px;
+			font-family: $font-text-regular;
 			line-height: 24px;
-			color: #d4b69c;
+			color: $white;
 			cursor: pointer;
 		}
 	}
 
 	.director-list {
-		font-family: $font-medium;
-		font-size: 20px;
-		line-height: 22px;
+		font-family: $font-text-semi-bold;
+		font-size: 18px;
 		color: $white;
 		gap: 8px;
 		display: flex;
@@ -72,7 +82,7 @@
 
 	.actors {
 		width: 220px;
-		height: 350px;
+		height: 370px;
 
 		img {
 			object-fit: cover;
@@ -91,16 +101,19 @@
 		}
 
 		strong {
-			font-weight: $font-medium;
+			margin-top: 16px;
+			margin-bottom: 8px;
+			font-weight: $font-text-semi-bold;
 			font-size: 20px;
 			line-height: 22px;
 			color: $white;
 		}
 
 		span {
-          font-size: 18px;
-          line-height: 22px;
-          color: #FFFFFF99;
+			font-weight: $font-text-semi-bold;
+			font-size: 18px;
+			line-height: 22px;
+			color: $white-darker;
 		}
 	}
 }

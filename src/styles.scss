@@ -8,7 +8,7 @@ body {
 	min-height: 100vh;
 	overflow-x: hidden;
 	font-size: 14px;
-	font-family: $font-regular;
+	font-family: $font-text-regular;
 	background: $backgroud;
 	color: $white;
 	* {
@@ -17,7 +17,7 @@ body {
 }
 
 p {
-	font-family: $font-regular;
+	font-family: $font-text-regular;
 }
 
 h1 {

@@ -1,4 +1,4 @@
-<section id="details" class="container-fluid">
+<section id="details" class="container-fluid pb-5">
 	<div class="row">
 		<div class="col-12 col-md-10 offset-md-1 mb-3 d-flex flex-column">
 			<h1 *ngIf="!isLoading">{{ details.title }}</h1>
@@ -16,12 +16,11 @@
 				}"
 				appearance="line"
 			></ngx-skeleton-loader>
-			<ng-container *ngIf="!isLoading">
+			<div *ngIf="!isLoading" class="descriptions">
 				<p class="pb-2">Original title: {{ details.fullTitle }}</p>
-				<p>
-					Year: {{ details.year }} <span *ngIf="details.runtimeStr"> - Duration: {{ details.runtimeStr }}</span>
-				</p>
-			</ng-container>
+				<p *ngIf="details.runtimeStr">Duration: {{ details.runtimeStr }}</p>
+				<p *ngIf="details.tvSeriesInfo">Seasons: {{ details.tvSeriesInfo.seasons.length }}</p>
+			</div>
 			<ngx-skeleton-loader
 				*ngIf="isLoading"
 				[count]="2"
@@ -42,8 +41,8 @@
 			<img
 				*ngIf="!isLoading"
 				class="img-fluid"
-				[alt]="details.posters?.title"
-				[src]="(details.posters?.backdrops)![0]?.link || details.image"
+				[alt]="details.posters.title"
+				[src]="details.posters.backdrops![0].link || details.image"
 			/>
 			<ngx-skeleton-loader
 				*ngIf="isLoading"
@@ -103,21 +102,8 @@
 				appearance="line"
 			></ngx-skeleton-loader>
 		</div>
-		<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
-			<h2 *ngIf="details?.directors" class="mb-3">Directors</h2>
-			<ngx-skeleton-loader
-				*ngIf="isLoading"
-				[count]="1"
-				[theme]="{
-					width: '100px',
-					height: '32px',
-					margin: 0,
-					'background-color': '#0b0c1a',
-					border: '1px solid #0b0c1a',
-					'animation-duration': '2s'
-				}"
-				appearance="line"
-			></ngx-skeleton-loader>
+		<div *ngIf="details?.directors" class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
+			<h2 class="mb-3">Directors</h2>
 			<div class="director-list" *ngIf="!isLoading">
 				<ng-container *ngFor="let director of details.directorList; let index = index">
 					<span class="name">
@@ -126,19 +112,6 @@
 					<span *ngIf="index + 1 < details.directorList.length">-</span>
 				</ng-container>
 			</div>
-			<ngx-skeleton-loader
-				*ngIf="isLoading"
-				[count]="1"
-				[theme]="{
-					width: '40%',
-					height: '24px',
-					margin: 0,
-					'background-color': '#0b0c1a',
-					border: '1px solid #0b0c1a',
-					'animation-duration': '2s'
-				}"
-				appearance="line"
-			></ngx-skeleton-loader>
 		</div>
 		<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
 			<h2 class="mb-3">Cast</h2>

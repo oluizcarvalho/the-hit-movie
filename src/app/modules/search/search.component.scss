@@ -1,0 +1,12 @@
+#search {
+	padding-top: 24px;
+
+	.chip {
+		background-color: #323872;
+		padding: 0 8px;
+	}
+
+	::ng-deep .mat-mdc-standard-chip.mat-primary.mat-mdc-chip-selected, .mat-mdc-standard-chip.mat-primary.mat-mdc-chip-highlighted {
+		background-color: #4a4f83;
+	}
+}

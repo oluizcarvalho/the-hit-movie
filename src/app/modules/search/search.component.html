@@ -1,1 +1,20 @@
-<p>search works!</p>
+<section class="container-fluid" id="search">
+	<h1>{{ typeSearch }}</h1>
+	<div class="col-12 col-md-10 offset-md-1 d-flex">
+		<mat-chip-listbox aria-label="Genre selection">
+			<mat-chip-option
+				(selectionChange)="onSelectGenre(genre)"
+				*ngFor="let genre of listGenres; trackBy: trackByFn"
+				class="chip"
+				>{{ genre }}</mat-chip-option
+			>
+		</mat-chip-listbox>
+	</div>
+	<div [formGroup]="searchForm" class="col-12 col-md-10 offset-md-1 d-flex mt-5">
+		<mat-form-field class="w-100" floatLabel="always" color="accent" appearance="outline">
+			<mat-label>Search</mat-label>
+			<input formControlName="term" matInput placeholder="Supernatural..." />
+			<mat-icon matIconPrefix>search</mat-icon>
+		</mat-form-field>
+	</div>
+</section>

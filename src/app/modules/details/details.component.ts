@@ -4,6 +4,7 @@ import { MovieService } from '../../shared/services/movie.service';
 import { finalize } from 'rxjs/operators';
 import { DetailsModel } from '../../shared/models/details.model';
 import { SwiperOptions } from 'swiper';
+import { scrollToTop } from '../../shared/helpers/dom.helper';
 
 @Component({
 	selector: 'app-details',
@@ -34,7 +35,7 @@ export class DetailsComponent implements OnInit {
 		this.route.paramMap.subscribe((params: ParamMap) => {
 			this.tt = params.get('tt') || '';
 			this.isLoading = true;
-			this.scrollToTop();
+			scrollToTop();
 			if (this.tt) this.getDetailsMovie(this.tt);
 		});
 	}
@@ -52,13 +53,5 @@ export class DetailsComponent implements OnInit {
 					this.details = value;
 				},
 			});
-	}
-
-	private scrollToTop(): void {
-		window.scroll({
-			top: 0,
-			left: 0,
-			behavior: 'smooth',
-		});
 	}
 }

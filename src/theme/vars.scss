@@ -2,9 +2,9 @@ $primary: #13152b;
 $primary-lighter: #b8b9bf;
 $primary-darker: #0b0c1a;
 
-$accent: #d4b69c;
-$accent-lighter: #f2e9e1;
-$accent-darker: #c39e80;
+$accent: #f0a666;
+$accent-lighter: #f2af75;
+$accent-darker: #ea8228;
 
 $warn: #ec3c3c;
 $warn-lighter: #f9c5c5;
@@ -14,9 +14,9 @@ $green: #00b131;
 $green-darker: #b3e8c1;
 
 $white: #ffffff;
-$white-darker: #f0f1f7;
+$white-darker: #ffffff99;
 
-$backgroud: linear-gradient(90deg, rgba(16,22,84,1) 0%, rgba(11,12,26,1) 100%);
+$backgroud: linear-gradient(90deg, rgba(16, 22, 84, 1) 0%, rgba(11, 12, 26, 1) 100%);
 
 $black: #161616;
 $black-lighter: #201f1f;
@@ -27,76 +27,79 @@ $gray-darker: #545454;
 $gray-lighter: #ebebeb;
 
 @mixin font-button() {
-  font-family: $font-bold;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+	font-family: $font-bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 $font-regular: 'BigShouldersRegular', cursive;
 $font-medium: 'BigShouldersMedium', cursive;
 $font-semi-bold: 'BigShouldersSemiBold', cursive;
 $font-bold: 'BigShouldersBold', cursive;
+$font-text-regular: 'InterRegular', sans-serif;
+$font-text-medium: 'InterMedium', sans-serif;
+$font-text-semi-bold: 'InterSemiBold', sans-serif;
 
 @mixin border-top-left-radius($value) {
-  -webkit-border-top-left-radius: $value;
-  -moz-border-radius-topleft: $value;
-  border-top-left-radius: $value;
+	-webkit-border-top-left-radius: $value;
+	-moz-border-radius-topleft: $value;
+	border-top-left-radius: $value;
 }
 
 @mixin border-top-right-radius($value) {
-  -webkit-border-top-right-radius: $value;
-  -moz-border-radius-topright: $value;
-  border-top-right-radius: $value;
+	-webkit-border-top-right-radius: $value;
+	-moz-border-radius-topright: $value;
+	border-top-right-radius: $value;
 }
 
 @mixin border-bottom-left-radius($value) {
-  -webkit-border-bottom-left-radius: $value;
-  -moz-border-radius-bottomleft: $value;
-  border-bottom-left-radius: $value;
+	-webkit-border-bottom-left-radius: $value;
+	-moz-border-radius-bottomleft: $value;
+	border-bottom-left-radius: $value;
 }
 
 @mixin border-bottom-right-radius($value) {
-  -webkit-border-bottom-right-radius: $value;
-  -moz-border-radius-bottomright: $value;
-  border-bottom-right-radius: $value;
+	-webkit-border-bottom-right-radius: $value;
+	-moz-border-radius-bottomright: $value;
+	border-bottom-right-radius: $value;
 }
 
 @mixin border-radius($value) {
-  -webkit-border-radius: $value;
-  -moz-border-radius: $value;
-  border-radius: $value;
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	border-radius: $value;
 }
 
 @mixin translate($left, $top) {
-  transform: translate($left, $top);
-  -webkit-transform: translate($left, $top);
-  -moz-transform: translate($left, $top);
-  -o-transform: translate($left, $top);
-  -ms-transform: translate($left, $top);
+	transform: translate($left, $top);
+	-webkit-transform: translate($left, $top);
+	-moz-transform: translate($left, $top);
+	-o-transform: translate($left, $top);
+	-ms-transform: translate($left, $top);
 }
 
 @mixin user-select($value) {
-  -webkit-user-select: $value;
-  -moz-user-select: $value;
-  -ms-user-select: $value;
-  user-select: $value;
+	-webkit-user-select: $value;
+	-moz-user-select: $value;
+	-ms-user-select: $value;
+	user-select: $value;
 }
 
 @mixin box-shadow($props...) {
-  -webkit-box-shadow: $props;
-  -moz-box-shadow: $props;
-  -ms-box-shadow: $props;
-  box-shadow: $props;
+	-webkit-box-shadow: $props;
+	-moz-box-shadow: $props;
+	-ms-box-shadow: $props;
+	box-shadow: $props;
 }
 
 @mixin rotate($value) {
-  transform: rotate($value);
+	transform: rotate($value);
 }
 
 @mixin transition($value) {
-  -webkit-transition: $value;
-  -moz-transition: $value;
-  -ms-transition: $value;
-  -o-transition: $value;
-  transition: $value;
+	-webkit-transition: $value;
+	-moz-transition: $value;
+	-ms-transition: $value;
+	-o-transition: $value;
+	transition: $value;
 }

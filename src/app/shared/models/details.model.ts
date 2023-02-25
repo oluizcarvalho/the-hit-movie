@@ -83,6 +83,18 @@ export interface Similar {
 	imDbRating: string;
 }
 
+export interface CreatorList {
+	id: string;
+	name: string;
+}
+
+export interface TvSeriesInfo {
+	yearEnd: string;
+	creators: string;
+	creatorList: CreatorList[];
+	seasons: string[];
+}
+
 export interface DetailsModel {
 	id: string;
 	title: string;
@@ -128,7 +140,7 @@ export interface DetailsModel {
 	keywords: string;
 	keywordList: string[];
 	similars: Similar[];
-	tvSeriesInfo?: any;
+	tvSeriesInfo?: TvSeriesInfo;
 	tvEpisodeInfo?: any;
 	errorMessage: string;
 }

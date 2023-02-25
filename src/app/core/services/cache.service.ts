@@ -1,6 +1,4 @@
 import { Observable } from 'rxjs';
-import hash from 'hash-it';
-import * as dayjs from 'dayjs';
 
 export abstract class AbstractCacheService<T> {
 	readonly CACHE_DURATION_IN_MINUTES = 30;
@@ -14,12 +12,12 @@ export abstract class AbstractCacheService<T> {
 	} = {};
 
 	getValue(object: string): Observable<T> | null {
-		const key = object ? hash(object).toString() : this.DEFAULT_KEY;
+		const key = object ?? this.DEFAULT_KEY;
 		let item = this.cache[key];
 		if (!item) {
 			return null;
 		}
-		if (dayjs(new Date()).isAfter(item.expires)) {
+		if (new Date() > this.cache[key].expires) {
 			return null;
 		}
 
@@ -27,8 +25,9 @@ export abstract class AbstractCacheService<T> {
 	}
 
 	setValue(value: Observable<T>, object: string) {
-		const key = object ? hash(object).toString() : this.DEFAULT_KEY;
-		const expires = dayjs(new Date()).add(this.CACHE_DURATION_IN_MINUTES, 'minute').toDate();
+		const key = object ?? this.DEFAULT_KEY;
+		let expires = new Date();
+		expires.setMinutes(expires.getMinutes() + this.CACHE_DURATION_IN_MINUTES);
 		this.cache[key] = { expires, value };
 	}
 

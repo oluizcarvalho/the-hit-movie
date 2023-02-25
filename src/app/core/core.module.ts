@@ -21,7 +21,7 @@ import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 		MatIconModule,
 		MatButtonModule,
 		NgxSkeletonLoaderModule.forRoot({
-			animation: 'progress-dark',
+			animation: 'pulse',
 		}),
 	],
 	exports: [

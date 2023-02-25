@@ -2,7 +2,7 @@
 @import 'vars';
 
 $typography: mat.define-legacy-typography-config(
-	$font-family: $font-regular,
+	$font-family: $font-text-regular,
 	$display-4: mat.define-typography-level(112px, 112px, 300, $font-family: $font-bold, $letter-spacing: -0.05em),
 	$display-3: mat.define-typography-level(56px, 56px, 400, $font-family: $font-bold, $letter-spacing: -0.02em),
 	$display-2: mat.define-typography-level(45px, 48px, 400, $font-family: $font-bold, $letter-spacing: -0.005em),
@@ -25,7 +25,7 @@ $typography: mat.define-legacy-typography-config(
 		),
 	$subheading-2:
 		mat.define-typography-level(
-			$font-family: $font-semi-bold,
+			$font-family: $font-text-semi-bold,
 			$font-weight: inherit,
 			$font-size: 16px,
 			$line-height: 1,
@@ -33,7 +33,7 @@ $typography: mat.define-legacy-typography-config(
 		),
 	$subheading-1:
 		mat.define-typography-level(
-			$font-family: $font-medium,
+			$font-family: $font-text-medium,
 			$font-weight: 500,
 			$font-size: 15px,
 			$line-height: 1,
@@ -41,7 +41,7 @@ $typography: mat.define-legacy-typography-config(
 		),
 	$body-1:
 		mat.define-typography-level(
-			$font-family: $font-regular,
+			$font-family: $font-text-regular,
 			$font-weight: 400,
 			$font-size: 14px,
 			$line-height: 20px,

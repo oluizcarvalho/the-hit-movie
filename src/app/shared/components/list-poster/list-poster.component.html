@@ -2,26 +2,30 @@
 	<div *ngIf="titleSection" class="col-12 text-center mb-4 mt-5">
 		<h1>{{ titleSection }}</h1>
 	</div>
-	<div class="col-10 offset-1">
-		<swiper *ngIf="!isLoading" [config]="config">
-			<ng-template swiperSlide *ngFor="let movie of listPoster; trackBy: trackByFn">
-				<div class="poster" [routerLink]="['/details', movie?.id]" routerLinkActive="router-link-active">
-					<img loading="lazy" [src]="movie?.image | resizeImage : '384x528'" [alt]="movie?.title" />
-				</div>
-			</ng-template>
-		</swiper>
-		<ngx-skeleton-loader
-			animation="pulse"
-			*ngIf="isLoading"
-			[count]="countPosters + 2"
-			[theme]="{
-				'width.%': widthSkeletonImages,
-				height: '305px',
-				'margin-right': countPosters === 1 ? '0%' : '1%',
-				'background-color': '#0b0c1a',
-				border: '1px solid #0b0c1a',
-				'animation-duration': '2s'
-			}"
-		></ngx-skeleton-loader>
-	</div>
+	<swiper *ngIf="!isLoading" [config]="config">
+		<ng-template swiperSlide *ngFor="let movie of listPoster; trackBy: trackByFn">
+			<div class="poster">
+				<img
+					loading="lazy"
+					[routerLink]="['/details', movie?.id]"
+					routerLinkActive="router-link-active"
+					[src]="movie?.image | resizeImage : '384x528'"
+					[alt]="movie?.title"
+				/>
+			</div>
+		</ng-template>
+	</swiper>
+	<ngx-skeleton-loader
+		*ngIf="isLoading"
+		[count]="countPosters + 2"
+		[theme]="{
+			'width.%': widthSkeletonImages || '20%',
+			height: '305px',
+			'margin-right': countPosters === 1 ? '0%' : '1%',
+			'background-color': '#0b0c1a',
+			border: '1px solid #0b0c1a',
+			'animation-duration': '2s',
+			display: 'inline-block'
+		}"
+	></ngx-skeleton-loader>
 </section>

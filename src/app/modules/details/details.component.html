@@ -1,9 +1,9 @@
-<section id="details" class="container-fluid">
+<section id="details" class="container-fluid pb-5">
 	<div class="row">
 		<div class="col-12 col-md-10 offset-md-1 mb-3 d-flex flex-column">
-			<h1 *ngIf="!loading">{{ details.title }}</h1>
+			<h1 *ngIf="!isLoading">{{ details.title }}</h1>
 			<ngx-skeleton-loader
-				*ngIf="loading"
+				*ngIf="isLoading"
 				[count]="1"
 				[theme]="{
 					width: '30%',
@@ -16,14 +16,13 @@
 				}"
 				appearance="line"
 			></ngx-skeleton-loader>
-			<ng-container *ngIf="!loading">
+			<div *ngIf="!isLoading" class="descriptions">
 				<p class="pb-2">Original title: {{ details.fullTitle }}</p>
-				<p>
-					Year: {{ details.year }} <span *ngIf="details.runtimeStr"> - Duration: {{ details.runtimeStr }}</span>
-				</p>
-			</ng-container>
+				<p *ngIf="details.runtimeStr">Duration: {{ details.runtimeStr }}</p>
+				<p *ngIf="details.tvSeriesInfo">Seasons: {{ details.tvSeriesInfo.seasons.length }}</p>
+			</div>
 			<ngx-skeleton-loader
-				*ngIf="loading"
+				*ngIf="isLoading"
 				[count]="2"
 				[theme]="{
 					width: '20%	',
@@ -39,9 +38,14 @@
 			></ngx-skeleton-loader>
 		</div>
 		<div class="col-12 col-md-10 offset-md-1 mb-3">
-			<img *ngIf="!loading" class="img-fluid" [alt]="details.posters.title" [src]="details.posters.backdrops[0].link" />
+			<img
+				*ngIf="!isLoading"
+				class="img-fluid"
+				[alt]="details.posters.title"
+				[src]="details.posters.backdrops![0].link || details.image"
+			/>
 			<ngx-skeleton-loader
-				*ngIf="loading"
+				*ngIf="isLoading"
 				[count]="1"
 				[theme]="{
 					width: '100%',
@@ -57,13 +61,13 @@
 			></ngx-skeleton-loader>
 		</div>
 		<div class="col-12 col-md-10 offset-md-1 d-flex">
-			<div *ngIf="!loading" class="chips">
+			<div *ngIf="!isLoading" class="chips">
 				<div *ngFor="let genre of details.genreList">
 					{{ genre.value }}
 				</div>
 			</div>
 			<ngx-skeleton-loader
-				*ngIf="loading"
+				*ngIf="isLoading"
 				[count]="3"
 				[theme]="{
 					width: '85px',
@@ -79,13 +83,13 @@
 				appearance="line"
 			></ngx-skeleton-loader>
 		</div>
-		<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-4">
+		<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
 			<h2 class="mb-3">Summary</h2>
-			<p *ngIf="!loading">
+			<p *ngIf="!isLoading">
 				{{ details.plotLocal || details.plot }}
 			</p>
 			<ngx-skeleton-loader
-				*ngIf="loading"
+				*ngIf="isLoading"
 				[count]="1"
 				[theme]="{
 					width: '100%',
@@ -98,41 +102,50 @@
 				appearance="line"
 			></ngx-skeleton-loader>
 		</div>
-		<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-4">
-			<h2 *ngIf="details.directors" class="mb-3">Directors</h2>
-			<ngx-skeleton-loader
-				*ngIf="loading"
-				[count]="1"
-				[theme]="{
-					width: '100px',
-					height: '32px',
-					margin: 0,
-					'background-color': '#0b0c1a',
-					border: '1px solid #0b0c1a',
-					'animation-duration': '2s'
-				}"
-				appearance="line"
-			></ngx-skeleton-loader>
-			<div *ngIf="!loading">
-				<ng-container *ngFor="let director of details.directorList">
-					<h4>
+		<div *ngIf="details?.directors" class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
+			<h2 class="mb-3">Directors</h2>
+			<div class="director-list" *ngIf="!isLoading">
+				<ng-container *ngFor="let director of details.directorList; let index = index">
+					<span class="name">
 						{{ director.name }}
-					</h4>
+					</span>
+					<span *ngIf="index + 1 < details.directorList.length">-</span>
 				</ng-container>
 			</div>
-			<ngx-skeleton-loader
-				*ngIf="loading"
-				[count]="1"
-				[theme]="{
-					width: '40%',
-					height: '24px',
-					margin: 0,
-					'background-color': '#0b0c1a',
-					border: '1px solid #0b0c1a',
-					'animation-duration': '2s'
-				}"
-				appearance="line"
-			></ngx-skeleton-loader>
+		</div>
+		<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
+			<h2 class="mb-3">Cast</h2>
+			<div *ngIf="!isLoading">
+				<swiper [config]="config">
+					<ng-template swiperSlide *ngFor="let actor of details.actorList; trackBy: trackByFn">
+						<div class="actors">
+							<img loading="lazy" [src]="actor?.image | resizeImage : '384x528'" [alt]="actor?.name" />
+							<div class="d-flex flex-column">
+								<strong>{{ actor.name }}</strong>
+								<span>{{ actor.asCharacter }}</span>
+							</div>
+						</div>
+					</ng-template>
+				</swiper>
+				<ngx-skeleton-loader
+					*ngIf="isLoading"
+					[count]="7"
+					[theme]="{
+						'width.px': '220',
+						height: '305px',
+						'background-color': '#0b0c1a',
+						border: '1px solid #0b0c1a',
+						'animation-duration': '2s',
+						display: 'inline-block'
+					}"
+				></ngx-skeleton-loader>
+			</div>
+		</div>
+		<div class="col-12 col-md-10 offset-md-1 mt-5 mb-4">
+			<h2 class="mb-3">Similar Titles</h2>
+			<ng-container *ngIf="!isLoading">
+				<app-list-poster [listPoster]="details.similars" [isLoading]="isLoading"></app-list-poster>
+			</ng-container>
 		</div>
 	</div>
 </section>

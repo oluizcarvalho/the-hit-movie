@@ -4,7 +4,7 @@
 	padding-top: 24px;
 
 	h1 {
-		font-size: 40px;
+		font-size: 48px;
 		letter-spacing: 0.05em;
 		color: $white;
 		margin-bottom: 8px;
@@ -12,16 +12,27 @@
 
 	h2 {
 		font-family: $font-semi-bold;
-		font-size: 32px;
+		font-size: 40px;
 		letter-spacing: 0.05em;
 		color: $white;
 	}
 
 	p {
-		font-family: $font-medium;
+		font-family: $font-text-regular;
+		font-style: normal;
+		font-weight: 400;
 		font-size: 18px;
 		line-height: 22px;
-		color: rgba(255, 255, 255, 0.5);
+		color: $white;
+	}
+
+	.descriptions {
+		p {
+			font-family: $font-text-semi-bold;
+			font-size: 18px;
+			line-height: 22px;
+			color: $white-darker;
+		}
 	}
 
 	img {
@@ -36,19 +47,73 @@
 	.chips {
 		display: flex;
 		flex-direction: row;
-		justify-content: start;
+		justify-content: flex-start;
 		align-items: center;
-		gap: 8px;
+		gap: 16px;
 
 		div {
-			padding: 4px 24px;
-			border: 1px solid #d4b69c;
+			padding: 8px 32px;
+			border: 1px solid $accent;
 			border-radius: 32px;
-			font-size: 18px;
-			font-family: $font-medium;
+			font-size: 20px;
+			font-family: $font-text-regular;
 			line-height: 24px;
-			color: #d4b69c;
+			color: $white;
 			cursor: pointer;
+		}
+	}
+
+	.director-list {
+		font-family: $font-text-semi-bold;
+		font-size: 18px;
+		color: $white;
+		gap: 8px;
+		display: flex;
+
+		.name:hover {
+			cursor: pointer;
+			color: $gray;
+		}
+	}
+
+	::ng-deep .swiper-slide {
+		width: auto;
+	}
+
+	.actors {
+		width: 220px;
+		height: 370px;
+
+		img {
+			object-fit: cover;
+			object-position: center;
+			cursor: pointer;
+
+			height: auto;
+			width: 100%;
+
+			@media (min-width: 600px) {
+				&:hover {
+					border: 2px solid $accent-darker;
+					border-radius: 4px;
+				}
+			}
+		}
+
+		strong {
+			margin-top: 16px;
+			margin-bottom: 8px;
+			font-weight: $font-text-semi-bold;
+			font-size: 20px;
+			line-height: 22px;
+			color: $white;
+		}
+
+		span {
+			font-weight: $font-text-semi-bold;
+			font-size: 18px;
+			line-height: 22px;
+			color: $white-darker;
 		}
 	}
 }

@@ -1,7 +1,10 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 export enum Resolutions {
-	'384x528' = '_V1_UX384_CR0,9,384,528_AL_.jpg',
+	'360x470' = '_V1_UX360_CR1,360,470_AL_.jpg',
+	'218x267' = '_V1_UX218_CR1,218,267_AL_.jpg',
+	'240x315' = '_V1_UX240_CR1,240,315_AL_.jpg',
+	'600x900' = '_V1_UX600_CR1,600,900_AL_.jpg',
 }
 
 @Pipe({

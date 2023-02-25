@@ -119,7 +119,7 @@
 				<swiper [config]="config">
 					<ng-template swiperSlide *ngFor="let actor of details.actorList; trackBy: trackByFn">
 						<div class="actors">
-							<img loading="lazy" [src]="actor?.image | resizeImage : '384x528'" [alt]="actor?.name" />
+							<img loading="lazy" [src]="actor?.image | resizeImage : '218x267'" [alt]="actor?.name" />
 							<div class="d-flex flex-column">
 								<strong>{{ actor.name }}</strong>
 								<span>{{ actor.asCharacter }}</span>

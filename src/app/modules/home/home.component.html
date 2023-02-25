@@ -4,7 +4,12 @@
 			<swiper *ngIf="!isLoading" class="pb-5" [config]="config">
 				<ng-template swiperSlide *ngFor="let movie of inTheatersList; trackBy: trackByFn">
 					<div class="banner-home" [routerLink]="['/details', movie?.id]" routerLinkActive="router-link-active">
-						<img [alt]="movie?.title" class="img-fluid swiper-lazy" [src]="movie?.image" loading="lazy" />
+						<img
+							[alt]="movie?.title"
+							class="img-fluid swiper-lazy"
+							[src]="movie?.image | resizeImage : '600x900'"
+							loading="lazy"
+						/>
 						<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
 					</div>
 				</ng-template>

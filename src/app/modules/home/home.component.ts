@@ -132,8 +132,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 			.subscribe({
 				next: value => {
 					this.inTheatersList = value[0]?.slice(0, COUNT_THEATERS) ?? [];
-					const commingSoonFiltered = value[1]?.filter(movie => !movie.image?.includes('nopicture'));
-					this.comingSoonList = commingSoonFiltered?.slice(0, COUNT_COMING_SOON) ?? [];
+					this.comingSoonList = value[1]?.slice(0, COUNT_COMING_SOON) ?? [];
 					this.mostPopularMoviesList = value[2]?.slice(0, COUNT_MOST_POPULAR) ?? [];
 					this.mostPopularTVsList = value[3]?.slice(0, COUNT_MOST_POPULAR) ?? [];
 				},

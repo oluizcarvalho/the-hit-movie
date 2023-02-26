@@ -9,6 +9,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
+import { ListPosterModule } from '../../shared/components/list-poster/list-poster.module';
+import { PipesModule } from '../../shared/pipes/pipes.module';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 @NgModule({
 	declarations: [SearchComponent],
@@ -21,6 +24,9 @@ import { MatButtonModule } from '@angular/material/button';
 		MatIconModule,
 		ReactiveFormsModule,
 		MatButtonModule,
+		ListPosterModule,
+		PipesModule,
+		NgxSkeletonLoaderModule,
 	],
 })
 export class SearchModule {}

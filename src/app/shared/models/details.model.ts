@@ -1,3 +1,5 @@
+import { GenreList, StarList } from './movie.model';
+
 export interface DirectorList {
 	id: string;
 	name: string;
@@ -8,21 +10,11 @@ export interface WriterList {
 	name: string;
 }
 
-export interface StarList {
-	id: string;
-	name: string;
-}
-
 export interface ActorList {
 	id: string;
 	image: string;
 	name: string;
 	asCharacter: string;
-}
-
-export interface GenreList {
-	key: string;
-	value: string;
 }
 
 export interface CompanyList {

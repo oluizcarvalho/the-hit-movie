@@ -39,6 +39,10 @@ export interface MovieGeneric extends Partial<Movie> {
 	rank?: string;
 	rankUpDown?: string;
 	crew?: string;
+	description?: string;
+	genres?: string;
+	genreList?: GenreList[];
+	imDbRatingVotes?: string;
 }
 
 export interface GetMovies {

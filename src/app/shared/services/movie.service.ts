@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 import { ApiKeyService } from '../../core/services/api-key.service';
 import { GetMovies, GetMoviesGeneric, GetPosters, MovieGeneric } from '../models/movie.model';
-import { GetSearchTitle } from '../models/search-movie.model';
+import { GetAdvancedSearch, GetSearchTitle } from '../models/search-movie.model';
 import { AbstractCacheService } from '../../core/services/cache.service';
 import { map, shareReplay } from 'rxjs';
 import { DetailsModel } from '../models/details.model';
@@ -17,6 +17,8 @@ enum KEYS {
 	MostPopularTVs = 'MostPopularTVs',
 }
 
+const GENERIC_TYPE = 'feature,tv_movie,tv_series';
+
 @Injectable({
 	providedIn: 'root',
 })
@@ -29,6 +31,33 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 
 	getSearchTitle(term: string) {
 		return this.http.get<GetSearchTitle>(this.baseUrl + `/Search/${this.apiKey.value}/${term}`);
+	}
+
+	getSearchTitleMovie(term: string) {
+		return this.http.get<GetSearchTitle>(this.baseUrl + `/SearchMovie/${this.apiKey.value}/${term}`);
+	}
+
+	getSearchTitleSeries(term: string) {
+		return this.http.get<GetSearchTitle>(this.baseUrl + `/SearchSeries/${this.apiKey.value}/${term}`);
+	}
+
+	getAdvancedSearch(title?: string, genre?: string, type?: 'tv_movie' | 'tv_series') {
+		let params = new HttpParams();
+		params = params.set('title_type', type ?? GENERIC_TYPE);
+		if (title) params = params.set('title', title);
+		if (genre) params = params.set('genres', genre);
+		let observable$ = this.getValue(params.toString());
+		if (!observable$) {
+			observable$ = this.http
+				.get<GetAdvancedSearch>(this.baseUrl + `/AdvancedSearch/${this.apiKey.value}`, { params })
+				.pipe(
+					map(res => res.results?.filter(movie => !movie.image?.includes('nopicture'))),
+					shareReplay(1)
+				);
+			this.setValue(observable$, params.toString());
+		}
+
+		return observable$;
 	}
 
 	getInTheaters() {
@@ -47,7 +76,7 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		let observable$ = this.getValue(KEYS.ComingSoon);
 		if (!observable$) {
 			observable$ = this.http.get<GetMovies>(this.baseUrl + `/ComingSoon/${this.apiKey.value}`).pipe(
-				map(res => res.items),
+				map(res => res.items?.filter(movie => !movie.image?.includes('nopicture'))),
 				shareReplay(1)
 			);
 			this.setValue(observable$, KEYS.ComingSoon);

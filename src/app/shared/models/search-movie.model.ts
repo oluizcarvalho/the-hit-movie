@@ -1,4 +1,6 @@
-export interface Result {
+import { MovieGeneric } from './movie.model';
+
+export interface ResultMovie {
 	id: string;
 	resultType: string;
 	image: string;
@@ -9,6 +11,12 @@ export interface Result {
 export interface GetSearchTitle {
 	searchType: string;
 	expression: string;
-	results: Result[];
+	results: ResultMovie[];
 	errorMessage: string;
+}
+
+export interface GetAdvancedSearch {
+	queryString: string;
+	results: MovieGeneric[];
+	errorMessage?: any;
 }

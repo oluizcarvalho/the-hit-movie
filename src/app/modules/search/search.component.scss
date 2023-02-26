@@ -1,5 +1,14 @@
+@import '../../../theme/vars';
+
 #search {
 	padding-top: 24px;
+
+	h1 {
+		font-size: 40px;
+		letter-spacing: 0.05em;
+		color: $white;
+		margin-bottom: 8px;
+	}
 
 	.chip {
 		background-color: #323872;
@@ -38,6 +47,33 @@
 
 		&::-webkit-scrollbar {
 			display: none;
+		}
+	}
+
+	.poster {
+		width: max(250px, 19%);
+		height: 450px;
+
+		@media (max-width: 600px) {
+			height: max(450px, 100%);
+		}
+
+		img {
+			object-fit: cover;
+			object-position: center;
+			cursor: pointer;
+
+			height: calc(100% - 4px);
+			width: 100%;
+			padding: 2px;
+
+			@media (min-width: 600px) {
+				&:hover {
+					padding: 0;
+					border: 2px solid $accent-darker;
+					border-radius: 4px;
+				}
+			}
 		}
 	}
 }

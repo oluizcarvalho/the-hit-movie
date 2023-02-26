@@ -81,6 +81,13 @@ export class SearchComponent implements OnInit {
 		}
 	}
 
+	scrollLeft() {
+		const chips = document.querySelector<HTMLDivElement>('.mdc-evolution-chip-set__chips');
+		if (chips) {
+			chips.scrollTo({ left: (chips.scrollLeft -= 200), behavior: 'smooth' });
+		}
+	}
+
 	private advancedSearch(title?: string, genre?: string, type?: 'tv_movie' | 'tv_series') {
 		this.movieService
 			.getAdvancedSearch(title, genre, type)

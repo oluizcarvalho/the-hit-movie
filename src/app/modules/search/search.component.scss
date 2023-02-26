@@ -51,10 +51,22 @@
 	}
 
 	.poster {
-		width: max(250px, 19%);
+		width: 19%;
 		height: 450px;
 
-		@media (max-width: 600px) {
+		@media (max-width: 1600px) {
+			width: max(250px, 24%);
+		}
+
+		@media (max-width: 1280px) {
+			width: 32%;
+		}
+
+		@media (max-width: 1000px) {
+			width: 49%;
+		}
+
+		@media (max-width: 660px) {
 			height: max(450px, 100%);
 			width: 100%;
 		}

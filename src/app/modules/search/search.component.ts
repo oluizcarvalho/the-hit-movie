@@ -4,10 +4,11 @@ import { MovieService } from '../../shared/services/movie.service';
 import { scrollToTop } from '../../shared/helpers/dom.helper';
 import { listGenres } from '../../shared/helpers/options.helper';
 import { FormControl, FormGroup } from '@angular/forms';
-import { debounceTime, distinctUntilChanged } from 'rxjs';
+import { debounceTime, distinctUntilChanged, merge } from 'rxjs';
 
 interface SearchForm {
 	term: FormControl<string>;
+	genre: FormControl<string>;
 }
 
 @Component({
@@ -21,6 +22,7 @@ export class SearchComponent implements OnInit {
 	public listGenres = listGenres;
 	public searchForm = new FormGroup<SearchForm>({
 		term: new FormControl('', { nonNullable: true }),
+		genre: new FormControl('', { nonNullable: true }),
 	});
 	constructor(private route: ActivatedRoute, private movieService: MovieService) {}
 
@@ -30,14 +32,14 @@ export class SearchComponent implements OnInit {
 			this.isLoading = true;
 			scrollToTop();
 		});
-		this.searchForm
-			.get('term')
-			?.valueChanges.pipe(debounceTime(1000), distinctUntilChanged())
-			.subscribe(value => console.log(value));
+		merge(
+			this.searchForm.controls.term?.valueChanges.pipe(debounceTime(1000), distinctUntilChanged()),
+			this.searchForm.controls.genre?.valueChanges.pipe(distinctUntilChanged())
+		).subscribe(() => {});
 	}
 
 	onSelectGenre(genre: string) {
-		console.log(genre);
+		this.searchForm.get('genre')?.setValue(genre);
 	}
 
 	trackByFn(index: number) {

@@ -45,11 +45,11 @@ export class SearchComponent implements OnInit {
 			this.typeSearch = params.get('type') || '';
 			this.searchForm.reset({ genre: '', title: '' }, { emitEvent: false });
 			this.results = [];
-			// if (this.typeSearch === 'series') {
-			// 	this.getSeries();
-			// } else {
-			// 	this.getMovies();
-			// }
+			if (this.typeSearch === 'series') {
+				this.getSeries();
+			} else {
+				this.getMovies();
+			}
 			scrollToTop();
 		});
 		merge(

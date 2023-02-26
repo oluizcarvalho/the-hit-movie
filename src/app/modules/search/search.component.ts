@@ -13,6 +13,8 @@ interface SearchForm {
 	genre: FormControl<string>;
 }
 
+const SCROLL_SIZE = 200;
+
 @Component({
 	selector: 'app-search',
 	templateUrl: './search.component.html',
@@ -24,6 +26,10 @@ export class SearchComponent implements OnInit {
 	public listGenres = listGenres;
 	public results: MovieGeneric[] = [];
 	public notResults: boolean = false;
+	public arrowsDisabled = {
+		left: true,
+		right: false,
+	};
 	public searchForm = new FormGroup<SearchForm>({
 		title: new FormControl('', { nonNullable: true }),
 		genre: new FormControl('', { nonNullable: true }),
@@ -39,11 +45,11 @@ export class SearchComponent implements OnInit {
 			this.typeSearch = params.get('type') || '';
 			this.searchForm.reset({ genre: '', title: '' }, { emitEvent: false });
 			this.results = [];
-			if (this.typeSearch === 'series') {
-				this.getSeries();
-			} else {
-				this.getMovies();
-			}
+			// if (this.typeSearch === 'series') {
+			// 	this.getSeries();
+			// } else {
+			// 	this.getMovies();
+			// }
 			scrollToTop();
 		});
 		merge(
@@ -60,8 +66,10 @@ export class SearchComponent implements OnInit {
 	}
 
 	onSelectGenre(genre: string) {
-		let genreSelected = this.searchForm.controls.genre.value;
-		this.searchForm.controls.genre.setValue(genre === genreSelected ? '' : genre, { onlySelf: true });
+		const genreSelected = this.searchForm.controls.genre.value;
+		const deselect = genreSelected === genre;
+		if (deselect) this.resetSearch();
+		this.searchForm.controls.genre.setValue(deselect ? '' : genre, { onlySelf: true, emitEvent: !deselect });
 	}
 
 	searchTerm(title: string) {
@@ -70,21 +78,50 @@ export class SearchComponent implements OnInit {
 		this.advancedSearch(title);
 	}
 
+	resetSearch() {
+		this.isLoading = true;
+		this.searchForm.controls.title.setValue('', { onlySelf: true, emitEvent: false });
+		if (this.typeSearch === 'series') {
+			this.getSeries();
+		} else {
+			this.getMovies();
+		}
+	}
+
 	trackByFn(index: number) {
 		return index;
 	}
 
 	scrollRight() {
 		const chips = document.querySelector<HTMLDivElement>('.mdc-evolution-chip-set__chips');
+
 		if (chips) {
-			chips.scrollTo({ left: (chips.scrollLeft += 200), behavior: 'smooth' });
+			const scrollLeft = chips.scrollLeft;
+			const clientWidth = chips.clientWidth;
+			if (clientWidth - scrollLeft >= SCROLL_SIZE) {
+				this.arrowsDisabled.left = false;
+				chips.scrollTo({ left: (chips.scrollLeft += SCROLL_SIZE), behavior: 'smooth' });
+			} else {
+				this.arrowsDisabled.right = true;
+			}
 		}
 	}
 
 	scrollLeft() {
 		const chips = document.querySelector<HTMLDivElement>('.mdc-evolution-chip-set__chips');
+
 		if (chips) {
+			const scrollLeft = chips.scrollLeft;
 			chips.scrollTo({ left: (chips.scrollLeft -= 200), behavior: 'smooth' });
+			if (scrollLeft > 0) {
+				this.arrowsDisabled.right = false;
+				chips.scrollTo({ left: (chips.scrollLeft -= SCROLL_SIZE), behavior: 'smooth' });
+				if (scrollLeft === SCROLL_SIZE) {
+					this.arrowsDisabled.left = true;
+				}
+			} else {
+				this.arrowsDisabled.left = true;
+			}
 		}
 	}
 
@@ -104,18 +141,24 @@ export class SearchComponent implements OnInit {
 	}
 
 	private getMovies(): void {
-		this.movieService.getMostPopularMovies().subscribe({
-			next: value => {
-				this.results = value;
-			},
-		});
+		this.movieService
+			.getMostPopularMovies()
+			.pipe(finalize(() => (this.isLoading = false)))
+			.subscribe({
+				next: value => {
+					this.results = value;
+				},
+			});
 	}
 
 	private getSeries(): void {
-		this.movieService.getMostPopularTVs().subscribe({
-			next: value => {
-				this.results = value;
-			},
-		});
+		this.movieService
+			.getMostPopularTVs()
+			.pipe(finalize(() => (this.isLoading = false)))
+			.subscribe({
+				next: value => {
+					this.results = value;
+				},
+			});
 	}
 }

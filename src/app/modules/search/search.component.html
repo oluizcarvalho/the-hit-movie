@@ -1,9 +1,11 @@
-<section class="container-fluid" id="search">
+<section class="container-fluid pb-4" id="search">
 	<div *ngIf="typeSearch" class="col-12 col-md-10 offset-md-1 d-flex mb-4">
 		<h1>Search {{ typeSearch }}</h1>
 	</div>
 	<div class="col-12 col-md-10 offset-md-1 d-flex">
-		<div (click)="scrollLeft()" class="arrow mr-3"><mat-icon> chevron_left </mat-icon></div>
+		<div (click)="scrollLeft()" [class.disabled]="arrowsDisabled.left" class="arrow mr-2">
+			<mat-icon> chevron_left </mat-icon>
+		</div>
 		<mat-chip-listbox aria-label="Genre selection">
 			<mat-chip-option
 				(selectionChange)="onSelectGenre(genre)"
@@ -12,7 +14,9 @@
 				>{{ genre }}</mat-chip-option
 			>
 		</mat-chip-listbox>
-		<div (click)="scrollRight()" class="arrow"><mat-icon> chevron_right </mat-icon></div>
+		<div (click)="scrollRight()" [class.disabled]="arrowsDisabled.right" class="arrow">
+			<mat-icon> chevron_right </mat-icon>
+		</div>
 	</div>
 	<div [formGroup]="searchForm" class="col-12 col-md-10 offset-md-1 d-flex mt-5">
 		<mat-form-field class="w-100" color="accent" appearance="outline">
@@ -29,7 +33,7 @@
 				matSuffix
 				mat-icon-button
 				aria-label="Clear"
-				(click)="searchTerm('')"
+				(click)="resetSearch()"
 			>
 				<mat-icon>close</mat-icon>
 			</button>

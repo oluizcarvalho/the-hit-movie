@@ -45,4 +45,11 @@ export class SearchComponent implements OnInit {
 	trackByFn(index: number) {
 		return index;
 	}
+
+	scrollRight() {
+		const chips = document.querySelector<HTMLDivElement>('.mdc-evolution-chip-set__chips');
+		if (chips) {
+			chips.scrollTo({ left: (chips.scrollLeft += 200), behavior: 'smooth' });
+		}
+	}
 }

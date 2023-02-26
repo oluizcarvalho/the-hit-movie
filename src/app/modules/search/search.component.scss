@@ -6,7 +6,38 @@
 		padding: 0 8px;
 	}
 
-	::ng-deep .mat-mdc-standard-chip.mat-primary.mat-mdc-chip-selected, .mat-mdc-standard-chip.mat-primary.mat-mdc-chip-highlighted {
+	.arrow {
+		width: 24px;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+
+		&:hover {
+			zoom: 1.25;
+		}
+	}
+
+	::ng-deep .mat-mdc-standard-chip.mat-primary.mat-mdc-chip-selected,
+	.mat-mdc-standard-chip.mat-primary.mat-mdc-chip-highlighted {
 		background-color: #4a4f83;
+	}
+
+	::ng-deep .mdc-evolution-chip-set {
+		width: calc(100% - 24px);
+	}
+
+	::ng-deep .mdc-evolution-chip-set__chips {
+		width: 100%;
+		flex-flow: nowrap;
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+		transition: 2ms;
+		scroll-snap-type: x mandatory;
+		scrollbar-width: none;
+		scroll-behavior: smooth;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
 	}
 }

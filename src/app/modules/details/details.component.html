@@ -1,7 +1,7 @@
 <section id="details" class="container-fluid pb-5">
 	<div class="row">
 		<div class="col-12 col-md-10 offset-md-1 mb-3 d-flex flex-column">
-			<h1 *ngIf="!isLoading">{{ details.title }}</h1>
+			<h1 translate="no" *ngIf="!isLoading">{{ details.title }}</h1>
 			<ngx-skeleton-loader
 				*ngIf="isLoading"
 				[count]="1"
@@ -110,6 +110,17 @@
 						{{ director.name }}
 					</span>
 					<span *ngIf="index + 1 < details.directorList.length">-</span>
+				</ng-container>
+			</div>
+		</div>
+		<div *ngIf="details?.writers" class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
+			<h2 class="mb-3">Writers</h2>
+			<div class="writer-list" *ngIf="!isLoading">
+				<ng-container *ngFor="let writer of details.writerList; let index = index">
+					<span class="name">
+						{{ writer.name }}
+					</span>
+					<span *ngIf="index + 1 < details.writerList.length">-</span>
 				</ng-container>
 			</div>
 		</div>

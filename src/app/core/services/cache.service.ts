@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 
 export abstract class AbstractCacheService<T> {
-	readonly CACHE_DURATION_IN_MINUTES = 30;
+	readonly CACHE_DURATION_IN_MINUTES = 60;
 	readonly DEFAULT_KEY = 'DEFAULT';
 
 	private cache: {

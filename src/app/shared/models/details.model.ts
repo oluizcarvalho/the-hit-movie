@@ -43,7 +43,7 @@ export interface Poster {
 
 export interface Backdrop {
 	id: string;
-	link: string;
+	link?: string;
 	aspectRatio: number;
 	language: string;
 	width: number;
@@ -52,7 +52,7 @@ export interface Backdrop {
 
 export interface Posters {
 	imDbId: string;
-	title: string;
+	title?: string;
 	fullTitle: string;
 	type: string;
 	year: string;

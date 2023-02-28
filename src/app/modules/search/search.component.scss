@@ -58,18 +58,20 @@
 
 	.poster {
 		width: 19%;
-		height: 450px;
-
-		@media (max-width: 1600px) {
-			width: max(250px, 24%);
+		height: 420px;
+		@media (min-width: 1280px) and (max-width: 1600px) {
+			width: 24%;
+			height: auto;
 		}
 
-		@media (max-width: 1280px) {
+		@media (min-width: 1000px) and (max-width: 1279px) {
 			width: 32%;
+			height: auto;
 		}
 
-		@media (max-width: 1000px) {
+		@media (min-width: 661px) and (max-width: 999px) {
 			width: 49%;
+			height: auto;
 		}
 
 		@media (max-width: 660px) {

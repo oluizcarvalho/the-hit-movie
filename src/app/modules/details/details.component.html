@@ -41,8 +41,8 @@
 			<img
 				*ngIf="!isLoading"
 				class="img-fluid"
-				[alt]="details.posters.title"
-				[src]="details.posters.backdrops![0].link || details.image"
+				[alt]="details.posters?.title"
+				[src]="(details.posters?.backdrops)![0]?.link || details.image"
 			/>
 			<ngx-skeleton-loader
 				*ngIf="isLoading"

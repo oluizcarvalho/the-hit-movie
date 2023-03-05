@@ -54,13 +54,17 @@
 
 		div {
 			padding: 8px 32px;
-			border: 1px solid $accent;
+			border: 1px solid $white-darker;
 			border-radius: 32px;
 			font-size: 20px;
 			font-family: $font-text-regular;
 			line-height: 24px;
 			color: $white;
 			cursor: pointer;
+
+			&:hover {
+				border-color: $accent-darker;
+			}
 		}
 
 		@media (max-width: 600px) {

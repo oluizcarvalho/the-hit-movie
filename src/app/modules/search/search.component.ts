@@ -2,12 +2,13 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { MovieService } from '../../shared/services/movie.service';
 import { scrollToTop } from '../../shared/helpers/dom.helper';
-import { listGenres } from '../../shared/helpers/options.helper';
+import { capitalizeText, listGenres } from '../../shared/helpers/options.helper';
 import { FormControl, FormGroup } from '@angular/forms';
 import { debounceTime, distinctUntilChanged, merge, Subject } from 'rxjs';
 import { finalize, takeUntil } from 'rxjs/operators';
 import { MovieGeneric } from '../../shared/models/movie.model';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { MatChipSelectionChange } from '@angular/material/chips';
 
 interface SearchForm {
 	title: FormControl<string>;
@@ -40,7 +41,9 @@ export class SearchComponent implements OnInit, OnDestroy {
 		['movies', 'tv_movie'],
 		['series', 'tv_series'],
 	]);
+	public genreParams: string = '';
 	private _destroyed = new Subject<void>();
+
 	constructor(
 		private route: ActivatedRoute,
 		private movieService: MovieService,
@@ -55,20 +58,25 @@ export class SearchComponent implements OnInit, OnDestroy {
 	}
 
 	ngOnInit(): void {
+		this.route.queryParamMap.subscribe((params: ParamMap) => {
+			this.genreParams = capitalizeText(params.get('genre')) || '';
+		});
 		this.route.paramMap.subscribe((params: ParamMap) => {
 			this.typeSearch = params.get('type') || '';
-			this.searchForm.reset({ genre: '', title: '' }, { emitEvent: false });
-			this.results = [];
-			if (this.typeSearch === 'series') {
-				this.getSeries();
-			} else {
-				this.getMovies();
+			if (!this.genreParams) {
+				this.searchForm.reset({ genre: this.genreParams, title: '' }, { emitEvent: false });
+				this.results = [];
+				if (this.typeSearch === 'series' && !this.genreParams) {
+					this.getSeries();
+				} else {
+					this.getMovies();
+				}
 			}
 			scrollToTop();
 		});
 		merge(
 			this.searchForm.controls.title?.valueChanges.pipe(debounceTime(1000), distinctUntilChanged()),
-			this.searchForm.controls.genre?.valueChanges.pipe(distinctUntilChanged())
+			this.searchForm.controls.genre?.valueChanges
 		).subscribe(() => {
 			if (!this.isLoading) {
 				this.isLoading = true;
@@ -79,11 +87,12 @@ export class SearchComponent implements OnInit, OnDestroy {
 		});
 	}
 
-	onSelectGenre(genre: string) {
-		const genreSelected = this.searchForm.controls.genre.value;
-		const deselect = genreSelected === genre;
+	onSelectGenre(genre: MatChipSelectionChange) {
+		const deselect = !genre.selected;
 		if (deselect) this.resetSearch();
-		this.searchForm.controls.genre.setValue(deselect ? '' : genre, { onlySelf: true, emitEvent: !deselect });
+		this.searchForm.controls.genre.setValue(deselect ? '' : genre.source.value, {
+			emitEvent: !deselect,
+		});
 	}
 
 	searchTerm(title: string) {

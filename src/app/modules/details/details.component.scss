@@ -77,24 +77,13 @@
 		}
 	}
 
-	.director-list {
+	.list-authors {
 		font-family: $font-text-semi-bold;
 		font-size: 18px;
 		color: $white;
 		gap: 8px;
 		display: flex;
-
-		.name:hover {
-			cursor: pointer;
-			color: $gray;
-		}
-	}
-	.writer-list {
-		font-family: $font-text-semi-bold;
-		font-size: 18px;
-		color: $white;
-		gap: 8px;
-		display: flex;
+		flex-wrap: wrap;
 
 		.name:hover {
 			cursor: pointer;

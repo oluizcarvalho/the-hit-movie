@@ -104,7 +104,7 @@
 		</div>
 		<div *ngIf="details?.directors" class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
 			<h2 class="mb-3">Directors</h2>
-			<div class="director-list" *ngIf="!isLoading">
+			<div class="list-authors" *ngIf="!isLoading">
 				<ng-container *ngFor="let director of details.directorList; let index = index">
 					<span class="name">
 						{{ director.name }}
@@ -115,7 +115,7 @@
 		</div>
 		<div *ngIf="details?.writers" class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
 			<h2 class="mb-3">Writers</h2>
-			<div class="writer-list" *ngIf="!isLoading">
+			<div class="list-authors" *ngIf="!isLoading">
 				<ng-container *ngFor="let writer of details.writerList; let index = index">
 					<span class="name">
 						{{ writer.name }}

@@ -6,9 +6,10 @@
 		<div *ngIf="!isMobile" (click)="scrollLeft()" [class.disabled]="arrowsDisabled.left" class="arrow mr-2">
 			<mat-icon> chevron_left </mat-icon>
 		</div>
-		<mat-chip-listbox [class.w-100]="isMobile" aria-label="Genre selection">
+		<mat-chip-listbox [value]="genreParams" [class.w-100]="isMobile" aria-label="Genre selection">
 			<mat-chip-option
-				(selectionChange)="onSelectGenre(genre)"
+				(selectionChange)="onSelectGenre($event)"
+				[value]="genre"
 				*ngFor="let genre of listGenres; trackBy: trackByFn"
 				class="chip"
 				>{{ genre }}</mat-chip-option

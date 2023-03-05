@@ -19,7 +19,6 @@ export class ApiKeyService {
 		} else {
 			this._index++;
 		}
-		console.log(this._index);
 		return this._index;
 	}
 }

@@ -62,7 +62,7 @@
 		</div>
 		<div class="col-12 col-md-10 offset-md-1 d-flex">
 			<div *ngIf="!isLoading" class="chips">
-				<div *ngFor="let genre of details.genreList">
+				<div [routerLink]="['/search']" [queryParams]="{ genre: genre.key }" *ngFor="let genre of details.genreList">
 					{{ genre.value }}
 				</div>
 			</div>

@@ -3,10 +3,10 @@
 		<h1>Search {{ typeSearch }}</h1>
 	</div>
 	<div class="col-12 col-md-10 offset-md-1 d-flex">
-		<div (click)="scrollLeft()" [class.disabled]="arrowsDisabled.left" class="arrow mr-2">
+		<div *ngIf="!isMobile" (click)="scrollLeft()" [class.disabled]="arrowsDisabled.left" class="arrow mr-2">
 			<mat-icon> chevron_left </mat-icon>
 		</div>
-		<mat-chip-listbox aria-label="Genre selection">
+		<mat-chip-listbox [class.w-100]="isMobile" aria-label="Genre selection">
 			<mat-chip-option
 				(selectionChange)="onSelectGenre(genre)"
 				*ngFor="let genre of listGenres; trackBy: trackByFn"
@@ -14,7 +14,7 @@
 				>{{ genre }}</mat-chip-option
 			>
 		</mat-chip-listbox>
-		<div (click)="scrollRight()" [class.disabled]="arrowsDisabled.right" class="arrow">
+		<div *ngIf="!isMobile" (click)="scrollRight()" [class.disabled]="arrowsDisabled.right" class="arrow">
 			<mat-icon> chevron_right </mat-icon>
 		</div>
 	</div>

@@ -1,12 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { MovieService } from '../../shared/services/movie.service';
 import { scrollToTop } from '../../shared/helpers/dom.helper';
 import { listGenres } from '../../shared/helpers/options.helper';
 import { FormControl, FormGroup } from '@angular/forms';
-import { debounceTime, distinctUntilChanged, merge } from 'rxjs';
-import { finalize } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, merge, Subject } from 'rxjs';
+import { finalize, takeUntil } from 'rxjs/operators';
 import { MovieGeneric } from '../../shared/models/movie.model';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 interface SearchForm {
 	title: FormControl<string>;
@@ -20,12 +21,13 @@ const SCROLL_SIZE = 200;
 	templateUrl: './search.component.html',
 	styleUrls: ['./search.component.scss'],
 })
-export class SearchComponent implements OnInit {
+export class SearchComponent implements OnInit, OnDestroy {
 	public typeSearch!: string;
 	public isLoading: boolean = false;
 	public listGenres = listGenres;
 	public results: MovieGeneric[] = [];
 	public notResults: boolean = false;
+	public isMobile: boolean = false;
 	public arrowsDisabled = {
 		left: true,
 		right: false,
@@ -38,7 +40,19 @@ export class SearchComponent implements OnInit {
 		['movies', 'tv_movie'],
 		['series', 'tv_series'],
 	]);
-	constructor(private route: ActivatedRoute, private movieService: MovieService) {}
+	private _destroyed = new Subject<void>();
+	constructor(
+		private route: ActivatedRoute,
+		private movieService: MovieService,
+		private readonly breakpointObserver: BreakpointObserver
+	) {
+		breakpointObserver
+			.observe([Breakpoints.HandsetPortrait])
+			.pipe(takeUntil(this._destroyed))
+			.subscribe(result => {
+				this.isMobile = result.matches;
+			});
+	}
 
 	ngOnInit(): void {
 		this.route.paramMap.subscribe((params: ParamMap) => {
@@ -136,7 +150,7 @@ export class SearchComponent implements OnInit {
 						this.notResults = true;
 					}
 				},
-				error: err => (this.results = []),
+				error: () => (this.results = []),
 			});
 	}
 
@@ -160,5 +174,10 @@ export class SearchComponent implements OnInit {
 					this.results = value;
 				},
 			});
+	}
+
+	ngOnDestroy(): void {
+		this._destroyed.next();
+		this._destroyed.complete();
 	}
 }

@@ -5,7 +5,7 @@
  <a href="#-sobre">Sobre</a> •
  <a href="#pré-requisitos">Pré-requisitos</a> • 
  <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#autor">Autor</a>
+ <a href="#autores">Autores</a>
 </p>
 
 <h4 align="center"> 
@@ -55,15 +55,24 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[rxjs](https://rxjs.dev/)**
 
 ---
-### Autor
+### Autores
 
-<a href="https://www.linkedin.com/in/la-carvalho/">
- <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/51300546?s=400&u=3933e0767a90751ca7c6fb1e4ea2feccbe1d3d54&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Luiz André Carvalho</b></sub></a> <a href="https://github.com/oluizcarvalho">🚀</a>
+<a href="https://github.com/oluizcarvalho">
+ <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/51300546?s=400&u=3933e0767a90751ca7c6fb1e4ea2feccbe1d3d54&v=4" width="100px;" alt=""/></a>
 
-
-Feito por Luiz André 👋🏽 Entre em contato!
-
-[![Linkedin Badge](https://img.shields.io/badge/-Luiz-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/la-carvalho/)](https://www.linkedin.com/in/la-carvalho/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Luiz%20Carvalho-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/la-carvalho/)](https://www.linkedin.com/in/la-carvalho/) 
 [![Gmail Badge](https://img.shields.io/badge/-luizandre.ita@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luizandre.ita@gmail.com)](mailto:luizandre.ita@gmail.com)
+
+<a href="https://github.com/GabrielKayran">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/88404087?v=4" width="100px;" alt=""/>
+</a>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Gabriel%20Kayran-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabrielkayran/)](https://www.linkedin.com/in/gabrielkayran/) 
+[![Gmail Badge](https://img.shields.io/badge/-gabrielkayran@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabrielkayran@gmail.com)](mailto:gabrielkayran@gmail.com)
+
+<a href="https://www.linkedin.com/in/thaina-pereira/">
+ <img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4E03AQG2GFw77KNffA/profile-displayphoto-shrink_400_400/0/1677801395088?e=1683763200&v=beta&t=LtYj-w6RpZcV58lyA5EVcr7JadZI9pWIkfQb7nBPPuo" width="100px;" alt=""/>
+</a>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Thaina%20Pereira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaina-pereira/)](https://www.linkedin.com/in/thaina-pereira/) 
+[![Gmail Badge](https://img.shields.io/badge/-thainapereiraas@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thainapereiraas@gmail.com)](mailto:thainapereiraas@gmail.com)

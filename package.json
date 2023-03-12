@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "postversion": "git push && git push --tags",
     "test": "ng test",
     "prepare": "husky install"
   },

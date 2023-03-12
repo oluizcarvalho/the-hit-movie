@@ -15,6 +15,24 @@ section {
 		width: 220px;
 		height: 315px;
 
+		.rating {
+			position: absolute;
+			z-index: 2;
+			width: 2rem;
+			top: 2px;
+			right: -2px;
+			padding: 0.3rem;
+			background-color: #1a1a1a;
+			opacity: 0.7;
+			color: $white;
+			text-align: center;
+
+			span {
+				font-family: $font-text-semi-bold;
+				font-size: 13px;
+			}
+		}
+
 		img {
 			object-fit: cover;
 			object-position: center;

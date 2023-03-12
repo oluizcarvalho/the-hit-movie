@@ -46,6 +46,11 @@
 		<ng-container *ngIf="!isLoading">
 			<div [routerLink]="['/details', result.id]" *ngFor="let result of results; trackBy: trackByFn" class="poster">
 				<img loading="lazy" [src]="result.image | resizeImage : '360x470'" [alt]="result.title" />
+				<ng-container *ngIf="result.imDbRating">
+					<div class="rating">
+						<span>{{ result.imDbRating }}</span>
+					</div>
+				</ng-container>
 			</div>
 			<div *ngIf="results.length === 0 && notResults" class="w-100 text-center">
 				<h2>Nothing found, try writing full title name</h2>

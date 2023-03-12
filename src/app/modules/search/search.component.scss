@@ -59,6 +59,10 @@
 	.poster {
 		width: 19%;
 		height: 420px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-start;
+
 		@media (min-width: 1280px) and (max-width: 1600px) {
 			width: 24%;
 			height: auto;
@@ -77,6 +81,23 @@
 		@media (max-width: 660px) {
 			height: max(450px, 100%);
 			width: 100%;
+		}
+
+		.rating {
+			position: absolute;
+			z-index: 2;
+			width: 2.5rem;
+			padding: 0.3rem;
+			margin: 2px;
+			background-color: #1a1a1a;
+			opacity: 0.7;
+			color: $white;
+			text-align: center;
+
+			span {
+				font-family: $font-text-semi-bold;
+				font-size: 13px;
+			}
 		}
 
 		img {

@@ -12,6 +12,11 @@
 					[src]="movie?.image | resizeImage : '360x470'"
 					[alt]="movie?.title"
 				/>
+				<ng-container *ngIf="movie.imDbRating">
+					<div class="rating">
+						<span>{{ movie.imDbRating }}</span>
+					</div>
+				</ng-container>
 			</div>
 		</ng-template>
 	</swiper>

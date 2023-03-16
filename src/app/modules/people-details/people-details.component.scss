@@ -1,0 +1,29 @@
+@import '../../../theme/vars';
+
+#people{
+  padding-top: 24px;
+  h1{
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    color: $white;
+    margin-bottom: 8px;
+  }
+  h2 {
+    font-family: $font-semi-bold;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: $white;
+  }
+  p {
+    font-family: $font-text-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: $white;
+  }
+  img{
+  }
+
+
+}

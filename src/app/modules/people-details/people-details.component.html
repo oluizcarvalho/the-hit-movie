@@ -1,1 +1,20 @@
-<h1>people-details works!</h1>
+<section id="people" class="container-fluid pb-5">
+	<div class="row">
+		<div class="col-12 col-md-10 offset-md-1 mb-3">
+			<h1 translate="no" *ngIf="data.name">{{ data.name }}</h1>
+		</div>
+		<div class="col-12 col-md-4 col-xl-3 d-flex justify-content-start mb-5 offset-md-1">
+			<img *ngIf="data.image" class="img-fluid w-100" [alt]="data.name" [src]="data.image" />
+		</div>
+		<div class="col-12 col-md-6 col-xl-7">
+			<section class="d-flex flex-column w-100 pl-5">
+				<h2 class="mb-3">Summary</h2>
+				<p *ngIf="data">
+					{{ data.summary || data.summary }}
+				</p>
+				<h2 class="my-3">Role</h2>
+				<p *ngIf="data.role">{{ data.role || data.role }}</p>
+			</section>
+		</div>
+	</div>
+</section>

@@ -1,7 +1,7 @@
 <section id="details" class="container-fluid pb-5">
 	<div class="row">
 		<div class="col-12 col-md-10 offset-md-1 mb-3 d-flex flex-column">
-			<h1 translate="no" *ngIf="!isLoading">{{ details.title }}</h1>
+			<h1 translate="no" *ngIf="!isLoading">{{ details?.title }}</h1>
 			<ngx-skeleton-loader
 				*ngIf="isLoading"
 				[count]="1"
@@ -17,7 +17,7 @@
 				appearance="line"
 			></ngx-skeleton-loader>
 			<div *ngIf="!isLoading" class="descriptions">
-				<p class="pb-2">Original title: {{ details.fullTitle }}</p>
+				<p class="pb-2">Original title: {{ details?.fullTitle }}</p>
 				<p *ngIf="details.runtimeStr">Duration: {{ details.runtimeStr }}</p>
 				<p *ngIf="details.tvSeriesInfo">Seasons: {{ details.tvSeriesInfo.seasons.length }}</p>
 			</div>

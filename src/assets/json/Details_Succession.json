@@ -1,0 +1,837 @@
+{
+  "id": "tt7660850",
+  "title": "Succession",
+  "originalTitle": "",
+  "fullTitle": "Succession (TV Series 2018–2023)",
+  "type": "TVSeries",
+  "year": "2018",
+  "image": "https://m.media-amazon.com/images/M/MV5BZTY0YjU0NTUtMGRmNS00NDMyLWI2MzYtNjM2MmM1M2FkMjkyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_Ratio0.6762_AL_.jpg",
+  "releaseDate": "2018-06-03",
+  "runtimeMins": null,
+  "runtimeStr": null,
+  "plot": "The Roy family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.",
+  "plotLocal": "The lives of the Roy family as they contemplate their future once their aging father begins to step back from the media and entertainment conglomerate they control.",
+  "plotLocalIsRtl": false,
+  "awards": "Top rated TV #68 | Won 13 Primetime Emmys, 103 wins & 184 nominations total",
+  "directors": "",
+  "directorList": [],
+  "writers": "",
+  "writerList": [],
+  "stars": "Nicholas Braun, Brian Cox, Kieran Culkin",
+  "starList": [
+    { "id": "nm1002609", "name": "Nicholas Braun" },
+    { "id": "nm0004051", "name": "Brian Cox" },
+    { "id": "nm0001085", "name": "Kieran Culkin" }
+  ],
+  "actorList": [
+    {
+      "id": "nm1002609",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzBiMzFmYTItY2IxZC00ZjhlLTgxMDAtOWU1ODZkNDBjMGQ3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Nicholas Braun",
+      "asCharacter": "Greg Hirsch"
+    },
+    {
+      "id": "nm0004051",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTcyNzg4MzIwNl5BMl5BanBnXkFtZTcwNTI1NjYyMQ@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Brian Cox",
+      "asCharacter": "Logan Roy"
+    },
+    {
+      "id": "nm0001085",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzZkNzYyNTYtMDY2ZS00YmI4LWI5YzctZjBiN2FkY2NkNWMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Kieran Culkin",
+      "asCharacter": "Roman Roy"
+    },
+    {
+      "id": "nm0295334",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTcyMDc5OTE4OF5BMl5BanBnXkFyZXN1bWU@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Peter Friedman",
+      "asCharacter": "Frank Vernon"
+    },
+    {
+      "id": "nm0532193",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjQ1ODY2ODA5MV5BMl5BanBnXkFtZTgwNDA3MzkxNzM@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Matthew Macfadyen",
+      "asCharacter": "Tom Wambsgans"
+    },
+    {
+      "id": "nm0001688",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA3MTc0NDE2MF5BMl5BanBnXkFtZTcwMzQzNzQzMg@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Alan Ruck",
+      "asCharacter": "Connor Roy"
+    },
+    {
+      "id": "nm3512758",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDQxYjA0ZWYtNjU3Yi00NTRlLWJhOTUtZTFhYjM2OTVjYmFlXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Sarah Snook",
+      "asCharacter": "Shiv Roy"
+    },
+    {
+      "id": "nm0834989",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjM4M2M5MjAtMTg1MC00MjczLWI5NmQtZTI0MjJiODMyYTZlXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Jeremy Strong",
+      "asCharacter": "Kendall Roy"
+    },
+    {
+      "id": "nm0810397",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk5NTQ3MDU0OV5BMl5BanBnXkFtZTcwMDY2NTA5Nw@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "J. Smith-Cameron",
+      "asCharacter": "Gerri Kellman"
+    },
+    {
+      "id": "nm0231436",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTIzOTMzMTg5NV5BMl5BanBnXkFtZTYwODIzMDEz._V1_Ratio1.0000_AL_.jpg",
+      "name": "Dagmara Dominczyk",
+      "asCharacter": "Karolina Novotney"
+    },
+    {
+      "id": "nm4419771",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2VkZWQ4MjEtNWFjYy00ZGUzLWI0NTYtZjVmNDI0NWRlM2FlXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Justine Lupe",
+      "asCharacter": "Willa Ferreyra"
+    },
+    {
+      "id": "nm0711058",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc3MTA0MTU3Ml5BMl5BanBnXkFtZTgwMTExOTQxNzE@._V1_Ratio1.0000_AL_.jpg",
+      "name": "David Rasche",
+      "asCharacter": "Karl Muller"
+    },
+    {
+      "id": "nm2592482",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGU0OTQ1ZWItMzFhYi00NzFjLThlYWEtNzMxMGVjNjQ0ZDUyXkEyXkFqcGdeQXVyNzA5MjgxNQ@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Scott Nicholson",
+      "asCharacter": "Colin"
+    },
+    {
+      "id": "nm0007814",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTEzMDQ2OTM5Ml5BMl5BanBnXkFtZTcwMDk2NTE4Nw@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Hiam Abbass",
+      "asCharacter": "Marcia Roy"
+    },
+    {
+      "id": "nm0001770",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2VkODkxZTItNWExNi00MzU3LWE3NTMtYjUxZGQ0NTliYjJiXkEyXkFqcGdeQXVyOTEyMDM1NTY@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Fisher Stevens",
+      "asCharacter": "Hugo Baker"
+    },
+    {
+      "id": "nm1573892",
+      "image": "https://m.media-amazon.com/images/M/MV5BNWMwODM2ZmMtZjdkNi00MDFhLTkxYzItMDQzYTkzZDNmNmI0XkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Arian Moayed",
+      "asCharacter": "Stewy Hosseini"
+    },
+    {
+      "id": "nm2342888",
+      "image": "https://m.media-amazon.com/images/M/MV5BMmEyMDg0MmQtMjYxYS00Zjg3LTgyOTUtZmI0YjA0NjUwMTdkXkEyXkFqcGdeQXVyOTMwNTgwNDM@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Rob Yang",
+      "asCharacter": "Lawrence Yee"
+    },
+    {
+      "id": "nm8943180",
+      "image": "https://m.media-amazon.com/images/M/MV5BODMyN2E1ZGItM2FlNi00ZTczLWIwYTQtYmY2Y2E3MTI4MmRhXkEyXkFqcGdeQXVyNjkxMzY3Njg@._V1_Ratio1.0000_AL_.jpg",
+      "name": "Juliana Canfield",
+      "asCharacter": "Jess Jordan"
+    }
+  ],
+  "fullCast": null,
+  "genres": "Comedy, Drama",
+  "genreList": [
+    { "key": "Comedy", "value": "Comedy" },
+    { "key": "Drama", "value": "Drama" }
+  ],
+  "companies": "Gary Sanchez Productions, Project Zeus, Hyperobject Industries",
+  "companyList": [
+    { "id": "co0186190", "name": "Gary Sanchez Productions" },
+    { "id": "co0702468", "name": "Project Zeus" },
+    { "id": "co0770923", "name": "Hyperobject Industries" }
+  ],
+  "countries": "USA",
+  "countryList": [{ "key": "USA", "value": "USA" }],
+  "languages": "English",
+  "languageList": [{ "key": "English", "value": "English" }],
+  "contentRating": "TV-MA",
+  "imDbRating": "8.8",
+  "imDbRatingVotes": "167896",
+  "metacriticRating": "85",
+  "ratings": null,
+  "wikipedia": null,
+  "posters": {
+    "imDbId": "tt7660850",
+    "title": "Succession",
+    "fullTitle": "Succession (TV Series 2018–2023)",
+    "type": "TVSeries",
+    "year": "2018",
+    "posters": [
+      {
+        "id": "7HW47XbkNQ5fiwQFYGWdw9gs144.jpg",
+        "link": "https://image.tmdb.org/t/p/original/7HW47XbkNQ5fiwQFYGWdw9gs144.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "ncvxWkNOxsFO9DuTvvcKaEPxwPB.jpg",
+        "link": "https://image.tmdb.org/t/p/original/ncvxWkNOxsFO9DuTvvcKaEPxwPB.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 1000,
+        "height": 1500
+      },
+      {
+        "id": "8gPSFEKbKqm5POTjYhMvZuEreof.jpg",
+        "link": "https://image.tmdb.org/t/p/original/8gPSFEKbKqm5POTjYhMvZuEreof.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 1000,
+        "height": 1500
+      },
+      {
+        "id": "yo9luawhbTSWjQbDzdARFlGuAk5.jpg",
+        "link": "https://image.tmdb.org/t/p/original/yo9luawhbTSWjQbDzdARFlGuAk5.jpg",
+        "aspectRatio": 0.6664195700518903,
+        "language": "en",
+        "width": 899,
+        "height": 1349
+      },
+      {
+        "id": "z0XiwdrCQ9yVIr4O0pxzaAYRxdW.jpg",
+        "link": "https://image.tmdb.org/t/p/original/z0XiwdrCQ9yVIr4O0pxzaAYRxdW.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "zTBcUnU9PgS1drRAtY0hKtpzLPZ.jpg",
+        "link": "https://image.tmdb.org/t/p/original/zTBcUnU9PgS1drRAtY0hKtpzLPZ.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "4VacLmLu9MdK8LHs7TjnlW7uGUO.jpg",
+        "link": "https://image.tmdb.org/t/p/original/4VacLmLu9MdK8LHs7TjnlW7uGUO.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "ysuGYamf6vdWTTHjXn1tbPoNLpw.jpg",
+        "link": "https://image.tmdb.org/t/p/original/ysuGYamf6vdWTTHjXn1tbPoNLpw.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 1000,
+        "height": 1500
+      },
+      {
+        "id": "wM1EOqkHa7gHKHu77m54yWEC1xp.jpg",
+        "link": "https://image.tmdb.org/t/p/original/wM1EOqkHa7gHKHu77m54yWEC1xp.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "3oe2uwBx380Dp6mBjsW5oYkB1Pz.jpg",
+        "link": "https://image.tmdb.org/t/p/original/3oe2uwBx380Dp6mBjsW5oYkB1Pz.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 1000,
+        "height": 1500
+      },
+      {
+        "id": "lrM4CDWZ1Jc2hgm4h9LaZy4861u.jpg",
+        "link": "https://image.tmdb.org/t/p/original/lrM4CDWZ1Jc2hgm4h9LaZy4861u.jpg",
+        "aspectRatio": 0.6664195700518903,
+        "language": "en",
+        "width": 899,
+        "height": 1349
+      },
+      {
+        "id": "rTrbBpUoccSk8liZgjUNQHDXpcd.jpg",
+        "link": "https://image.tmdb.org/t/p/original/rTrbBpUoccSk8liZgjUNQHDXpcd.jpg",
+        "aspectRatio": 0.6664195700518903,
+        "language": "en",
+        "width": 899,
+        "height": 1349
+      },
+      {
+        "id": "GhQM9loms92EPSVDMK8LLuHeOd.jpg",
+        "link": "https://image.tmdb.org/t/p/original/GhQM9loms92EPSVDMK8LLuHeOd.jpg",
+        "aspectRatio": 0.6664195700518903,
+        "language": "en",
+        "width": 899,
+        "height": 1349
+      },
+      {
+        "id": "iz2XTh9p8yaAfgvmzjuted2XVRp.jpg",
+        "link": "https://image.tmdb.org/t/p/original/iz2XTh9p8yaAfgvmzjuted2XVRp.jpg",
+        "aspectRatio": 0.6664195700518903,
+        "language": "en",
+        "width": 899,
+        "height": 1349
+      },
+      {
+        "id": "qeuUTnq78ZtylX3SxXM4lS5MQy.jpg",
+        "link": "https://image.tmdb.org/t/p/original/qeuUTnq78ZtylX3SxXM4lS5MQy.jpg",
+        "aspectRatio": 0.6664195700518903,
+        "language": "en",
+        "width": 899,
+        "height": 1349
+      },
+      {
+        "id": "jZceOQfOrPWarJlnpXPrIvi4aSE.jpg",
+        "link": "https://image.tmdb.org/t/p/original/jZceOQfOrPWarJlnpXPrIvi4aSE.jpg",
+        "aspectRatio": 0.6662958843159066,
+        "language": "en",
+        "width": 599,
+        "height": 899
+      },
+      {
+        "id": "p6jngoX08TAtQ11Tq7ZX5DyOfAK.jpg",
+        "link": "https://image.tmdb.org/t/p/original/p6jngoX08TAtQ11Tq7ZX5DyOfAK.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 1300,
+        "height": 1950
+      },
+      {
+        "id": "vyYObGGEc0QHe3cRasBCp9O2zdJ.jpg",
+        "link": "https://image.tmdb.org/t/p/original/vyYObGGEc0QHe3cRasBCp9O2zdJ.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "e2X32jUfJ2kb4QtNg3WCTnLyGxD.jpg",
+        "link": "https://image.tmdb.org/t/p/original/e2X32jUfJ2kb4QtNg3WCTnLyGxD.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "ed5HwvmD5Yoqw0Oe5fEeIHp2jbx.jpg",
+        "link": "https://image.tmdb.org/t/p/original/ed5HwvmD5Yoqw0Oe5fEeIHp2jbx.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "lMjZo9ATM0XR2xBzXqAUvAA4auT.jpg",
+        "link": "https://image.tmdb.org/t/p/original/lMjZo9ATM0XR2xBzXqAUvAA4auT.jpg",
+        "aspectRatio": 0.6669921875,
+        "language": "en",
+        "width": 1366,
+        "height": 2048
+      },
+      {
+        "id": "fkAM5cLVK8EWXJVMBZBurg3Qiza.jpg",
+        "link": "https://image.tmdb.org/t/p/original/fkAM5cLVK8EWXJVMBZBurg3Qiza.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "A6cgK04FCXUYu5cpkGnCDMhRVC4.jpg",
+        "link": "https://image.tmdb.org/t/p/original/A6cgK04FCXUYu5cpkGnCDMhRVC4.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "cz3mSFhtTVQPyvuBUjyFrZH9CRP.jpg",
+        "link": "https://image.tmdb.org/t/p/original/cz3mSFhtTVQPyvuBUjyFrZH9CRP.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "57cS5ixf6n6n9EVFb6Iwx39RzTU.jpg",
+        "link": "https://image.tmdb.org/t/p/original/57cS5ixf6n6n9EVFb6Iwx39RzTU.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 2000,
+        "height": 3000
+      },
+      {
+        "id": "yYmvgduBug8kKgoGb8diJskcZF.jpg",
+        "link": "https://image.tmdb.org/t/p/original/yYmvgduBug8kKgoGb8diJskcZF.jpg",
+        "aspectRatio": 0.6666666666666666,
+        "language": "en",
+        "width": 1000,
+        "height": 1500
+      }
+    ],
+    "backdrops": [
+      {
+        "id": "2HNbarpx0odHmPFh8A4ZPTxhend.jpg",
+        "link": "https://image.tmdb.org/t/p/original/2HNbarpx0odHmPFh8A4ZPTxhend.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "yNBZQClgWN729DqH3o0IXTARRe9.jpg",
+        "link": "https://image.tmdb.org/t/p/original/yNBZQClgWN729DqH3o0IXTARRe9.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "nCnzxgzdqNYyOLJHntebf9q5PuM.jpg",
+        "link": "https://image.tmdb.org/t/p/original/nCnzxgzdqNYyOLJHntebf9q5PuM.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "bfrxHsrblXhQojatxZXlG6NxeiN.jpg",
+        "link": "https://image.tmdb.org/t/p/original/bfrxHsrblXhQojatxZXlG6NxeiN.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "A6XClsNaWByP7iXnpabAlkIUptY.jpg",
+        "link": "https://image.tmdb.org/t/p/original/A6XClsNaWByP7iXnpabAlkIUptY.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "yAEZxlDcxuWvMh60kvODmXMqElh.jpg",
+        "link": "https://image.tmdb.org/t/p/original/yAEZxlDcxuWvMh60kvODmXMqElh.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "3uCOKBnjbwf6SLol16Yl6I42PmV.jpg",
+        "link": "https://image.tmdb.org/t/p/original/3uCOKBnjbwf6SLol16Yl6I42PmV.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "brC6qt6QLcWhVl1wsDp1dX9Lim.jpg",
+        "link": "https://image.tmdb.org/t/p/original/brC6qt6QLcWhVl1wsDp1dX9Lim.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "iX1ehItF8EisUvF9LOPcgVgmsJI.jpg",
+        "link": "https://image.tmdb.org/t/p/original/iX1ehItF8EisUvF9LOPcgVgmsJI.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "xLnTHPpnishG6MVfcF8IaaPQnt4.jpg",
+        "link": "https://image.tmdb.org/t/p/original/xLnTHPpnishG6MVfcF8IaaPQnt4.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "2QBRXLGdsSlfggfYM9R2NG5zDfv.jpg",
+        "link": "https://image.tmdb.org/t/p/original/2QBRXLGdsSlfggfYM9R2NG5zDfv.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "kVddMHmUH8Vyey7wCwGqNSAXMLQ.jpg",
+        "link": "https://image.tmdb.org/t/p/original/kVddMHmUH8Vyey7wCwGqNSAXMLQ.jpg",
+        "aspectRatio": 1.7768301350390903,
+        "language": "en",
+        "width": 2500,
+        "height": 1407
+      },
+      {
+        "id": "t5raYofhaXHMowdlQsUMF9ni3Ty.jpg",
+        "link": "https://image.tmdb.org/t/p/original/t5raYofhaXHMowdlQsUMF9ni3Ty.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 2000,
+        "height": 1125
+      },
+      {
+        "id": "a0QNmz0UPVqZRqJZMDtsKNAWi4W.jpg",
+        "link": "https://image.tmdb.org/t/p/original/a0QNmz0UPVqZRqJZMDtsKNAWi4W.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 2048,
+        "height": 1152
+      },
+      {
+        "id": "uaonAGmnJoO3rMzrQnESAy5rf3n.jpg",
+        "link": "https://image.tmdb.org/t/p/original/uaonAGmnJoO3rMzrQnESAy5rf3n.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "1WZs9mbwa5mC32tn52284NG48Lx.jpg",
+        "link": "https://image.tmdb.org/t/p/original/1WZs9mbwa5mC32tn52284NG48Lx.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "txlAqy7JuELMmaqiF4yE3ngD2WX.jpg",
+        "link": "https://image.tmdb.org/t/p/original/txlAqy7JuELMmaqiF4yE3ngD2WX.jpg",
+        "aspectRatio": 1.7772511848341233,
+        "language": "en",
+        "width": 3000,
+        "height": 1688
+      },
+      {
+        "id": "zZ3Cv1lz61V9OXXvtCPVtCFTVP7.jpg",
+        "link": "https://image.tmdb.org/t/p/original/zZ3Cv1lz61V9OXXvtCPVtCFTVP7.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "c9ZScgUGWehw4mLDwTBROvbrgTZ.jpg",
+        "link": "https://image.tmdb.org/t/p/original/c9ZScgUGWehw4mLDwTBROvbrgTZ.jpg",
+        "aspectRatio": 1.7768301350390903,
+        "language": "en",
+        "width": 2500,
+        "height": 1407
+      },
+      {
+        "id": "cbfUNDTbr0CE9uTjb4mhin0jtSZ.jpg",
+        "link": "https://image.tmdb.org/t/p/original/cbfUNDTbr0CE9uTjb4mhin0jtSZ.jpg",
+        "aspectRatio": 1.7768469154607769,
+        "language": "en",
+        "width": 2333,
+        "height": 1313
+      },
+      {
+        "id": "jnbwdxZ8XBkSrTXFl4Xcyp3O08W.jpg",
+        "link": "https://image.tmdb.org/t/p/original/jnbwdxZ8XBkSrTXFl4Xcyp3O08W.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "4c6z4TkhjnEL9apqwSNzQSDNOwa.jpg",
+        "link": "https://image.tmdb.org/t/p/original/4c6z4TkhjnEL9apqwSNzQSDNOwa.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "lE5L3qyovrfgizgN6sqYAWt08g8.jpg",
+        "link": "https://image.tmdb.org/t/p/original/lE5L3qyovrfgizgN6sqYAWt08g8.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "bcdUYUFk8GdpZJPiSAas9UeocLH.jpg",
+        "link": "https://image.tmdb.org/t/p/original/bcdUYUFk8GdpZJPiSAas9UeocLH.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "dU89JZNS73fcqElee695ZVlbwOS.jpg",
+        "link": "https://image.tmdb.org/t/p/original/dU89JZNS73fcqElee695ZVlbwOS.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "8BcQ49alz5CQABR0oiBKpQtQSro.jpg",
+        "link": "https://image.tmdb.org/t/p/original/8BcQ49alz5CQABR0oiBKpQtQSro.jpg",
+        "aspectRatio": 1.7783857729138166,
+        "language": "en",
+        "width": 2600,
+        "height": 1462
+      },
+      {
+        "id": "64L1UgoflV9YZir3I2blW0c26cm.jpg",
+        "link": "https://image.tmdb.org/t/p/original/64L1UgoflV9YZir3I2blW0c26cm.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "d2tAqGQzuP3gYwrVavrnK06xnO4.jpg",
+        "link": "https://image.tmdb.org/t/p/original/d2tAqGQzuP3gYwrVavrnK06xnO4.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "79XfWK8A9OCHLlgljzxFDWw1htv.jpg",
+        "link": "https://image.tmdb.org/t/p/original/79XfWK8A9OCHLlgljzxFDWw1htv.jpg",
+        "aspectRatio": 1.7774086378737541,
+        "language": "en",
+        "width": 2140,
+        "height": 1204
+      },
+      {
+        "id": "hAlQrlcvqOCjEW6ffEokiY2daCE.jpg",
+        "link": "https://image.tmdb.org/t/p/original/hAlQrlcvqOCjEW6ffEokiY2daCE.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "EmgeuR2N1SyQJcYtjBslYuNCqr.jpg",
+        "link": "https://image.tmdb.org/t/p/original/EmgeuR2N1SyQJcYtjBslYuNCqr.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "yk54R9bRjbBfmQ1nK67g2vnt978.jpg",
+        "link": "https://image.tmdb.org/t/p/original/yk54R9bRjbBfmQ1nK67g2vnt978.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "s39jTeSTVzgzCmy9uuu5S18pL0h.jpg",
+        "link": "https://image.tmdb.org/t/p/original/s39jTeSTVzgzCmy9uuu5S18pL0h.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "y8wjZXETCpxL0c36MpHwWAG3de0.jpg",
+        "link": "https://image.tmdb.org/t/p/original/y8wjZXETCpxL0c36MpHwWAG3de0.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "nLXXxqiz7UZZqelXY9fEKCyeVRA.jpg",
+        "link": "https://image.tmdb.org/t/p/original/nLXXxqiz7UZZqelXY9fEKCyeVRA.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "u12ZNqhfgxYkjP16KWostx75w9r.jpg",
+        "link": "https://image.tmdb.org/t/p/original/u12ZNqhfgxYkjP16KWostx75w9r.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "d87JXX3DLkRJMfm5StCmmnmhHuX.jpg",
+        "link": "https://image.tmdb.org/t/p/original/d87JXX3DLkRJMfm5StCmmnmhHuX.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "pvxlTSiM7VsbxdSYLrnKrN1OIUZ.jpg",
+        "link": "https://image.tmdb.org/t/p/original/pvxlTSiM7VsbxdSYLrnKrN1OIUZ.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "znC7QclL9MMfoTPudykMRPvfUN6.jpg",
+        "link": "https://image.tmdb.org/t/p/original/znC7QclL9MMfoTPudykMRPvfUN6.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "diinR50oaJYZWQDZ45HZ4VgUBXI.jpg",
+        "link": "https://image.tmdb.org/t/p/original/diinR50oaJYZWQDZ45HZ4VgUBXI.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "kExkOcvDptfHPATQbmbYds9tAZv.jpg",
+        "link": "https://image.tmdb.org/t/p/original/kExkOcvDptfHPATQbmbYds9tAZv.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      },
+      {
+        "id": "3i2CTysCF2ZGX4fsg4kGTxCtsjX.jpg",
+        "link": "https://image.tmdb.org/t/p/original/3i2CTysCF2ZGX4fsg4kGTxCtsjX.jpg",
+        "aspectRatio": 1.7774851876234365,
+        "language": "en",
+        "width": 2700,
+        "height": 1519
+      },
+      {
+        "id": "cKR2vc4XkTCOvtQDMRxuqzOqHcq.jpg",
+        "link": "https://image.tmdb.org/t/p/original/cKR2vc4XkTCOvtQDMRxuqzOqHcq.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "id": "mCAUCUd1nigGfppifa3KFSXGMHx.jpg",
+        "link": "https://image.tmdb.org/t/p/original/mCAUCUd1nigGfppifa3KFSXGMHx.jpg",
+        "aspectRatio": 1.7783046828689981,
+        "language": "en",
+        "width": 3000,
+        "height": 1687
+      },
+      {
+        "id": "rT4yn10bPsmqQMMA3NONV8pXIsc.jpg",
+        "link": "https://image.tmdb.org/t/p/original/rT4yn10bPsmqQMMA3NONV8pXIsc.jpg",
+        "aspectRatio": 1.7777777777777777,
+        "language": "en",
+        "width": 3840,
+        "height": 2160
+      }
+    ],
+    "errorMessage": ""
+  },
+  "images": null,
+  "trailer": null,
+  "boxOffice": {
+    "budget": "",
+    "openingWeekendUSA": "",
+    "grossUSA": "",
+    "cumulativeWorldwideGross": ""
+  },
+  "tagline": null,
+  "keywords": "business,wealth,media empire,patriarchy,betrayal",
+  "keywordList": [
+    "business",
+    "wealth",
+    "media empire",
+    "patriarchy",
+    "betrayal"
+  ],
+  "similars": [
+    {
+      "id": "tt10986410",
+      "title": "Ted Lasso",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTdmZjBjZjQtY2JiNS00Y2ZlLTg2NzgtMjUzMGY2OTVmOWJiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.6763_AL_.jpg",
+      "imDbRating": "8.8"
+    },
+    {
+      "id": "tt13406094",
+      "title": "The White Lotus",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjdjNzBmYjEtM2Y5My00YjI0LWJjY2YtOGQ4MjNkNmE2MDVjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.6763_AL_.jpg",
+      "imDbRating": "7.9"
+    },
+    {
+      "id": "tt0141842",
+      "title": "The Sopranos",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGJjYzhjYTYtMDBjYy00OWU1LTg5OTYtNmYwOTZmZjE3ZDdhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_Ratio0.7053_AL_.jpg",
+      "imDbRating": "9.2"
+    },
+    {
+      "id": "tt0944947",
+      "title": "Game of Thrones",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_Ratio0.7343_AL_.jpg",
+      "imDbRating": "9.2"
+    },
+    {
+      "id": "tt8111088",
+      "title": "The Mandalorian",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjRlZDIyNDMtZjIwYi00YmJiLTg4NjMtODA2Mjc0YTBlNzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.6763_AL_.jpg",
+      "imDbRating": "8.7"
+    },
+    {
+      "id": "tt11041332",
+      "title": "Yellowjackets",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTkzYTBkYmItN2Q0Zi00ODhiLWI3MzEtNDdiNDRkNWYzOTMyXkEyXkFqcGdeQXVyMTUyMTgzNjY4._V1_Ratio0.6763_AL_.jpg",
+      "imDbRating": "7.9"
+    },
+    {
+      "id": "tt0903747",
+      "title": "Breaking Bad",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_Ratio0.6763_AL_.jpg",
+      "imDbRating": "9.5"
+    },
+    {
+      "id": "tt2356777",
+      "title": "True Detective",
+      "image": "https://m.media-amazon.com/images/M/MV5BMmRlYmE0Y2UtNDk2Yi00NzczLWEwZTEtZmE2OTcyYzcxYmU5XkEyXkFqcGdeQXVyNTMxMjgxMzA@._V1_Ratio0.7150_AL_.jpg",
+      "imDbRating": "8.9"
+    },
+    {
+      "id": "tt3581920",
+      "title": "The Last of Us",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_Ratio0.6763_AL_.jpg",
+      "imDbRating": "8.9"
+    },
+    {
+      "id": "tt0386676",
+      "title": "The Office",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_Ratio0.6763_AL_.jpg",
+      "imDbRating": "9.0"
+    },
+    {
+      "id": "tt4236770",
+      "title": "Yellowstone",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGFiZjU5NGEtNTAwNS00ZjI2LTg0YTktNjg0ODFlM2E0NGVhXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_Ratio0.6763_AL_.jpg",
+      "imDbRating": "8.7"
+    },
+    {
+      "id": "tt1190634",
+      "title": "The Boys",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_Ratio0.8019_AL_.jpg",
+      "imDbRating": "8.7"
+    }
+  ],
+  "tvSeriesInfo": {
+    "yearEnd": "2023",
+    "creators": "Jesse Armstrong",
+    "creatorList": [{ "id": "nm1104036", "name": "Jesse Armstrong" }],
+    "seasons": ["1", "2", "3", "4"]
+  },
+  "tvEpisodeInfo": null,
+  "errorMessage": ""
+}

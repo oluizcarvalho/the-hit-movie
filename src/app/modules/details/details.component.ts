@@ -52,6 +52,11 @@ export class DetailsComponent implements OnInit {
 				next: value => {
 					this.details = value;
 				},
+				error: () => {
+					if (this.movieService.movieDetails) {
+						this.details = <DetailsModel>this.movieService.movieDetails;
+					}
+				},
 			});
 	}
 }

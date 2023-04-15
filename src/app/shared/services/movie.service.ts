@@ -5,7 +5,7 @@ import { ApiKeyService } from '../../core/services/api-key.service';
 import { GetMovies, GetMoviesGeneric, GetPosters, MovieGeneric } from '../models/movie.model';
 import { GetAdvancedSearch, GetSearchTitle } from '../models/search-movie.model';
 import { AbstractCacheService } from '../../core/services/cache.service';
-import { map, shareReplay } from 'rxjs';
+import { BehaviorSubject, map, Observable, shareReplay } from 'rxjs';
 import { DetailsModel } from '../models/details.model';
 import { catchError } from 'rxjs/operators';
 
@@ -25,9 +25,22 @@ const GENERIC_TYPE = 'feature,tv_movie,tv_series';
 })
 export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 	private baseUrl = environment.baseUrl;
+	private readonly _movieDetails: BehaviorSubject<MovieGeneric | null> = new BehaviorSubject<MovieGeneric | null>(null);
 
 	constructor(private http: HttpClient, private apiKey: ApiKeyService) {
 		super();
+	}
+
+	set movieDetails(movie: MovieGeneric | null) {
+		this._movieDetails.next(movie);
+	}
+
+	get movieDetails(): MovieGeneric | null {
+		return this._movieDetails.value;
+	}
+
+	get movieDetailsObservable(): Observable<MovieGeneric | null> {
+		return this._movieDetails.asObservable();
 	}
 
 	getSearchTitle(term: string) {

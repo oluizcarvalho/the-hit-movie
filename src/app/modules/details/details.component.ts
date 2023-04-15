@@ -1,20 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { MovieService } from '../../shared/services/movie.service';
-import { finalize } from 'rxjs/operators';
+import { finalize, takeUntil } from 'rxjs/operators';
 import { DetailsModel } from '../../shared/models/details.model';
 import { SwiperOptions } from 'swiper';
 import { scrollToTop } from '../../shared/helpers/dom.helper';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { Subject } from 'rxjs';
 
 @Component({
 	selector: 'app-details',
 	templateUrl: './details.component.html',
 	styleUrls: ['./details.component.scss'],
 })
-export class DetailsComponent implements OnInit {
+export class DetailsComponent implements OnInit, OnDestroy {
 	public tt: string = '';
 	public isLoading: boolean = true;
 	public details!: DetailsModel;
+	public isMobile: boolean = false;
 	public config: SwiperOptions = {
 		initialSlide: 0,
 		navigation: true,
@@ -29,7 +32,20 @@ export class DetailsComponent implements OnInit {
 		},
 		spaceBetween: 10,
 	};
-	constructor(private route: ActivatedRoute, private movieService: MovieService) {}
+	private _destroyed = new Subject<void>();
+
+	constructor(
+		private route: ActivatedRoute,
+		private movieService: MovieService,
+		private readonly breakpointObserver: BreakpointObserver
+	) {
+		breakpointObserver
+			.observe([Breakpoints.HandsetPortrait])
+			.pipe(takeUntil(this._destroyed))
+			.subscribe(result => {
+				this.isMobile = result.matches;
+			});
+	}
 
 	ngOnInit(): void {
 		this.route.paramMap.subscribe((params: ParamMap) => {
@@ -58,5 +74,10 @@ export class DetailsComponent implements OnInit {
 					}
 				},
 			});
+	}
+
+	ngOnDestroy(): void {
+		this._destroyed.next();
+		this._destroyed.complete();
 	}
 }

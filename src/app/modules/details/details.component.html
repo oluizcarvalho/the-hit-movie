@@ -43,7 +43,7 @@
 				class="img-fluid"
 				[alt]="details.posters?.title"
 				[src]="(details.posters?.backdrops)![0].link || details.image"
-				[style.object-fit]="details.posters ? 'cover' : 'contain'"
+				[style.object-fit]="details.posters || isMobile ? 'cover' : 'contain'"
 			/>
 			<ngx-skeleton-loader
 				*ngIf="isLoading"
@@ -60,7 +60,7 @@
 				}"
 				appearance="line"
 			></ngx-skeleton-loader>
-			<ng-container *ngIf="!details.posters">
+			<ng-container *ngIf="!details.posters && !isMobile">
 				<img *ngIf="!isLoading" class="img-fluid img-backdrop col-12" [alt]="details.title" [src]="details.image" />
 			</ng-container>
 		</div>

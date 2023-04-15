@@ -165,7 +165,6 @@ export class SearchComponent implements OnInit, OnDestroy {
 						this.notResults = true;
 					}
 				},
-				error: () => (this.results = []),
 			});
 	}
 

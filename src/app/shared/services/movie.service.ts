@@ -18,6 +18,13 @@ enum KEYS {
 	MostPopularTVs = 'MostPopularTVs',
 }
 
+enum SearchCacheEnum {
+	Action = 'Search_Action',
+	Comedy = 'Search_Comedy',
+	Rocky = 'Search_Rocky',
+	Supernatural = 'Search_Supernatural',
+}
+
 const GENERIC_TYPE = 'feature,tv_movie,tv_series';
 
 @Injectable({
@@ -55,8 +62,8 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		return this.http.get<GetSearchTitle>(this.baseUrl + `/SearchSeries/${this.apiKey.value}/${term}`);
 	}
 
-	getJson(url: string) {
-		return this.http.get<any>(`/assets/json/${url}.json`).pipe(map(res => res.items));
+	getJson<T = any>(url: string, mapProperty: string): Observable<any> {
+		return this.http.get<T>(`/assets/json/${url}.json`).pipe(map((res: any) => res[mapProperty]));
 	}
 
 	getAdvancedSearch(title?: string, genre?: string, type?: 'tv_movie' | 'tv_series') {
@@ -70,7 +77,10 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 				.get<GetAdvancedSearch>(this.baseUrl + `/AdvancedSearch/${this.apiKey.value}`, { params })
 				.pipe(
 					map(res => res.results?.filter(movie => !movie.image?.includes('nopicture'))),
-					shareReplay(1)
+					shareReplay(1),
+					catchError(() => {
+						return this.getResultOnCache(title, genre);
+					})
 				);
 			this.setValue(observable$, params.toString());
 		}
@@ -85,7 +95,7 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 				map(res => res.items),
 				shareReplay(1),
 				catchError(() => {
-					return this.getJson(KEYS.InTheaters);
+					return this.getJson<GetMoviesGeneric>(KEYS.InTheaters, 'items');
 				})
 			);
 			this.setValue(observable$, KEYS.InTheaters);
@@ -100,7 +110,7 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 				map(res => res.items?.filter(movie => !movie.image?.includes('nopicture'))),
 				shareReplay(1),
 				catchError(() => {
-					return this.getJson(KEYS.ComingSoon);
+					return this.getJson<GetMoviesGeneric>(KEYS.ComingSoon, 'items');
 				})
 			);
 			this.setValue(observable$, KEYS.ComingSoon);
@@ -139,7 +149,7 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 				map(res => res.items),
 				shareReplay(1),
 				catchError(() => {
-					return this.getJson(KEYS.MostPopularMovies);
+					return this.getJson<GetMoviesGeneric>(KEYS.MostPopularMovies, 'items');
 				})
 			);
 			this.setValue(observable$, KEYS.MostPopularMovies);
@@ -154,7 +164,7 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 				map(res => res.items),
 				shareReplay(1),
 				catchError(() => {
-					return this.getJson(KEYS.MostPopularTVs);
+					return this.getJson<GetMoviesGeneric>(KEYS.MostPopularTVs, 'items');
 				})
 			);
 			this.setValue(observable$, KEYS.MostPopularTVs);
@@ -168,5 +178,27 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 
 	getPosters(tt: string) {
 		return this.http.get<GetPosters>(`${this.baseUrl}/Posters/${this.apiKey.value}/${tt}`);
+	}
+
+	private getResultOnCache(title?: string, genre?: string) {
+		let cacheSearch: SearchCacheEnum = SearchCacheEnum.Action;
+		console.log(title, genre);
+		if (genre) {
+			switch (genre.toLowerCase()) {
+				case 'action':
+					cacheSearch = SearchCacheEnum.Action;
+					break;
+				case 'comedy':
+					cacheSearch = SearchCacheEnum.Comedy;
+					break;
+			}
+		}
+		if (title?.toLowerCase() === 'supernatural') {
+			cacheSearch = SearchCacheEnum.Supernatural;
+		} else if (title?.toLowerCase() === 'rocky') {
+			cacheSearch = SearchCacheEnum.Rocky;
+		}
+
+		return this.getJson<GetAdvancedSearch>(cacheSearch, 'results');
 	}
 }

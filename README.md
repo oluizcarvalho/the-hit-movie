@@ -30,7 +30,7 @@ Basta você acessar o link da [demo](https://happy-coast-0a23ff40f.2.azurestatic
 
 ### 🗃️ Protótipo
 
-[Figma](https://www.figma.com/file/xuScTCOzuaOgXjwehONJay/Movie?node-id=0-1&t=tKmDzuPhoh1UIyfm-0)
+[Figma](https://www.figma.com/community/file/1229477621730008697)
 
 ---
 

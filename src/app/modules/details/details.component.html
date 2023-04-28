@@ -42,7 +42,7 @@
 				*ngIf="!isLoading"
 				class="img-fluid"
 				[alt]="details.posters?.title"
-				[src]="(details.posters?.backdrops)![0].link || details.image"
+				[src]="(details.posters?.backdrops)![0]?.link || details.image"
 				[style.object-fit]="details.posters || isMobile ? 'cover' : 'contain'"
 			/>
 			<ngx-skeleton-loader
@@ -60,7 +60,7 @@
 				}"
 				appearance="line"
 			></ngx-skeleton-loader>
-			<ng-container *ngIf="!details.posters && !isMobile">
+			<ng-container *ngIf="details?.posters && !isMobile">
 				<img *ngIf="!isLoading" class="img-fluid img-backdrop col-12" [alt]="details.title" [src]="details.image" />
 			</ng-container>
 		</div>
@@ -128,7 +128,7 @@
 				</ng-container>
 			</div>
 		</div>
-		<ng-container *ngIf="details.actorList">
+		<ng-container *ngIf="details?.actorList">
 			<div class="col-12 col-md-10 offset-md-1 d-flex flex-column mt-5">
 				<h2 class="mb-3">Cast</h2>
 				<div *ngIf="!isLoading">
@@ -159,10 +159,10 @@
 			</div>
 		</ng-container>
 
-		<ng-container *ngIf="details.similars">
+		<ng-container *ngIf="details?.similars">
 			<div class="col-12 col-md-10 offset-md-1 mt-5 mb-4">
 				<h2 class="mb-3">Similar Titles</h2>
-				<ng-container *ngIf="!isLoading">
+				<ng-container *ngIf="!isLoading && details.similars">
 					<app-list-poster [listPoster]="details.similars" [isLoading]="isLoading"></app-list-poster>
 				</ng-container>
 			</div>

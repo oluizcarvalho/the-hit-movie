@@ -110,7 +110,7 @@
 			<h2 class="mb-3">Directors</h2>
 			<div class="list-authors" *ngIf="!isLoading">
 				<ng-container *ngFor="let director of details.directorList; let index = index">
-					<span class="name">
+					<span [routerLink]="['/people', director.id]" class="name">
 						{{ director.name }}
 					</span>
 					<span *ngIf="index + 1 < (details?.directorList?.length || 0)">-</span>
@@ -121,7 +121,7 @@
 			<h2 class="mb-3">Writers</h2>
 			<div class="list-authors" *ngIf="!isLoading">
 				<ng-container *ngFor="let writer of details.writerList; let index = index">
-					<span class="name">
+					<span [routerLink]="['/people', writer.id]" class="name">
 						{{ writer.name }}
 					</span>
 					<span *ngIf="index + 1 < (details?.writerList?.length || 0)">-</span>
@@ -134,7 +134,7 @@
 				<div *ngIf="!isLoading">
 					<swiper [config]="config">
 						<ng-template swiperSlide *ngFor="let actor of details.actorList; trackBy: trackByFn">
-							<div class="actors">
+							<div [routerLink]="['/people', actor.id]" class="actors">
 								<img loading="lazy" [src]="actor?.image | resizeImage : '218x267'" [alt]="actor?.name" />
 								<div class="d-flex flex-column">
 									<strong>{{ actor.name }}</strong>

@@ -1,19 +1,81 @@
 <section id="people" class="container-fluid pb-5">
 	<div class="row">
 		<div class="col-12 col-md-10 offset-md-1 mb-3">
-			<h1 translate="no" *ngIf="data.name">{{ data.name }}</h1>
+			<h1 translate="no" *ngIf="!isLoading && peopleDetails.name">{{ peopleDetails.name }}</h1>
+			<ngx-skeleton-loader
+				*ngIf="isLoading"
+				[count]="1"
+				[theme]="{
+					width: '25%',
+					height: '32px',
+					margin: 0,
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'margin-bottom': '4px',
+					'animation-duration': '2s'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
 		</div>
 		<div class="col-12 col-md-4 col-xl-3 d-flex justify-content-start mb-5 offset-md-1">
-			<img *ngIf="data.image" class="img-fluid w-100" [alt]="data.name" [src]="data.image" />
+			<img
+				*ngIf="!isLoading && peopleDetails.image"
+				class="img-fluid w-100"
+				[alt]="peopleDetails.name"
+				[src]="peopleDetails.image"
+			/>
+			<ngx-skeleton-loader
+				class="w-100"
+				*ngIf="isLoading"
+				[count]="1"
+				[theme]="{
+					width: '100%',
+					height: '400px',
+					margin: 0,
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'margin-bottom': '4px',
+					'animation-duration': '2s'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
 		</div>
 		<div class="col-12 col-md-6 col-xl-7">
 			<section class="d-flex flex-column w-100 pl-5">
 				<h2 class="mb-3">Summary</h2>
-				<p *ngIf="data">
-					{{ data.summary || data.summary }}
+				<p *ngIf="!isLoading">
+					{{ peopleDetails.summary || peopleDetails.summary }}
 				</p>
+				<ngx-skeleton-loader
+					*ngIf="isLoading"
+					[count]="1"
+					[theme]="{
+						width: '100%',
+						height: '150px',
+						margin: 0,
+						'background-color': '#0b0c1a',
+						border: '1px solid #0b0c1a',
+						'margin-bottom': '4px',
+						'animation-duration': '2s'
+					}"
+					appearance="line"
+				></ngx-skeleton-loader>
 				<h2 class="my-3">Role</h2>
-				<p *ngIf="data.role">{{ data.role || data.role }}</p>
+				<p *ngIf="!isLoading">{{ peopleDetails.role || peopleDetails.role }}</p>
+				<ngx-skeleton-loader
+					*ngIf="isLoading"
+					[count]="1"
+					[theme]="{
+						width: '100%',
+						height: '18px',
+						margin: 0,
+						'background-color': '#0b0c1a',
+						border: '1px solid #0b0c1a',
+						'margin-bottom': '4px',
+						'animation-duration': '2s'
+					}"
+					appearance="line"
+				></ngx-skeleton-loader>
 			</section>
 		</div>
 	</div>

@@ -8,6 +8,7 @@ import { AbstractCacheService } from '../../core/services/cache.service';
 import { BehaviorSubject, map, Observable, shareReplay } from 'rxjs';
 import { DetailsModel } from '../models/details.model';
 import { catchError } from 'rxjs/operators';
+import { GetPeopleDetails } from '../models/people.model';
 
 enum KEYS {
 	InTheaters = 'InTheaters',
@@ -180,9 +181,12 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		return this.http.get<GetPosters>(`${this.baseUrl}/Posters/${this.apiKey.value}/${tt}`);
 	}
 
+	getPeople(nm: string) {
+		return this.http.get<GetPeopleDetails>(`${this.baseUrl}/Name/${this.apiKey.value}/${nm}`);
+	}
+
 	private getResultOnCache(title?: string, genre?: string) {
 		let cacheSearch: SearchCacheEnum = SearchCacheEnum.Action;
-		console.log(title, genre);
 		if (genre) {
 			switch (genre.toLowerCase()) {
 				case 'action':

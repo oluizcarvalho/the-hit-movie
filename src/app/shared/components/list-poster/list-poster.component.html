@@ -7,7 +7,7 @@
 			<div class="poster">
 				<img
 					loading="lazy"
-					[routerLink]="['/details', movie?.id]"
+					(click)="navigateChange(movie)"
 					routerLinkActive="router-link-active"
 					[src]="movie?.image | resizeImage : '360x470'"
 					[alt]="movie?.title"

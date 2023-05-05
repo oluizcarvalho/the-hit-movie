@@ -5,6 +5,7 @@ import { catchError, finalize, takeUntil } from 'rxjs/operators';
 import SwiperCore, { Autoplay, Lazy, Navigation, Pagination, SwiperOptions } from 'swiper';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { forkJoin, of, Subject } from 'rxjs';
+import { Router } from '@angular/router';
 
 const COUNT_THEATERS = 10;
 const COUNT_COMING_SOON = 20;
@@ -77,7 +78,11 @@ export class HomeComponent implements OnInit, OnDestroy {
 	public countPosters: number = 0;
 	public widthSkeletonPoster: number = 100;
 	public widthSkeletonImages: number = 100;
-	constructor(private movieService: MovieService, private breakpointObserver: BreakpointObserver) {
+	constructor(
+		private movieService: MovieService,
+		private breakpointObserver: BreakpointObserver,
+		private router: Router
+	) {
 		breakpointObserver
 			.observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Medium, Breakpoints.Large, Breakpoints.XLarge])
 			.pipe(takeUntil(this._destroyed))
@@ -98,6 +103,11 @@ export class HomeComponent implements OnInit, OnDestroy {
 
 	trackByFn(index: number) {
 		return index;
+	}
+
+	async navigateToDetails(movie: MovieGeneric) {
+		this.movieService.movieDetails = movie;
+		await this.router.navigate(['/details', movie?.id]);
 	}
 
 	private getData(): void {

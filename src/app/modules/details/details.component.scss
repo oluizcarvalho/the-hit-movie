@@ -42,6 +42,17 @@
 		box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2);
 		object-position: 50% 25%;
 		max-height: min(500px, 60vh);
+		position: sticky;
+		z-index: 2;
+	}
+
+	.img-backdrop {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+		opacity: 0.1;
 	}
 
 	.chips {

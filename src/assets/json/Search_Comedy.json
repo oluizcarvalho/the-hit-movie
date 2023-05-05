@@ -1,0 +1,1194 @@
+{
+  "queryString": "?title_type=tv_series&genres=Comedy",
+  "results": [
+    {
+      "id": "tt7660850",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTY0YjU0NTUtMGRmNS00NDMyLWI2MzYtNjM2MmM1M2FkMjkyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Succession",
+      "description": "(2018–2023)",
+      "runtimeStr": "60 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.8",
+      "imDbRatingVotes": "168028",
+      "metacriticRating": null,
+      "plot": "The Roy family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.",
+      "stars": "Nicholas Braun, Brian Cox, Kieran Culkin, Peter Friedman",
+      "starList": [
+        { "id": "tt7660850", "name": "Nicholas Braun" },
+        { "id": "tt7660850", "name": "Brian Cox" },
+        { "id": "tt7660850", "name": "Kieran Culkin" },
+        { "id": "tt7660850", "name": "Peter Friedman" }
+      ]
+    },
+    {
+      "id": "tt10986410",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTdmZjBjZjQtY2JiNS00Y2ZlLTg2NzgtMjUzMGY2OTVmOWJiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Ted Lasso",
+      "description": "(2020– )",
+      "runtimeStr": "30 min",
+      "genres": "Comedy, Drama, Sport",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Sport", "value": "Sport" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.8",
+      "imDbRatingVotes": "244450",
+      "metacriticRating": null,
+      "plot": "American college football coach Ted Lasso heads to London to manage AFC Richmond, a struggling English Premier League football team.",
+      "stars": "Jason Sudeikis, Brett Goldstein, Brendan Hunt, Nick Mohammed",
+      "starList": [
+        { "id": "tt10986410", "name": "Jason Sudeikis" },
+        { "id": "tt10986410", "name": "Brett Goldstein" },
+        { "id": "tt10986410", "name": "Brendan Hunt" },
+        { "id": "tt10986410", "name": "Nick Mohammed" }
+      ]
+    },
+    {
+      "id": "tt15677150",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzhjMDIwOTgtYmMwNC00ZDIyLWJiMzUtMDM0YTY3M2VmOWNiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Shrinking",
+      "description": "(2023– )",
+      "runtimeStr": "33 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.1",
+      "imDbRatingVotes": "30631",
+      "metacriticRating": null,
+      "plot": "A grieving therapist starts to tell his clients exactly what he thinks. Ignoring his training and ethics, he finds himself making huge changes to people's lives - including his own.",
+      "stars": "Jason Segel, Jessica Williams, Harrison Ford, Luke Tennie",
+      "starList": [
+        { "id": "tt15677150", "name": "Jason Segel" },
+        { "id": "tt15677150", "name": "Jessica Williams" },
+        { "id": "tt15677150", "name": "Harrison Ford" },
+        { "id": "tt15677150", "name": "Luke Tennie" }
+      ]
+    },
+    {
+      "id": "tt14961048",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzhhMTNlZGYtZDc2OC00NGZhLWJiM2EtN2ExZDQ3ZmY1MmNiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Swarm",
+      "description": "(2023– )",
+      "runtimeStr": null,
+      "genres": "Comedy, Drama, Thriller",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "contentRating": "18+",
+      "imDbRating": "7.2",
+      "imDbRatingVotes": "7901",
+      "metacriticRating": null,
+      "plot": "A young woman's obsession with a pop star takes a dark turn.",
+      "stars": "Dominique Fishback, Chloe Bailey, Nirine S. Brown, Karen Rodriguez",
+      "starList": [
+        { "id": "tt14961048", "name": "Dominique Fishback" },
+        { "id": "tt14961048", "name": "Chloe Bailey" },
+        { "id": "tt14961048", "name": "Nirine S. Brown" },
+        { "id": "tt14961048", "name": "Karen Rodriguez" }
+      ]
+    },
+    {
+      "id": "tt13406094",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjdjNzBmYjEtM2Y5My00YjI0LWJjY2YtOGQ4MjNkNmE2MDVjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.6837_AL_.jpg",
+      "title": "The White Lotus",
+      "description": "(2021–2023)",
+      "runtimeStr": "60 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "7.9",
+      "imDbRatingVotes": "164016",
+      "metacriticRating": null,
+      "plot": "The exploits of various guests and employees of a tropical resort over the span of a week.",
+      "stars": "Jennifer Coolidge, Jon Gries, F. Murray Abraham, Adam DiMarco",
+      "starList": [
+        { "id": "tt13406094", "name": "Jennifer Coolidge" },
+        { "id": "tt13406094", "name": "Jon Gries" },
+        { "id": "tt13406094", "name": "F. Murray Abraham" },
+        { "id": "tt13406094", "name": "Adam DiMarco" }
+      ]
+    },
+    {
+      "id": "tt0121955",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjNhODYzZGItZWQ3Ny00ZjViLTkxMTUtM2EzN2RjYjU2OGZiXkEyXkFqcGdeQXVyMTI5MTc0OTIy._V1_Ratio0.6837_AL_.jpg",
+      "title": "South Park",
+      "description": "(1997– )",
+      "runtimeStr": "22 min",
+      "genres": "Animation, Comedy",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.7",
+      "imDbRatingVotes": "383342",
+      "metacriticRating": null,
+      "plot": "Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
+      "stars": "Trey Parker, Matt Stone, Isaac Hayes, Mona Marshall",
+      "starList": [
+        { "id": "tt0121955", "name": "Trey Parker" },
+        { "id": "tt0121955", "name": "Matt Stone" },
+        { "id": "tt0121955", "name": "Isaac Hayes" },
+        { "id": "tt0121955", "name": "Mona Marshall" }
+      ]
+    },
+    {
+      "id": "tt19785210",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzg5ZWI1NjEtYzVhZi00M2MxLTg2OTAtYmVlN2JjMjRlNDUzXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Lucky Hank",
+      "description": "(2023– )",
+      "runtimeStr": "42 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "6.8",
+      "imDbRatingVotes": "1826",
+      "metacriticRating": null,
+      "plot": "An English department chairman at an underfunded college, Professor Hank Devereaux toes the line between midlife crisis and full-blown meltdown, navigating the offbeat chaos in his personal and professional life.",
+      "stars": "Bob Odenkirk, Arthur Keng, Haig Sutherland, Shannon DeVido",
+      "starList": [
+        { "id": "tt19785210", "name": "Bob Odenkirk" },
+        { "id": "tt19785210", "name": "Arthur Keng" },
+        { "id": "tt19785210", "name": "Haig Sutherland" },
+        { "id": "tt19785210", "name": "Shannon DeVido" }
+      ]
+    },
+    {
+      "id": "tt10839422",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2NlYjZiYjItNTljNy00MzU2LWJkYmMtMjNkMWVjYmYwMzExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.6837_AL_.jpg",
+      "title": "Sex/Life",
+      "description": "(2021–2023)",
+      "runtimeStr": "45 min",
+      "genres": "Comedy, Drama, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "5.5",
+      "imDbRatingVotes": "26658",
+      "metacriticRating": null,
+      "plot": "A suburban mother of two takes a fantasy-charged trip down memory lane that sets her very married present on a collision course with her wild child past.",
+      "stars": "Sarah Shahi, Mike Vogel, Adam Demos, Margaret Odette",
+      "starList": [
+        { "id": "tt10839422", "name": "Sarah Shahi" },
+        { "id": "tt10839422", "name": "Mike Vogel" },
+        { "id": "tt10839422", "name": "Adam Demos" },
+        { "id": "tt10839422", "name": "Margaret Odette" }
+      ]
+    },
+    {
+      "id": "tt13443470",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio0.6837_AL_.jpg",
+      "title": "Wednesday",
+      "description": "(2022– )",
+      "runtimeStr": "45 min",
+      "genres": "Comedy, Crime, Fantasy",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Fantasy", "value": "Fantasy" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.1",
+      "imDbRatingVotes": "305317",
+      "metacriticRating": null,
+      "plot": "Follows Wednesday Addams' years as a student, when she attempts to master her emerging psychic ability, thwart a killing spree, and solve the mystery that embroiled her parents.",
+      "stars": "Jenna Ortega, Hunter Doohan, Percy Hynes White, Emma Myers",
+      "starList": [
+        { "id": "tt13443470", "name": "Jenna Ortega" },
+        { "id": "tt13443470", "name": "Hunter Doohan" },
+        { "id": "tt13443470", "name": "Percy Hynes White" },
+        { "id": "tt13443470", "name": "Emma Myers" }
+      ]
+    },
+    {
+      "id": "tt19394168",
+      "image": "https://m.media-amazon.com/images/M/MV5BYWFlOTlhZDQtNDYyYi00ODE4LTlkMzgtNDk4MzFlODk0OTQ5XkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_Ratio0.7041_AL_.jpg",
+      "title": "Unstable",
+      "description": "(2023– )",
+      "runtimeStr": "25 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-14",
+      "imDbRating": "6.8",
+      "imDbRatingVotes": "2595",
+      "metacriticRating": null,
+      "plot": "In a biological research company, a son with social problems is forced to work for the company of his father, an extremely eccentric and exotic man to save him from disaster.",
+      "stars": "John Owen Lowe, Sian Clifford, Aaron Branch, Rachel Marsh",
+      "starList": [
+        { "id": "tt19394168", "name": "John Owen Lowe" },
+        { "id": "tt19394168", "name": "Sian Clifford" },
+        { "id": "tt19394168", "name": "Aaron Branch" },
+        { "id": "tt19394168", "name": "Rachel Marsh" }
+      ]
+    },
+    {
+      "id": "tt1190634",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_Ratio0.7857_AL_.jpg",
+      "title": "The Boys",
+      "description": "(2019– )",
+      "runtimeStr": "60 min",
+      "genres": "Action, Comedy, Crime",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.7",
+      "imDbRatingVotes": "541416",
+      "metacriticRating": null,
+      "plot": "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
+      "stars": "Karl Urban, Jack Quaid, Antony Starr, Erin Moriarty",
+      "starList": [
+        { "id": "tt1190634", "name": "Karl Urban" },
+        { "id": "tt1190634", "name": "Jack Quaid" },
+        { "id": "tt1190634", "name": "Antony Starr" },
+        { "id": "tt1190634", "name": "Erin Moriarty" }
+      ]
+    },
+    {
+      "id": "tt0386676",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Office",
+      "description": "(2005–2013)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-14",
+      "imDbRating": "9.0",
+      "imDbRatingVotes": "630198",
+      "metacriticRating": null,
+      "plot": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+      "stars": "Steve Carell, Jenna Fischer, John Krasinski, Rainn Wilson",
+      "starList": [
+        { "id": "tt0386676", "name": "Steve Carell" },
+        { "id": "tt0386676", "name": "Jenna Fischer" },
+        { "id": "tt0386676", "name": "John Krasinski" },
+        { "id": "tt0386676", "name": "Rainn Wilson" }
+      ]
+    },
+    {
+      "id": "tt1442437",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Modern Family",
+      "description": "(2009–2020)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy, Drama, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "8.5",
+      "imDbRatingVotes": "444828",
+      "metacriticRating": null,
+      "plot": "Three different but related families face trials and tribulations in their own uniquely comedic ways.",
+      "stars": "Ed O'Neill, Sofía Vergara, Julie Bowen, Ty Burrell",
+      "starList": [
+        { "id": "tt1442437", "name": "Ed O'Neill" },
+        { "id": "tt1442437", "name": "Sofía Vergara" },
+        { "id": "tt1442437", "name": "Julie Bowen" },
+        { "id": "tt1442437", "name": "Ty Burrell" }
+      ]
+    },
+    {
+      "id": "tt14500082",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTg2Yzk2NGItM2NhZS00YjBhLThiYWUtYmY1ZTUzMTY2YTVjXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_Ratio0.6837_AL_.jpg",
+      "title": "How I Met Your Father",
+      "description": "(2022– )",
+      "runtimeStr": "24 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "5.5",
+      "imDbRatingVotes": "20974",
+      "metacriticRating": null,
+      "plot": "Sophie and her close-knit group of friends are in the midst of figuring out who they are, what they want out of life, and how to fall in love in the age of dating apps and limitless options.",
+      "stars": "Hilary Duff, Christopher Lowell, Francia Raisa, Suraj Sharma",
+      "starList": [
+        { "id": "tt14500082", "name": "Hilary Duff" },
+        { "id": "tt14500082", "name": "Christopher Lowell" },
+        { "id": "tt14500082", "name": "Francia Raisa" },
+        { "id": "tt14500082", "name": "Suraj Sharma" }
+      ]
+    },
+    {
+      "id": "tt0108778",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Friends",
+      "description": "(1994–2004)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.9",
+      "imDbRatingVotes": "1018580",
+      "metacriticRating": null,
+      "plot": "Follows the personal and professional lives of six twenty to thirty year-old friends living in the Manhattan borough of New York City.",
+      "stars": "Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc",
+      "starList": [
+        { "id": "tt0108778", "name": "Jennifer Aniston" },
+        { "id": "tt0108778", "name": "Courteney Cox" },
+        { "id": "tt0108778", "name": "Lisa Kudrow" },
+        { "id": "tt0108778", "name": "Matt LeBlanc" }
+      ]
+    },
+    {
+      "id": "tt14761860",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjFjNzZjZWEtZjZiOC00NzIyLThlYzMtNmM2YzNkNjg2ZWU0XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Big Door Prize",
+      "description": "(2023– )",
+      "runtimeStr": "98 min",
+      "genres": "Comedy, Drama, Sci-Fi",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Sci-Fi", "value": "Sci-Fi" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "6.6",
+      "imDbRatingVotes": "933",
+      "metacriticRating": null,
+      "plot": "About the residents of a small town called Deerfield, who one day discover a magical, destiny-predicting machine in their grocery store.",
+      "stars": "Ally Maki, Djouliet Amara, Patrick Kerr, Crystal Fox",
+      "starList": [
+        { "id": "tt14761860", "name": "Ally Maki" },
+        { "id": "tt14761860", "name": "Djouliet Amara" },
+        { "id": "tt14761860", "name": "Patrick Kerr" },
+        { "id": "tt14761860", "name": "Crystal Fox" }
+      ]
+    },
+    {
+      "id": "tt6226232",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDg3MGNhYjItZGU2Yi00MzU4LWE4NGUtYjA2OTVjNGUyMjE4XkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Young Sheldon",
+      "description": "(2017– )",
+      "runtimeStr": "30 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-PG",
+      "imDbRating": "7.6",
+      "imDbRatingVotes": "69208",
+      "metacriticRating": null,
+      "plot": "Meet a child genius named Sheldon Cooper (already seen as an adult in The Big Bang Theory (2007)) and his family. Some unique challenges face Sheldon, who is socially impaired.",
+      "stars": "Iain Armitage, Zoe Perry, Lance Barber, Montana Jordan",
+      "starList": [
+        { "id": "tt6226232", "name": "Iain Armitage" },
+        { "id": "tt6226232", "name": "Zoe Perry" },
+        { "id": "tt6226232", "name": "Lance Barber" },
+        { "id": "tt6226232", "name": "Montana Jordan" }
+      ]
+    },
+    {
+      "id": "tt0472954",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzg3ODVjZTYtZTAyNC00MzVjLTk3NmUtMGI4ZjZmNGQ1NmY4XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_Ratio0.6837_AL_.jpg",
+      "title": "It's Always Sunny in Philadelphia",
+      "description": "(2005– )",
+      "runtimeStr": "22 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.8",
+      "imDbRatingVotes": "232575",
+      "metacriticRating": null,
+      "plot": "Five friends with big egos and small brains are the proprietors of an Irish pub in Philadelphia.",
+      "stars": "Charlie Day, Rob McElhenney, Kaitlin Olson, Glenn Howerton",
+      "starList": [
+        { "id": "tt0472954", "name": "Charlie Day" },
+        { "id": "tt0472954", "name": "Rob McElhenney" },
+        { "id": "tt0472954", "name": "Kaitlin Olson" },
+        { "id": "tt0472954", "name": "Glenn Howerton" }
+      ]
+    },
+    {
+      "id": "tt0898266",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Big Bang Theory",
+      "description": "(2007–2019)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "8.2",
+      "imDbRatingVotes": "824122",
+      "metacriticRating": null,
+      "plot": "A woman who moves into an apartment across the hall from two brilliant but socially awkward physicists shows them how little they know about life outside of the laboratory.",
+      "stars": "Johnny Galecki, Jim Parsons, Kaley Cuoco, Simon Helberg",
+      "starList": [
+        { "id": "tt0898266", "name": "Johnny Galecki" },
+        { "id": "tt0898266", "name": "Jim Parsons" },
+        { "id": "tt0898266", "name": "Kaley Cuoco" },
+        { "id": "tt0898266", "name": "Simon Helberg" }
+      ]
+    },
+    {
+      "id": "tt1586680",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDgxNjQ2MjMtMjk2Yi00M2Q2LWI0ZDktOGM1NWI5YWUzMjk4XkEyXkFqcGdeQXVyOTA3MTMyOTk@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Shameless",
+      "description": "(2011–2021)",
+      "runtimeStr": "46 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.6",
+      "imDbRatingVotes": "250919",
+      "metacriticRating": null,
+      "plot": "A scrappy, feisty, fiercely loyal Chicago family makes no apologies.",
+      "stars": "Emmy Rossum, William H. Macy, Ethan Cutkosky, Jeremy Allen White",
+      "starList": [
+        { "id": "tt1586680", "name": "Emmy Rossum" },
+        { "id": "tt1586680", "name": "William H. Macy" },
+        { "id": "tt1586680", "name": "Ethan Cutkosky" },
+        { "id": "tt1586680", "name": "Jeremy Allen White" }
+      ]
+    },
+    {
+      "id": "tt16402422",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDNmOTA3MTEtMGEwYi00ZGQ2LTgxNDUtMTE3ZTAzYzk5ZTdkXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Wellmania",
+      "description": "(2023– )",
+      "runtimeStr": "30 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "6.8",
+      "imDbRatingVotes": "1794",
+      "metacriticRating": null,
+      "plot": "Follows Liv, who has a major health crisis, she is forced to rethink her 'live fast die young' attitude.",
+      "stars": "Celeste Barber, JJ Fong, Lachlan Buchanan, Genevieve Mooy",
+      "starList": [
+        { "id": "tt16402422", "name": "Celeste Barber" },
+        { "id": "tt16402422", "name": "JJ Fong" },
+        { "id": "tt16402422", "name": "Lachlan Buchanan" },
+        { "id": "tt16402422", "name": "Genevieve Mooy" }
+      ]
+    },
+    {
+      "id": "tt17525252",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzBiMmE1ZjMtMDU4ZC00OGM4LWIzOGItZmMwZjBjNDFiODRlXkEyXkFqcGdeQXVyMTU5OTc2NTk@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Up Here",
+      "description": "(2023– )",
+      "runtimeStr": null,
+      "genres": "Comedy, Musical, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Musical", "value": "Musical" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "6.5",
+      "imDbRatingVotes": "665",
+      "metacriticRating": null,
+      "plot": "Following the extraordinary story of one ordinary couple, as they fall in love and discover that the single greatest obstacle to finding happiness together might just be themselves.",
+      "stars": "Mae Whitman, Carlos Valdes, Katie Finneran, Sophia Hammons",
+      "starList": [
+        { "id": "tt17525252", "name": "Mae Whitman" },
+        { "id": "tt17525252", "name": "Carlos Valdes" },
+        { "id": "tt17525252", "name": "Katie Finneran" },
+        { "id": "tt17525252", "name": "Sophia Hammons" }
+      ]
+    },
+    {
+      "id": "tt1632701",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Suits",
+      "description": "(2011–2019)",
+      "runtimeStr": "44 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.5",
+      "imDbRatingVotes": "421231",
+      "metacriticRating": null,
+      "plot": "On the run from a drug deal gone bad, brilliant college dropout Mike Ross finds himself working with Harvey Specter, one of New York City's best lawyers.",
+      "stars": "Gabriel Macht, Patrick J. Adams, Meghan Markle, Sarah Rafferty",
+      "starList": [
+        { "id": "tt1632701", "name": "Gabriel Macht" },
+        { "id": "tt1632701", "name": "Patrick J. Adams" },
+        { "id": "tt1632701", "name": "Meghan Markle" },
+        { "id": "tt1632701", "name": "Sarah Rafferty" }
+      ]
+    },
+    {
+      "id": "tt0460627",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA3ODMxMzM5NF5BMl5BanBnXkFtZTgwMDM1NjU0OTE@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Bones",
+      "description": "(2005–2017)",
+      "runtimeStr": "40 min",
+      "genres": "Comedy, Crime, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.8",
+      "imDbRatingVotes": "165014",
+      "metacriticRating": null,
+      "plot": "Forensic anthropologist Dr. Temperance \"Bones\" Brennan and cocky F.B.I. Special Agent Seeley Booth build a team to investigate murders. Quite often, there isn't more to examine than rotten flesh or mere bones.",
+      "stars": "Emily Deschanel, David Boreanaz, Michaela Conlin, T.J. Thyne",
+      "starList": [
+        { "id": "tt0460627", "name": "Emily Deschanel" },
+        { "id": "tt0460627", "name": "David Boreanaz" },
+        { "id": "tt0460627", "name": "Michaela Conlin" },
+        { "id": "tt0460627", "name": "T.J. Thyne" }
+      ]
+    },
+    {
+      "id": "tt5788792",
+      "image": "https://m.media-amazon.com/images/M/MV5BOWFjODRhMDktMTE3My00ODQzLThmODctYmM2ZmU5YmY0ZGVkXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Marvelous Mrs. Maisel",
+      "description": "(2017–2023)",
+      "runtimeStr": "57 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.7",
+      "imDbRatingVotes": "118618",
+      "metacriticRating": null,
+      "plot": "After her husband leaves her, young mother of two Miriam \"Midge\" Maisel discovers that she has a talent for stand-up comedy. Could this be her calling?",
+      "stars": "Rachel Brosnahan, Alex Borstein, Michael Zegen, Marin Hinkle",
+      "starList": [
+        { "id": "tt5788792", "name": "Rachel Brosnahan" },
+        { "id": "tt5788792", "name": "Alex Borstein" },
+        { "id": "tt5788792", "name": "Michael Zegen" },
+        { "id": "tt5788792", "name": "Marin Hinkle" }
+      ]
+    },
+    {
+      "id": "tt14671640",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzg0YTljYWUtMjQ5NC00ZDU5LWJlMDEtOTIxYzBmM2JjMDEyXkEyXkFqcGdeQXVyMTA5ODEyNTc5._V1_Ratio0.6837_AL_.jpg",
+      "title": "Class of '07",
+      "description": "(2023– )",
+      "runtimeStr": null,
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": null,
+      "imDbRating": "7.4",
+      "imDbRatingVotes": "2591",
+      "metacriticRating": null,
+      "plot": "When an apocalyptic tidal wave hits during the ten-year reunion of an all-girls high school, a group of women must find a way to survive on the island peak of their high school campus.",
+      "stars": "Emily Browning, Megan Smart, Caitlin Stasey, Claire Lovering",
+      "starList": [
+        { "id": "tt14671640", "name": "Emily Browning" },
+        { "id": "tt14671640", "name": "Megan Smart" },
+        { "id": "tt14671640", "name": "Caitlin Stasey" },
+        { "id": "tt14671640", "name": "Claire Lovering" }
+      ]
+    },
+    {
+      "id": "tt1073507",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWI5MTNmNzktZGI2MS00YzEwLWEzODYtZDBhZjJmNzQ0YjhiXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_Ratio0.6837_AL_.jpg",
+      "title": "Party Down",
+      "description": "(2009– )",
+      "runtimeStr": "30 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.2",
+      "imDbRatingVotes": "34701",
+      "metacriticRating": null,
+      "plot": "A group of actors move to Los Angeles to make it big, but end up working as caterers.",
+      "stars": "Adam Scott, Ken Marino, Ryan Hansen, Martin Starr",
+      "starList": [
+        { "id": "tt1073507", "name": "Adam Scott" },
+        { "id": "tt1073507", "name": "Ken Marino" },
+        { "id": "tt1073507", "name": "Ryan Hansen" },
+        { "id": "tt1073507", "name": "Martin Starr" }
+      ]
+    },
+    {
+      "id": "tt7380366",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjRkOWI3NzAtNzE1OC00YTAyLWJiZDgtZThiNjNlYzU2MzU2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.6837_AL_.jpg",
+      "title": "True Lies",
+      "description": "(2023– )",
+      "runtimeStr": null,
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "5.2",
+      "imDbRatingVotes": "2297",
+      "metacriticRating": null,
+      "plot": "An unfulfilled suburban housewife is shocked to discover that her bland and unremarkable computer consultant husband is a skilled international spy.",
+      "stars": "Ginger Gonzaga, Mike O'Gorman, Erica Hernandez, Annabella Didion",
+      "starList": [
+        { "id": "tt7380366", "name": "Ginger Gonzaga" },
+        { "id": "tt7380366", "name": "Mike O'Gorman" },
+        { "id": "tt7380366", "name": "Erica Hernandez" },
+        { "id": "tt7380366", "name": "Annabella Didion" }
+      ]
+    },
+    {
+      "id": "tt11379026",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzRlOTdiNGEtOTlmZi00YjNiLTljZjItZGNhNjY5ZDM4Yzg2XkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Ghosts",
+      "description": "(2021– )",
+      "runtimeStr": null,
+      "genres": "Comedy, Fantasy",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Fantasy", "value": "Fantasy" }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "7.9",
+      "imDbRatingVotes": "21336",
+      "metacriticRating": null,
+      "plot": "A young couple's dreams come true when they inherit a beautiful country house, only to find it's both falling apart and inhabited by many of the deceased previous residents.",
+      "stars": "Rose McIver, Utkarsh Ambudkar, Brandon Scott Jones, Richie Moriarty",
+      "starList": [
+        { "id": "tt11379026", "name": "Rose McIver" },
+        { "id": "tt11379026", "name": "Utkarsh Ambudkar" },
+        { "id": "tt11379026", "name": "Brandon Scott Jones" },
+        { "id": "tt11379026", "name": "Richie Moriarty" }
+      ]
+    },
+    {
+      "id": "tt12851524",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTFmZWUwZmEtYzc4Ni00N2FmLTk1MmMtZmMyODYwZTNkY2EwXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_Ratio0.7857_AL_.jpg",
+      "title": "Only Murders in the Building",
+      "description": "(2021– )",
+      "runtimeStr": "30 min",
+      "genres": "Comedy, Crime, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.1",
+      "imDbRatingVotes": "112248",
+      "metacriticRating": null,
+      "plot": "Three strangers bonded by their love of true crime podcasts record their own to accompany their investigations of murders in their building on the Upper West Side of New York.",
+      "stars": "Steve Martin, Martin Short, Selena Gomez, Amy Ryan",
+      "starList": [
+        { "id": "tt12851524", "name": "Steve Martin" },
+        { "id": "tt12851524", "name": "Martin Short" },
+        { "id": "tt12851524", "name": "Selena Gomez" },
+        { "id": "tt12851524", "name": "Amy Ryan" }
+      ]
+    },
+    {
+      "id": "tt15715052",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmE1YWM2ODctMTI5Yy00Njc4LWE1MzgtMzc4ZjNlNzNkNzQ1XkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_Ratio0.7857_AL_.jpg",
+      "title": "History of the World: Part II",
+      "description": "(2023)",
+      "runtimeStr": "26 min",
+      "genres": "Comedy, History",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "History", "value": "History" }
+      ],
+      "contentRating": null,
+      "imDbRating": "5.8",
+      "imDbRatingVotes": "4286",
+      "metacriticRating": null,
+      "plot": "Sequel to the 1981 film, History of the World: Part I.",
+      "stars": "Mel Brooks, Ike Barinholtz, Nick Kroll, Wanda Sykes",
+      "starList": [
+        { "id": "tt15715052", "name": "Mel Brooks" },
+        { "id": "tt15715052", "name": "Ike Barinholtz" },
+        { "id": "tt15715052", "name": "Nick Kroll" },
+        { "id": "tt15715052", "name": "Wanda Sykes" }
+      ]
+    },
+    {
+      "id": "tt5348176",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDY5NzNlMWItMmFiYy00NjU1LWFhYTAtOWNhYjI2NDViNTZmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Barry",
+      "description": "(2018–2023)",
+      "runtimeStr": "30 min",
+      "genres": "Action, Comedy, Crime",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.4",
+      "imDbRatingVotes": "88710",
+      "metacriticRating": null,
+      "plot": "A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.",
+      "stars": "Bill Hader, Stephen Root, Sarah Goldberg, Anthony Carrigan",
+      "starList": [
+        { "id": "tt5348176", "name": "Bill Hader" },
+        { "id": "tt5348176", "name": "Stephen Root" },
+        { "id": "tt5348176", "name": "Sarah Goldberg" },
+        { "id": "tt5348176", "name": "Anthony Carrigan" }
+      ]
+    },
+    {
+      "id": "tt0098904",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjZjMzQ2ZmUtZWEyZC00NWJiLWFjM2UtMzhmYzZmZDcxMzllXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Seinfeld",
+      "description": "(1989–1998)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-PG",
+      "imDbRating": "8.9",
+      "imDbRatingVotes": "328540",
+      "metacriticRating": null,
+      "plot": "The continuing misadventures of neurotic New York City stand-up comedian Jerry Seinfeld and his equally neurotic New York City friends.",
+      "stars": "Jerry Seinfeld, Julia Louis-Dreyfus, Michael Richards, Jason Alexander",
+      "starList": [
+        { "id": "tt0098904", "name": "Jerry Seinfeld" },
+        { "id": "tt0098904", "name": "Julia Louis-Dreyfus" },
+        { "id": "tt0098904", "name": "Michael Richards" },
+        { "id": "tt0098904", "name": "Jason Alexander" }
+      ]
+    },
+    {
+      "id": "tt1888075",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTc5OTc3MjAwN15BMl5BanBnXkFtZTgwODAxMDQyMTE@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Death in Paradise",
+      "description": "(2011– )",
+      "runtimeStr": "60 min",
+      "genres": "Comedy, Crime, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "7.8",
+      "imDbRatingVotes": "23724",
+      "metacriticRating": null,
+      "plot": "A Detective Inspector is transferred from London to the Caribbean island of Saint-Marie to investigate and solve complex murders.",
+      "stars": "Elizabeth Bourgine, Don Warrington, Danny John-Jules, Tobi Bakare",
+      "starList": [
+        { "id": "tt1888075", "name": "Elizabeth Bourgine" },
+        { "id": "tt1888075", "name": "Don Warrington" },
+        { "id": "tt1888075", "name": "Danny John-Jules" },
+        { "id": "tt1888075", "name": "Tobi Bakare" }
+      ]
+    },
+    {
+      "id": "tt0388629",
+      "image": "https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "One Piece",
+      "description": "(1999– )",
+      "runtimeStr": "24 min",
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.9",
+      "imDbRatingVotes": "135820",
+      "metacriticRating": null,
+      "plot": "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named \"One Piece\".",
+      "stars": "Mayumi Tanaka, Laurent Vernin, Tony Beck, Akemi Okamura",
+      "starList": [
+        { "id": "tt0388629", "name": "Mayumi Tanaka" },
+        { "id": "tt0388629", "name": "Laurent Vernin" },
+        { "id": "tt0388629", "name": "Tony Beck" },
+        { "id": "tt0388629", "name": "Akemi Okamura" }
+      ]
+    },
+    {
+      "id": "tt0096697",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjFkMTlkYWUtZWFhNy00M2FmLThiOTYtYTRiYjVlZWYxNmJkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Simpsons",
+      "description": "(1989– )",
+      "runtimeStr": "22 min",
+      "genres": "Animation, Comedy",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.7",
+      "imDbRatingVotes": "415254",
+      "metacriticRating": null,
+      "plot": "The satiric adventures of a working-class family in the misfit city of Springfield.",
+      "stars": "Dan Castellaneta, Nancy Cartwright, Harry Shearer, Julie Kavner",
+      "starList": [
+        { "id": "tt0096697", "name": "Dan Castellaneta" },
+        { "id": "tt0096697", "name": "Nancy Cartwright" },
+        { "id": "tt0096697", "name": "Harry Shearer" },
+        { "id": "tt0096697", "name": "Julie Kavner" }
+      ]
+    },
+    {
+      "id": "tt0460649",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_Ratio0.7449_AL_.jpg",
+      "title": "How I Met Your Mother",
+      "description": "(2005–2014)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy, Drama, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.3",
+      "imDbRatingVotes": "696762",
+      "metacriticRating": null,
+      "plot": "A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.",
+      "stars": "Josh Radnor, Jason Segel, Cobie Smulders, Neil Patrick Harris",
+      "starList": [
+        { "id": "tt0460649", "name": "Josh Radnor" },
+        { "id": "tt0460649", "name": "Jason Segel" },
+        { "id": "tt0460649", "name": "Cobie Smulders" },
+        { "id": "tt0460649", "name": "Neil Patrick Harris" }
+      ]
+    },
+    {
+      "id": "tt0182576",
+      "image": "https://m.media-amazon.com/images/M/MV5BODEwZjEzMjAtNjQxMy00Yjc4LWFlMDAtYjhjZTAxNDU3OTg3XkEyXkFqcGdeQXVyOTM2NTM4MjA@._V1_Ratio0.7449_AL_.jpg",
+      "title": "Family Guy",
+      "description": "(1999– )",
+      "runtimeStr": "22 min",
+      "genres": "Animation, Comedy",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.2",
+      "imDbRatingVotes": "348334",
+      "metacriticRating": null,
+      "plot": "In a wacky Rhode Island town, a dysfunctional family strives to cope with everyday life as they are thrown from one crazy scenario to another.",
+      "stars": "Seth MacFarlane, Alex Borstein, Seth Green, Mila Kunis",
+      "starList": [
+        { "id": "tt0182576", "name": "Seth MacFarlane" },
+        { "id": "tt0182576", "name": "Alex Borstein" },
+        { "id": "tt0182576", "name": "Seth Green" },
+        { "id": "tt0182576", "name": "Mila Kunis" }
+      ]
+    },
+    {
+      "id": "tt14218830",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTY1MWUwYjItY2JmYi00ZDgyLTgzMjUtNzNkMzg0NjNjYTdkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio0.7041_AL_.jpg",
+      "title": "Abbott Elementary",
+      "description": "(2021– )",
+      "runtimeStr": "22 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-PG",
+      "imDbRating": "8.2",
+      "imDbRatingVotes": "24065",
+      "metacriticRating": null,
+      "plot": "Follows a group of teachers brought together in one of the worst public schools in the country, simply because they love teaching.",
+      "stars": "Quinta Brunson, Janelle James, Lisa Ann Walter, Sheryl Lee Ralph",
+      "starList": [
+        { "id": "tt14218830", "name": "Quinta Brunson" },
+        { "id": "tt14218830", "name": "Janelle James" },
+        { "id": "tt14218830", "name": "Lisa Ann Walter" },
+        { "id": "tt14218830", "name": "Sheryl Lee Ralph" }
+      ]
+    },
+    {
+      "id": "tt1266020",
+      "image": "https://m.media-amazon.com/images/M/MV5BYWNkOTg0OTMtZTcyNy00MWU1LWJhZDQtYjQzMjU1NjBhYzI2XkEyXkFqcGdeQXVyOTE4NzcwNzI@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Parks and Recreation",
+      "description": "(2009–2015)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-14",
+      "imDbRating": "8.6",
+      "imDbRatingVotes": "267606",
+      "metacriticRating": null,
+      "plot": "The absurd antics of an Indiana town's public officials as they pursue sundry projects to make their city a better place.",
+      "stars": "Amy Poehler, Jim O'Heir, Nick Offerman, Chris Pratt",
+      "starList": [
+        { "id": "tt1266020", "name": "Amy Poehler" },
+        { "id": "tt1266020", "name": "Jim O'Heir" },
+        { "id": "tt1266020", "name": "Nick Offerman" },
+        { "id": "tt1266020", "name": "Chris Pratt" }
+      ]
+    },
+    {
+      "id": "tt1439629",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDQ5NDZiYjktZmFmMy00MjAxLTk1MDktOGZjYTY5YTE1ODdmXkEyXkFqcGdeQXVyNjcwMzEzMTU@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Community",
+      "description": "(2009–2015)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-14",
+      "imDbRating": "8.5",
+      "imDbRatingVotes": "273803",
+      "metacriticRating": null,
+      "plot": "A suspended lawyer is forced to enroll in a community college with an eccentric staff and student body.",
+      "stars": "Joel McHale, Danny Pudi, Donald Glover, Chevy Chase",
+      "starList": [
+        { "id": "tt1439629", "name": "Joel McHale" },
+        { "id": "tt1439629", "name": "Danny Pudi" },
+        { "id": "tt1439629", "name": "Donald Glover" },
+        { "id": "tt1439629", "name": "Chevy Chase" }
+      ]
+    },
+    {
+      "id": "tt1219024",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjM2NjU0ODU0NF5BMl5BanBnXkFtZTgwMDAwMzg5NjE@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Castle",
+      "description": "(2009–2016)",
+      "runtimeStr": "43 min",
+      "genres": "Comedy, Crime, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.1",
+      "imDbRatingVotes": "166107",
+      "metacriticRating": null,
+      "plot": "After a serial killer imitates the plots of his novels, successful mystery novelist Richard \"Rick\" Castle receives permission from the Mayor of New York City to tag along with an NYPD homicide investigation team for research purposes.",
+      "stars": "Nathan Fillion, Stana Katic, Susan Sullivan, Jon Huertas",
+      "starList": [
+        { "id": "tt1219024", "name": "Nathan Fillion" },
+        { "id": "tt1219024", "name": "Stana Katic" },
+        { "id": "tt1219024", "name": "Susan Sullivan" },
+        { "id": "tt1219024", "name": "Jon Huertas" }
+      ]
+    },
+    {
+      "id": "tt1826940",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA0MDc1NTk0Ml5BMl5BanBnXkFtZTgwMTk2ODA5NDM@._V1_Ratio0.7857_AL_.jpg",
+      "title": "New Girl",
+      "description": "(2011–2018)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.8",
+      "imDbRatingVotes": "231487",
+      "metacriticRating": null,
+      "plot": "After a bad break-up, Jess, an offbeat young woman, moves into an apartment loft with three single men. Although they find her behavior very unusual, the men support her - most of the time.",
+      "stars": "Zooey Deschanel, Jake Johnson, Max Greenfield, Hannah Simone",
+      "starList": [
+        { "id": "tt1826940", "name": "Zooey Deschanel" },
+        { "id": "tt1826940", "name": "Jake Johnson" },
+        { "id": "tt1826940", "name": "Max Greenfield" },
+        { "id": "tt1826940", "name": "Hannah Simone" }
+      ]
+    },
+    {
+      "id": "tt12994356",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGU5ODgxYzItYWRmMi00YjkxLWE4YzAtYTUyYmNkNWU2OTY2XkEyXkFqcGdeQXVyNjI2OTgxNzY@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Cleaner",
+      "description": "(2021– )",
+      "runtimeStr": "30 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "TV-14",
+      "imDbRating": "7.1",
+      "imDbRatingVotes": "4808",
+      "metacriticRating": null,
+      "plot": "Paul 'Wicky' Wickstead, a state-certified cleaning technician, is responsible for the removal of any signs of death from crime scenes.",
+      "stars": "Greg Davies, Zita Sattar, Jane Lewis, Sam Ward",
+      "starList": [
+        { "id": "tt12994356", "name": "Greg Davies" },
+        { "id": "tt12994356", "name": "Zita Sattar" },
+        { "id": "tt12994356", "name": "Jane Lewis" },
+        { "id": "tt12994356", "name": "Sam Ward" }
+      ]
+    },
+    {
+      "id": "tt2467372",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Brooklyn Nine-Nine",
+      "description": "(2013–2021)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy, Crime",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.4",
+      "imDbRatingVotes": "328557",
+      "metacriticRating": null,
+      "plot": "Comedy series following the exploits of Det. Jake Peralta and his diverse, lovable colleagues as they police the NYPD's 99th Precinct.",
+      "stars": "Andy Samberg, Stephanie Beatriz, Terry Crews, Melissa Fumero",
+      "starList": [
+        { "id": "tt2467372", "name": "Andy Samberg" },
+        { "id": "tt2467372", "name": "Stephanie Beatriz" },
+        { "id": "tt2467372", "name": "Terry Crews" },
+        { "id": "tt2467372", "name": "Melissa Fumero" }
+      ]
+    },
+    {
+      "id": "tt0369179",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTI2MjIzN2ItZDg0OS00MTlhLWIzMTMtYWI4ZTA0NGE4NDJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Two and a Half Men",
+      "description": "(2003–2015)",
+      "runtimeStr": "22 min",
+      "genres": "Comedy, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.1",
+      "imDbRatingVotes": "269169",
+      "metacriticRating": null,
+      "plot": "A hedonistic jingle writer's free-wheeling life comes to an abrupt halt when his brother and 10-year-old nephew move into his beach-front house.",
+      "stars": "Jon Cryer, Ashton Kutcher, Angus T. Jones, Conchata Ferrell",
+      "starList": [
+        { "id": "tt0369179", "name": "Jon Cryer" },
+        { "id": "tt0369179", "name": "Ashton Kutcher" },
+        { "id": "tt0369179", "name": "Angus T. Jones" },
+        { "id": "tt0369179", "name": "Conchata Ferrell" }
+      ]
+    },
+    {
+      "id": "tt7608248",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAzOTY4MWMtMjI0My00ZWE2LTlkNDEtODM1ZTg4OGU1ZWRhXkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_Ratio0.6837_AL_.jpg",
+      "title": "A Million Little Things",
+      "description": "(2018–2023)",
+      "runtimeStr": "43 min",
+      "genres": "Comedy, Drama, Romance",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Romance", "value": "Romance" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.9",
+      "imDbRatingVotes": "14724",
+      "metacriticRating": null,
+      "plot": "A group of friends becomes motivated to live fuller lives after the unexpected death of a close friend.",
+      "stars": "David Giuntoli, Romany Malco, Allison Miller, Christina Moses",
+      "starList": [
+        { "id": "tt7608248", "name": "David Giuntoli" },
+        { "id": "tt7608248", "name": "Romany Malco" },
+        { "id": "tt7608248", "name": "Allison Miller" },
+        { "id": "tt7608248", "name": "Christina Moses" }
+      ]
+    },
+    {
+      "id": "tt2861424",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Rick and Morty",
+      "description": "(2013– )",
+      "runtimeStr": "23 min",
+      "genres": "Animation, Adventure, Comedy",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "9.1",
+      "imDbRatingVotes": "545285",
+      "metacriticRating": null,
+      "plot": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson.",
+      "stars": "Justin Roiland, Chris Parnell, Spencer Grammer, Sarah Chalke",
+      "starList": [
+        { "id": "tt2861424", "name": "Justin Roiland" },
+        { "id": "tt2861424", "name": "Chris Parnell" },
+        { "id": "tt2861424", "name": "Spencer Grammer" },
+        { "id": "tt2861424", "name": "Sarah Chalke" }
+      ]
+    },
+    {
+      "id": "tt7767422",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTE0MjQ1NDU3OV5BMl5BanBnXkFtZTgwNTI4MTgwNzM@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Sex Education",
+      "description": "(2019– )",
+      "runtimeStr": "45 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.3",
+      "imDbRatingVotes": "295495",
+      "metacriticRating": null,
+      "plot": "A teenage boy with a sex therapist mother teams up with a high school classmate to set up an underground sex therapy clinic at school.",
+      "stars": "Asa Butterfield, Gillian Anderson, Ncuti Gatwa, Emma Mackey",
+      "starList": [
+        { "id": "tt7767422", "name": "Asa Butterfield" },
+        { "id": "tt7767422", "name": "Gillian Anderson" },
+        { "id": "tt7767422", "name": "Ncuti Gatwa" },
+        { "id": "tt7767422", "name": "Emma Mackey" }
+      ]
+    },
+    {
+      "id": "tt0238784",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTQ3NDA1ZWYtYjBmMC00NmJjLWI1NjgtYjg2NDhmMTY2YWQ4XkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Gilmore Girls",
+      "description": "(2000–2007)",
+      "runtimeStr": "44 min",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "8.2",
+      "imDbRatingVotes": "133050",
+      "metacriticRating": null,
+      "plot": "A dramedy centering around the relationship between a thirtysomething single mother and her teen daughter living in Stars Hollow, Connecticut.",
+      "stars": "Lauren Graham, Alexis Bledel, Keiko Agena, Scott Patterson",
+      "starList": [
+        { "id": "tt0238784", "name": "Lauren Graham" },
+        { "id": "tt0238784", "name": "Alexis Bledel" },
+        { "id": "tt0238784", "name": "Keiko Agena" },
+        { "id": "tt0238784", "name": "Scott Patterson" }
+      ]
+    }
+  ],
+  "errorMessage": null
+}

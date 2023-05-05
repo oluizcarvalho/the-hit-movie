@@ -1,0 +1,1068 @@
+{
+  "queryString": "?title_type=feature,tv_movie,tv_series&title=supernatural",
+  "results": [
+    {
+      "id": "tt0460681",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzRmZWJhNjUtY2ZkYy00N2MyLWJmNTktOTAwY2VkODVmOGY3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Supernatural",
+      "description": "(2005–2020)",
+      "runtimeStr": "44 min",
+      "genres": "Drama, Fantasy, Horror",
+      "genreList": [
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Fantasy", "value": "Fantasy" },
+        { "key": "Horror", "value": "Horror" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.4",
+      "imDbRatingVotes": "455648",
+      "metacriticRating": null,
+      "plot": "Two brothers follow their father's footsteps as hunters, fighting evil supernatural beings of many kinds, including monsters, demons, and gods that roam the earth.",
+      "stars": "Jared Padalecki, Jensen Ackles, Jim Beaver, Misha Collins",
+      "starList": [
+        { "id": "tt0460681", "name": "Jared Padalecki" },
+        { "id": "tt0460681", "name": "Jensen Ackles" },
+        { "id": "tt0460681", "name": "Jim Beaver" },
+        { "id": "tt0460681", "name": "Misha Collins" }
+      ]
+    },
+    {
+      "id": "tt11237876",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDBkYTU3OGEtOGI4Yy00OGNmLWE5NGEtYWNjNzM4NGQxOTgyXkEyXkFqcGdeQXVyNjQ0NzYyNTc@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Supernatural Academy",
+      "description": "(2022)",
+      "runtimeStr": "23 min",
+      "genres": "Animation, Adventure, Drama",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "6.6",
+      "imDbRatingVotes": "703",
+      "metacriticRating": null,
+      "plot": "Mischa Jackson, who has been living in the human world and unaware she has supernatural powers, as she is taken to a magic school against her will.",
+      "stars": "Gigi Saul Guerrero, Shannon Chan-Kent, Bethany Brown, Larissa Dias",
+      "starList": [
+        { "id": "tt11237876", "name": "Gigi Saul Guerrero" },
+        { "id": "tt11237876", "name": "Shannon Chan-Kent" },
+        { "id": "tt11237876", "name": "Bethany Brown" },
+        { "id": "tt11237876", "name": "Larissa Dias" }
+      ]
+    },
+    {
+      "id": "tt1679482",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDljNDlkZjctNDFlZi00ZjNjLTkxNDQtOTI5MzY1MGIzNGQ4XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Supernatural: The Animation",
+      "description": "(2011)",
+      "runtimeStr": "23 min",
+      "genres": "Animation, Action, Drama",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Action", "value": "Action" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.3",
+      "imDbRatingVotes": "2113",
+      "metacriticRating": null,
+      "plot": "After losing their mother to a demon, two brothers grow up fighting supernatural beings.",
+      "stars": "Jared Padalecki, Annakin Slayd, Hiroki Touchi, Yûya Uchida",
+      "starList": [
+        { "id": "tt1679482", "name": "Jared Padalecki" },
+        { "id": "tt1679482", "name": "Annakin Slayd" },
+        { "id": "tt1679482", "name": "Hiroki Touchi" },
+        { "id": "tt1679482", "name": "Yûya Uchida" }
+      ]
+    },
+    {
+      "id": "tt6723522",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGY5NTAwMWUtOGJlYS00YmYwLWFlOTMtNzNjZDdlYjBiN2FjXkEyXkFqcGdeQXVyOTc1MTAwNTM@._V1_Ratio0.6837_AL_.jpg",
+      "title": "BuzzFeed Unsolved: Supernatural",
+      "description": "(2016–2021)",
+      "runtimeStr": null,
+      "genres": "Adventure, Comedy, Horror",
+      "genreList": [
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Horror", "value": "Horror" }
+      ],
+      "contentRating": "Not Rated",
+      "imDbRating": "8.7",
+      "imDbRatingVotes": "1622",
+      "metacriticRating": null,
+      "plot": "Ryan, ever the believer, embarks on a quest to convince his skeptical friend Shane that the paranormal exists by investigating the evidence around the most notorious supernatural folklore.",
+      "stars": "Ryan Bergara, Shane Madej, Gary Thomas, Brent Bennett",
+      "starList": [
+        { "id": "tt6723522", "name": "Ryan Bergara" },
+        { "id": "tt6723522", "name": "Shane Madej" },
+        { "id": "tt6723522", "name": "Gary Thomas" },
+        { "id": "tt6723522", "name": "Brent Bennett" }
+      ]
+    },
+    {
+      "id": "tt0070300",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzIwNDVkYmEtYjFjMi00MGVlLTgxZDktNGVjYjM1M2U2MWI4XkEyXkFqcGdeQXVyMzU4ODM5Nw@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Lemora: A Child's Tale of the Supernatural",
+      "description": "(1973)",
+      "runtimeStr": "80 min",
+      "genres": "Fantasy, Horror, Thriller",
+      "genreList": [
+        { "key": "Fantasy", "value": "Fantasy" },
+        { "key": "Horror", "value": "Horror" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "contentRating": "PG",
+      "imDbRating": "6.2",
+      "imDbRatingVotes": "2339",
+      "metacriticRating": "49",
+      "plot": "A young girl who returns to her hometown to see her dying father finds herself being drawn into a web of vampirism and witchcraft.",
+      "stars": "Richard Blackburn, Lesley Taplin, Cheryl Smith, William Whitton, Hy Pyke",
+      "starList": [
+        { "id": "tt0070300", "name": "Richard Blackburn" },
+        { "id": "tt0070300", "name": "Lesley Taplin" },
+        { "id": "tt0070300", "name": "Cheryl Smith" },
+        { "id": "tt0070300", "name": "William Whitton" },
+        { "id": "tt0070300", "name": "Hy Pyke" }
+      ]
+    },
+    {
+      "id": "tt0092030",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGJlNTEzYjAtNjU2NS00NjdkLWFmN2YtMDg0YTZlNWY1YTRmXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Supernaturals",
+      "description": "(1986)",
+      "runtimeStr": "91 min",
+      "genres": "Horror, Mystery, Sci-Fi",
+      "genreList": [
+        { "key": "Horror", "value": "Horror" },
+        { "key": "Mystery", "value": "Mystery" },
+        { "key": "Sci-Fi", "value": "Sci-Fi" }
+      ],
+      "contentRating": "R",
+      "imDbRating": "4.2",
+      "imDbRatingVotes": "759",
+      "metacriticRating": null,
+      "plot": "Nichelle Nichols is an army sergeant who leads her platoon into the woods of the deep south on a training exercise. Unfortunately, it is the site where a bunch of yankee soldiers murdered a... See full summary",
+      "stars": "Armand Mastroianni, Maxwell Caulfield, Nichelle Nichols, Talia Balsam, Bradford Bancroft",
+      "starList": [
+        { "id": "tt0092030", "name": "Armand Mastroianni" },
+        { "id": "tt0092030", "name": "Maxwell Caulfield" },
+        { "id": "tt0092030", "name": "Nichelle Nichols" },
+        { "id": "tt0092030", "name": "Talia Balsam" },
+        { "id": "tt0092030", "name": "Bradford Bancroft" }
+      ]
+    },
+    {
+      "id": "tt3952100",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDZjZWQzYTUtZjhkMC00OTFjLWI0YjMtZWEwMTZiZGFhNzQ0XkEyXkFqcGdeQXVyNTM2MDEzNTg@._V1_Ratio0.6837_AL_.jpg",
+      "title": "When Supernatural Battles Became Commonplace",
+      "description": "(2014)",
+      "runtimeStr": "24 min",
+      "genres": "Animation, Action, Comedy",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Action", "value": "Action" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "6.4",
+      "imDbRatingVotes": "507",
+      "metacriticRating": null,
+      "plot": "The story focuses on Senko High School's Literature Club, whose five members; Jurai, Tomoyo, Hatoko, Sayumi, and Chifuyu, have all somehow developed superpowers. The superpowers have now ... See full summary",
+      "stars": "Maggie Flecknoe, Shanae'a Moore, Mateo Mpinduzi-Mott, Sasha Paysinger",
+      "starList": [
+        { "id": "tt3952100", "name": "Maggie Flecknoe" },
+        { "id": "tt3952100", "name": "Shanae'a Moore" },
+        { "id": "tt3952100", "name": "Mateo Mpinduzi-Mott" },
+        { "id": "tt3952100", "name": "Sasha Paysinger" }
+      ]
+    },
+    {
+      "id": "tt0024631",
+      "image": "https://m.media-amazon.com/images/M/MV5BNWZmZmJlY2UtMWM2MS00NDUxLWEwZjItMjY2NzllMmM0NDcwXkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Supernatural",
+      "description": "(1933)",
+      "runtimeStr": "65 min",
+      "genres": "Horror, Mystery, Thriller",
+      "genreList": [
+        { "key": "Horror", "value": "Horror" },
+        { "key": "Mystery", "value": "Mystery" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "contentRating": "Passed",
+      "imDbRating": "6.2",
+      "imDbRatingVotes": "809",
+      "metacriticRating": null,
+      "plot": "A serial black widow murderess returns to life in the body of a young woman to exact revenge on a former lover, a phony spiritualist who betrayed her.",
+      "stars": "Victor Halperin, Carole Lombard, Randolph Scott, Alan Dinehart, Vivienne Osborne",
+      "starList": [
+        { "id": "tt0024631", "name": "Victor Halperin" },
+        { "id": "tt0024631", "name": "Carole Lombard" },
+        { "id": "tt0024631", "name": "Randolph Scott" },
+        { "id": "tt0024631", "name": "Alan Dinehart" },
+        { "id": "tt0024631", "name": "Vivienne Osborne" }
+      ]
+    },
+    {
+      "id": "tt0349166",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGMwOGEzYzEtY2FiNS00YmViLWE0NmUtYmFiM2IxMjc1M2Y2XkEyXkFqcGdeQXVyMjQxNjgxMjg@._V1_Ratio0.7653_AL_.jpg",
+      "title": "Supernatural",
+      "description": "(2005 TV Movie)",
+      "runtimeStr": "100 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "contentRating": null,
+      "imDbRating": "8.6",
+      "imDbRatingVotes": "2054",
+      "metacriticRating": null,
+      "plot": "Neurophysicist Calvin Gordon can assimilate anyone's DNA and relive a moment of their life, using the genetic memory of learned and experienced memories locked in the DNA, making people resemble their parents and grandparents.",
+      "stars": "Jim Fitzpatrick, Jodi Knotts, Quinn K. Redeker, Madeleine Wade",
+      "starList": [
+        { "id": "tt0349166", "name": "Jim Fitzpatrick" },
+        { "id": "tt0349166", "name": "Jim Fitzpatrick" },
+        { "id": "tt0349166", "name": "Jodi Knotts" },
+        { "id": "tt0349166", "name": "Quinn K. Redeker" },
+        { "id": "tt0349166", "name": "Madeleine Wade" }
+      ]
+    },
+    {
+      "id": "tt1216851",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGIzYzZhOTItMTE3OS00NDhiLThjYzctMmVlZjJhZTk0MmMzXkEyXkFqcGdeQXVyODg3NDc1OTE@._V1_Ratio1.8469_AL_.jpg",
+      "title": "Sid Roth's It's Supernatural",
+      "description": "(1996– )",
+      "runtimeStr": null,
+      "genres": "Talk-Show",
+      "genreList": [{ "key": "Talk-Show", "value": "Talk-Show" }],
+      "contentRating": null,
+      "imDbRating": "5.7",
+      "imDbRatingVotes": "187",
+      "metacriticRating": null,
+      "plot": "Sid Roth interviews various people who have experienced supernatural messages, dreams, miracles and visions.",
+      "stars": "Sid Roth, Scott Perri, Caitlyn Mims, Amber Erwin",
+      "starList": [
+        { "id": "tt1216851", "name": "Sid Roth" },
+        { "id": "tt1216851", "name": "Scott Perri" },
+        { "id": "tt1216851", "name": "Caitlyn Mims" },
+        { "id": "tt1216851", "name": "Amber Erwin" }
+      ]
+    },
+    {
+      "id": "tt2590778",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGY4OWJjNjctZDNmYS00ODk0LWE2OWUtNDQ0OGFjZmU4Y2IwXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Emmanuelle Through Time: Emmanuelle's Supernatural Sexual Activity",
+      "description": "(2011 TV Movie)",
+      "runtimeStr": "84 min",
+      "genres": "Comedy, Horror",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Horror", "value": "Horror" }
+      ],
+      "contentRating": null,
+      "imDbRating": "6.6",
+      "imDbRatingVotes": "86",
+      "metacriticRating": null,
+      "plot": "Emmanuelle and her crew face sexual spirits. Let the spirit take you on a fascinating and erotic adventure.",
+      "stars": "Rolfe Kanefsky, Ariauna Albright, Jess Allen, Chriss Anglin, Catherine Annette",
+      "starList": [
+        { "id": "tt2590778", "name": "Rolfe Kanefsky" },
+        { "id": "tt2590778", "name": "Ariauna Albright" },
+        { "id": "tt2590778", "name": "Jess Allen" },
+        { "id": "tt2590778", "name": "Chriss Anglin" },
+        { "id": "tt2590778", "name": "Catherine Annette" }
+      ]
+    },
+    {
+      "id": "tt15039908",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDFkMzYzOTYtNTFkZi00MDBlLWE4NjktZjY4MTIxY2FjNzRkXkEyXkFqcGdeQXVyMjYzODM1NTE@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Supernatural Planet",
+      "description": "(2022– )",
+      "runtimeStr": null,
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": null,
+      "imDbRating": "9.3",
+      "imDbRatingVotes": "33",
+      "metacriticRating": null,
+      "plot": "Six-part documentary exploring hidden abilities of various animals around different eco systems.",
+      "stars": "Benedict Cumberbatch",
+      "starList": [{ "id": "tt15039908", "name": "Benedict Cumberbatch" }]
+    },
+    {
+      "id": "tt6881934",
+      "image": "https://m.media-amazon.com/images/M/MV5BYThkZDUzZGYtODg2Mi00MzA4LWE2YzAtZWQzYzViOGQxMjhhXkEyXkFqcGdeQXVyMTkyMjUwNTI@._V1_Ratio0.6837_AL_.jpg",
+      "title": "A Trip Into the Supernatural",
+      "description": "(1997)",
+      "runtimeStr": "205 min",
+      "genres": "Biography",
+      "genreList": [{ "key": "Biography", "value": "Biography" }],
+      "contentRating": null,
+      "imDbRating": "8.8",
+      "imDbRatingVotes": "11",
+      "metacriticRating": null,
+      "plot": "A Trip Into the Supernatural warns us of the fascinating lure of occultism and opens our eyes to the titanic supernatural struggle taking place in our world today. As a young boy, Roger ... See full summary",
+      "stars": "Daniel F. Houghton, Cynthia Grosse, Cyril Grosse, Karen Houghton",
+      "starList": [
+        { "id": "tt6881934", "name": "Daniel F. Houghton" },
+        { "id": "tt6881934", "name": "Cynthia Grosse" },
+        { "id": "tt6881934", "name": "Cyril Grosse" },
+        { "id": "tt6881934", "name": "Daniel F. Houghton" },
+        { "id": "tt6881934", "name": "Karen Houghton" }
+      ]
+    },
+    {
+      "id": "tt3508984",
+      "image": "https://m.media-amazon.com/images/M/MV5BODYyMGJiMGUtZGZiYS00MDk2LTgwMGEtYzBjNjQ4ZGMzMzZjXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_Ratio0.7653_AL_.jpg",
+      "title": "Supernatural",
+      "description": "(2014)",
+      "runtimeStr": "106 min",
+      "genres": "Drama, Sci-Fi",
+      "genreList": [
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Sci-Fi", "value": "Sci-Fi" }
+      ],
+      "contentRating": "Unrated",
+      "imDbRating": "4.0",
+      "imDbRatingVotes": "78",
+      "metacriticRating": null,
+      "plot": "In a futurist world, the Thai kingdom has been transformed by 'The Leader' into 'the Realm of people who have done good deeds and earned merits'. It's a nice place to be, even though the ... See full summary",
+      "stars": "Thunska Pansittivorakul, Baramee Jarinyatorn, Waranyoo Suwan, Nophand Boonyai, Gandhi Anantagant",
+      "starList": [
+        { "id": "tt3508984", "name": "Thunska Pansittivorakul" },
+        { "id": "tt3508984", "name": "Baramee Jarinyatorn" },
+        { "id": "tt3508984", "name": "Waranyoo Suwan" },
+        { "id": "tt3508984", "name": "Nophand Boonyai" },
+        { "id": "tt3508984", "name": "Gandhi Anantagant" }
+      ]
+    },
+    {
+      "id": "tt10765798",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2NjMWFjMjctYTA4Zi00NjAzLWFiNjktNTdkNTE0ZjVjNWZmXkEyXkFqcGdeQXVyOTA5MzUwOTg@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Supernatural Assassins",
+      "description": "(2023)",
+      "runtimeStr": null,
+      "genres": "Horror",
+      "genreList": [{ "key": "Horror", "value": "Horror" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt1832516",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjY1MjQ0MzI3N15BMl5BanBnXkFtZTcwMDY1NDQ4NA@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Supernatural Activity",
+      "description": "(2012)",
+      "runtimeStr": "92 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": "Unrated",
+      "imDbRating": "2.8",
+      "imDbRatingVotes": "1039",
+      "metacriticRating": null,
+      "plot": "The world's most beloved illusionist, armed with his team of oxymoron's, embark on the freakiest, most adventurous paranormal investigation of all time. Terrorized at every turn by an ... See full summary",
+      "stars": "Derek Lee Nixon, Andrew Pozza, Liddy Bisanz, Donny Boaz, Devin Bonnée",
+      "starList": [
+        { "id": "tt1832516", "name": "Derek Lee Nixon" },
+        { "id": "tt1832516", "name": "Andrew Pozza" },
+        { "id": "tt1832516", "name": "Liddy Bisanz" },
+        { "id": "tt1832516", "name": "Donny Boaz" },
+        { "id": "tt1832516", "name": "Devin Bonnée" }
+      ]
+    },
+    {
+      "id": "tt4074772",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzY4MDE5ODItYjhkMi00MzUxLWE5YzktMTA1NTgyNWJmM2MyXkEyXkFqcGdeQXVyNzg3NTczNzE@._V1_Ratio1.6020_AL_.jpg",
+      "title": "A Very Special Supernatural Special",
+      "description": "(2014 TV Movie)",
+      "runtimeStr": "42 min",
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": "TV-14",
+      "imDbRating": "9.0",
+      "imDbRatingVotes": "1368",
+      "metacriticRating": null,
+      "plot": "A behind-the-scenes look at the first nine seasons; interviews with the cast and crew; a look at season ten.",
+      "stars": "Jensen Ackles, Rob Benedict, Jeremy Carver, Assaf Cohen",
+      "starList": [
+        { "id": "tt4074772", "name": "Jensen Ackles" },
+        { "id": "tt4074772", "name": "Rob Benedict" },
+        { "id": "tt4074772", "name": "Jeremy Carver" },
+        { "id": "tt4074772", "name": "Assaf Cohen" }
+      ]
+    },
+    {
+      "id": "tt7131660",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmZjMDM1Y2UtYTc0Mi00OGMyLWFiZmEtOGI4NzgyZDBiOTFlXkEyXkFqcGdeQXVyOTA1ODU0Mzc@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Equinox... A Journey Into the Supernatural",
+      "description": "(1967)",
+      "runtimeStr": "71 min",
+      "genres": "Adventure, Fantasy, Mystery",
+      "genreList": [
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Fantasy", "value": "Fantasy" },
+        { "key": "Mystery", "value": "Mystery" }
+      ],
+      "contentRating": null,
+      "imDbRating": "5.6",
+      "imDbRatingVotes": "45",
+      "metacriticRating": null,
+      "plot": "Deep within the woods and canyons of California, four teenagers happen upon an ancient book containing the secrets of a strange, malevolent world that coexists with that of humankind.",
+      "stars": "Dennis Muren, Mark Thomas McGee, Frank Bonner, Patrick Burke, Patrick Sullivan Burke, Robin Christopher",
+      "starList": [
+        { "id": "tt7131660", "name": "Dennis Muren" },
+        { "id": "tt7131660", "name": "Mark Thomas McGee" },
+        { "id": "tt7131660", "name": "Frank Bonner" },
+        { "id": "tt7131660", "name": "Patrick Burke" },
+        { "id": "tt7131660", "name": "Patrick Sullivan Burke" },
+        { "id": "tt7131660", "name": "Robin Christopher" }
+      ]
+    },
+    {
+      "id": "tt6675660",
+      "image": "https://m.media-amazon.com/images/M/MV5BNWQyM2QyOTUtZGM3YS00M2Y2LWE4YmQtZTA4NGVkYzk3NzZmXkEyXkFqcGdeQXVyMjA4MDAxMzE@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Supernatural Nazis: Hitler's Zombie Army",
+      "description": "(2017 TV Movie)",
+      "runtimeStr": null,
+      "genres": "History",
+      "genreList": [{ "key": "History", "value": "History" }],
+      "contentRating": null,
+      "imDbRating": "7.1",
+      "imDbRatingVotes": "18",
+      "metacriticRating": null,
+      "plot": "Truth is revealed of the Allied 'monument men' discovery in 1945 of rotting corpses of Germanic heroes. What are they doing in a Salt Mine 18,000 feet down? . It leads us on an adventure ... See full summary",
+      "stars": "Serge Ou, Edward Close, Dan Eady, Matt French, Paul Geoghegan",
+      "starList": [
+        { "id": "tt6675660", "name": "Serge Ou" },
+        { "id": "tt6675660", "name": "Edward Close" },
+        { "id": "tt6675660", "name": "Dan Eady" },
+        { "id": "tt6675660", "name": "Matt French" },
+        { "id": "tt6675660", "name": "Paul Geoghegan" }
+      ]
+    },
+    {
+      "id": "tt9508550",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTVjNzYzM2QtYjQ3MS00MjQ2LTk0NDItY2NkNzhjNTM3YzZmXkEyXkFqcGdeQXVyOTA5MzUwOTg@._V1_Ratio0.9898_AL_.jpg",
+      "title": "Supernatural Assassins",
+      "description": "(2019– )",
+      "runtimeStr": null,
+      "genres": "Action",
+      "genreList": [{ "key": "Action", "value": "Action" }],
+      "contentRating": null,
+      "imDbRating": "7.6",
+      "imDbRatingVotes": "5",
+      "metacriticRating": null,
+      "plot": null,
+      "stars": "Robert Bess, Rob Kellum, Jonathan Moody, Samantha Marie",
+      "starList": [
+        { "id": "tt9508550", "name": "Robert Bess" },
+        { "id": "tt9508550", "name": "Rob Kellum" },
+        { "id": "tt9508550", "name": "Jonathan Moody" },
+        { "id": "tt9508550", "name": "Samantha Marie" }
+      ]
+    },
+    {
+      "id": "tt6565980",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTQ5MzVjNWEtMTYzNS00YjM4LTlhMGUtZjIyZjI3MWEzYWRiXkEyXkFqcGdeQXVyNjc3NzUwNTg@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Neuro: Supernatural Detective",
+      "description": "(2007–2008)",
+      "runtimeStr": null,
+      "genres": "Animation, Comedy, Mystery",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Mystery", "value": "Mystery" }
+      ],
+      "contentRating": null,
+      "imDbRating": "6.8",
+      "imDbRatingVotes": "60",
+      "metacriticRating": null,
+      "plot": "Yako Katsuragi is an acclaimed high school detective, who, despite her young age, has solved many cases. In fact, there seems to be no case that she can't solve, or any culprit that escapes... See full summary",
+      "stars": "Nozomu Sasaki, Minami Takayama, Megumi Toyoguchi, Anri Katsu",
+      "starList": [
+        { "id": "tt6565980", "name": "Nozomu Sasaki" },
+        { "id": "tt6565980", "name": "Minami Takayama" },
+        { "id": "tt6565980", "name": "Megumi Toyoguchi" },
+        { "id": "tt6565980", "name": "Anri Katsu" }
+      ]
+    },
+    {
+      "id": "tt4995944",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjZmZDNmZTItNGU2ZS00MTEyLWI0ZGItYWY3OWFjNmVmOGE5XkEyXkFqcGdeQXVyMTE5NDY4ODk@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Supernatural Seekers",
+      "description": "",
+      "runtimeStr": null,
+      "genres": "Adventure",
+      "genreList": [{ "key": "Adventure", "value": "Adventure" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt5162678",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTcyY2JkNTktZGM4MC00ZTc5LWE4OTItYjAxMmFhOGI5ZjEwXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_Ratio1.3367_AL_.jpg",
+      "title": "5th Dimension: Secrets of the Supernatural",
+      "description": "(2006– )",
+      "runtimeStr": null,
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": "TV-G",
+      "imDbRating": "6.5",
+      "imDbRatingVotes": "14",
+      "metacriticRating": null,
+      "plot": "Paranormal activity has always drawn the curiosity of even the most skeptical minds. That mysticism depends on faith that such eventsare beyond the realm of science. From ghosts to ... See full summary",
+      "stars": "Michael Lumsden, Chris French, Richard Wiseman, Maurice Grosse",
+      "starList": [
+        { "id": "tt5162678", "name": "Michael Lumsden" },
+        { "id": "tt5162678", "name": "Chris French" },
+        { "id": "tt5162678", "name": "Richard Wiseman" },
+        { "id": "tt5162678", "name": "Maurice Grosse" }
+      ]
+    },
+    {
+      "id": "tt14726786",
+      "image": "https://m.media-amazon.com/images/M/MV5BODFkZTM3YzAtNjYwYi00MmZjLWEyMDUtOGY2MzZkZGQ5ODc2XkEyXkFqcGdeQXVyNjk3NTAyMjY@._V1_Ratio0.7449_AL_.jpg",
+      "title": "S.N.S.O.B - Supernatural Squad of Badasses",
+      "description": "(2023)",
+      "runtimeStr": null,
+      "genres": "Action, Comedy, Fantasy",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Fantasy", "value": "Fantasy" }
+      ],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt22076894",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Supernatural Sid",
+      "description": "",
+      "runtimeStr": null,
+      "genres": "Animation",
+      "genreList": [{ "key": "Animation", "value": "Animation" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt5581730",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTk3MjA0NjcwM15BMl5BanBnXkFtZTgwNjI4Nzc1ODE@._V1_Ratio1.3367_AL_.jpg",
+      "title": "SuperNature - Wild Flyers",
+      "description": "(2016)",
+      "runtimeStr": null,
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": "TV-PG",
+      "imDbRating": "7.9",
+      "imDbRatingVotes": "89",
+      "metacriticRating": null,
+      "plot": "SuperNature - Wild Flyers is an innovative new three-part series, utilizing new technology and techniques to reveal the wonder and science of one of nature's greatest innovations - the power of flight.",
+      "stars": "Omri Rose, Suranne Jones",
+      "starList": [
+        { "id": "tt5581730", "name": "Omri Rose" },
+        { "id": "tt5581730", "name": "Suranne Jones" }
+      ]
+    },
+    {
+      "id": "tt12959456",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjNiYTc3MjYtNTRhZC00Mjk4LTlhYzYtYzI2MzdiYmVjZGVmXkEyXkFqcGdeQXVyMjMyNTM0NDE@._V1_Ratio0.8469_AL_.jpg",
+      "title": "Paranormal Supernatural State",
+      "description": "(TV Movie)",
+      "runtimeStr": "45 min",
+      "genres": "Documentary, History, Sci-Fi",
+      "genreList": [
+        { "key": "Documentary", "value": "Documentary" },
+        { "key": "History", "value": "History" },
+        { "key": "Sci-Fi", "value": "Sci-Fi" }
+      ],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt2323711",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Untitled Supernatural Teen Thriller",
+      "description": "",
+      "runtimeStr": null,
+      "genres": "Thriller",
+      "genreList": [{ "key": "Thriller", "value": "Thriller" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt6421464",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmNjNmE0M2ItNzJlNC00ZDVkLTg5YzktODE4MjMwMDE2MTNlXkEyXkFqcGdeQXVyODgzMTQ1ODM@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Supernatural",
+      "description": "(2017)",
+      "runtimeStr": "71 min",
+      "genres": null,
+      "genreList": null,
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": "An old bullfighter closes his eyes and walks in the dark towards his inner bull.",
+      "stars": "Juan Figueroa, Antonio Allende, Celestino Barrena, Carina Björne, Francisco Brines",
+      "starList": [
+        { "id": "tt6421464", "name": "Juan Figueroa" },
+        { "id": "tt6421464", "name": "Antonio Allende" },
+        { "id": "tt6421464", "name": "Celestino Barrena" },
+        { "id": "tt6421464", "name": "Carina Björne" },
+        { "id": "tt6421464", "name": "Francisco Brines" }
+      ]
+    },
+    {
+      "id": "tt3411398",
+      "image": "https://m.media-amazon.com/images/M/MV5BNWNiNzQwZTMtYTRkYy00OTk4LThkNTctYTVlOGNhYWEzMDVmXkEyXkFqcGdeQXVyMjgzNDQyMjE@._V1_Ratio0.7449_AL_.jpg",
+      "title": "The Supernatural Events on Campus",
+      "description": "(2013)",
+      "runtimeStr": "96 min",
+      "genres": "Horror",
+      "genreList": [{ "key": "Horror", "value": "Horror" }],
+      "contentRating": null,
+      "imDbRating": "3.6",
+      "imDbRatingVotes": "52",
+      "metacriticRating": null,
+      "plot": "One evening, a student was walking alone at his campus, she saw a girl in school uniform walking in front of her, she try to call her, the girls turned her face, and what she saw is a ... See full summary",
+      "stars": "David Kuan, Meixing Chen, Qianqian Kong, Yi Wang, Wenbin Zhai",
+      "starList": [
+        { "id": "tt3411398", "name": "David Kuan" },
+        { "id": "tt3411398", "name": "Meixing Chen" },
+        { "id": "tt3411398", "name": "Qianqian Kong" },
+        { "id": "tt3411398", "name": "Yi Wang" },
+        { "id": "tt3411398", "name": "Wenbin Zhai" }
+      ]
+    },
+    {
+      "id": "tt2387607",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Untitled David S. Goyer Supernatural Thriller Project",
+      "description": "",
+      "runtimeStr": null,
+      "genres": "Thriller",
+      "genreList": [{ "key": "Thriller", "value": "Thriller" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt0195493",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTIyMjY2MDcxOF5BMl5BanBnXkFtZTcwOTkyODEyMQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Strictly Supernatural",
+      "description": "(1997– )",
+      "runtimeStr": "51 min",
+      "genres": "Mystery",
+      "genreList": [{ "key": "Mystery", "value": "Mystery" }],
+      "contentRating": null,
+      "imDbRating": "8.0",
+      "imDbRatingVotes": "9",
+      "metacriticRating": null,
+      "plot": "Presents various metaphysical and occult topics.",
+      "stars": "Christopher Lee, Robert Currey, Lorraine Warren, Ed Warren",
+      "starList": [
+        { "id": "tt0195493", "name": "Christopher Lee" },
+        { "id": "tt0195493", "name": "Robert Currey" },
+        { "id": "tt0195493", "name": "Lorraine Warren" },
+        { "id": "tt0195493", "name": "Ed Warren" }
+      ]
+    },
+    {
+      "id": "tt5827398",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDllOWI1MjYtZmVkMC00M2MzLWE1YzctZTc1YmY5ZDQxNzIyXkEyXkFqcGdeQXVyMjgzNjk1MA@@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Supernature",
+      "description": "",
+      "runtimeStr": null,
+      "genres": "Adventure, Thriller",
+      "genreList": [
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt9896630",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjgzODZkNjktNTZjYS00ZjY4LWJlMmEtNzlkODA5NjdmOTI3XkEyXkFqcGdeQXVyMTY3NzU1ODQ@._V1_Ratio1.7041_AL_.jpg",
+      "title": "Supernatural Sea Stories",
+      "description": "(2021– )",
+      "runtimeStr": null,
+      "genres": "Thriller",
+      "genreList": [{ "key": "Thriller", "value": "Thriller" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": "Keep your eyes fixed on the horizon, and look for the Light. The Lighthouse will guide you safely home. Without Grace we all are lost.",
+      "stars": "Alexandra Faye Sadeghian, Matt Gulbranson, Barry Price, Thomas Kerr",
+      "starList": [
+        { "id": "tt9896630", "name": "Alexandra Faye Sadeghian" },
+        { "id": "tt9896630", "name": "Matt Gulbranson" },
+        { "id": "tt9896630", "name": "Barry Price" },
+        { "id": "tt9896630", "name": "Thomas Kerr" }
+      ]
+    },
+    {
+      "id": "tt4419726",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAyNjExODE4NF5BMl5BanBnXkFtZTgwMDQ3NTU1NzE@._V1_Ratio0.7449_AL_.jpg",
+      "title": "Supernatural Fandom",
+      "description": "(2015– )",
+      "runtimeStr": null,
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": null,
+      "imDbRating": "7.6",
+      "imDbRatingVotes": "33",
+      "metacriticRating": null,
+      "plot": "An inside look at the phenomenon of Fandom among the fans of the hit CW Network TV drama Supernatural. Includes behind-the-scenes interviews of cast, crew and fans, at home, onset and at fan conventions.",
+      "stars": "Cedar Meneghello",
+      "starList": [{ "id": "tt4419726", "name": "Cedar Meneghello" }]
+    },
+    {
+      "id": "tt23261676",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Untitled Supernatural Natural Thriller",
+      "description": "(2021)",
+      "runtimeStr": null,
+      "genres": "Thriller",
+      "genreList": [{ "key": "Thriller", "value": "Thriller" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": "Dean Alioto, Jamie Tisdale",
+      "starList": [
+        { "id": "tt23261676", "name": "Dean Alioto" },
+        { "id": "tt23261676", "name": "Jamie Tisdale" }
+      ]
+    },
+    {
+      "id": "tt0475205",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjc5ZTljZWQtYjQ5NS00ODczLTk5MzktNWYwOGU5NjE1N2ZlXkEyXkFqcGdeQXVyMjI3MDczMjI@._V1_Ratio1.1735_AL_.jpg",
+      "title": "Supernatural Science",
+      "description": "(1999–2001)",
+      "runtimeStr": "50 min",
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": null,
+      "imDbRating": "7.9",
+      "imDbRatingVotes": "52",
+      "metacriticRating": null,
+      "plot": "Centered around controversial theories on stories of the unknown, myths, legends, and supernatural events, to find a explaination on that one particular subject.",
+      "stars": "Jonathan Pryce, Michael Goldfarb, Ronald Hutton, Michael Persinger",
+      "starList": [
+        { "id": "tt0475205", "name": "Jonathan Pryce" },
+        { "id": "tt0475205", "name": "Michael Goldfarb" },
+        { "id": "tt0475205", "name": "Ronald Hutton" },
+        { "id": "tt0475205", "name": "Michael Persinger" }
+      ]
+    },
+    {
+      "id": "tt13197778",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTgzODNjYzgtZDQ5MS00NDA5LTg1NWEtNDNjNDRjZTBkY2FlXkEyXkFqcGdeQXVyMzQ1MjgyNjM@._V1_Ratio0.7857_AL_.jpg",
+      "title": "MIRA Supernatural Assassin",
+      "description": "(2021)",
+      "runtimeStr": null,
+      "genres": "Action, Fantasy, Thriller",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Fantasy", "value": "Fantasy" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": "A Girl is abandoned by her parents because they blame her for her brothers death, so her uncles take her in and teach her how to be an assassin. Fast forward thirteen years and she's a deadly assassin devoid of emotions.",
+      "stars": "Richard Tavernaro, Brandon Bonilla, Walter Robert Duckworth",
+      "starList": [
+        { "id": "tt13197778", "name": "Richard Tavernaro" },
+        { "id": "tt13197778", "name": "Brandon Bonilla" },
+        { "id": "tt13197778", "name": "Walter Robert Duckworth" }
+      ]
+    },
+    {
+      "id": "tt13445396",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjllNzEyNjAtZGNmZC00OTJhLTk1YjYtZmFkMDhkODE1N2M3XkEyXkFqcGdeQXVyMjEwODU0NTA@._V1_Ratio1.2347_AL_.jpg",
+      "title": "The Supernatural University",
+      "description": "",
+      "runtimeStr": null,
+      "genres": null,
+      "genreList": null,
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt7631388",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Untitled Bragi F. Schut/Supernatural Thriller Project",
+      "description": "",
+      "runtimeStr": null,
+      "genres": "Thriller",
+      "genreList": [{ "key": "Thriller", "value": "Thriller" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt0052018",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzY5NTgyNzg4OF5BMl5BanBnXkFtZTgwMzQzNjI1MTE@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Of Things Supernatural",
+      "description": "(1959)",
+      "runtimeStr": "104 min",
+      "genres": "Comedy, Fantasy, Mystery",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Fantasy", "value": "Fantasy" },
+        { "key": "Mystery", "value": "Mystery" }
+      ],
+      "contentRating": null,
+      "imDbRating": "7.3",
+      "imDbRatingVotes": "71",
+      "metacriticRating": null,
+      "plot": "Three short stories about the supernatural based on the work of writer Karel Capek.",
+      "stars": "Jirí Krejcík, Jaroslav Mach, Milos Makovec, Ladislav Pesek, Vlastimil Brodský, Felix Le Breux, Bohus Záhorský",
+      "starList": [
+        { "id": "tt0052018", "name": "Jirí Krejcík" },
+        { "id": "tt0052018", "name": "Jaroslav Mach" },
+        { "id": "tt0052018", "name": "Milos Makovec" },
+        { "id": "tt0052018", "name": "Ladislav Pesek" },
+        { "id": "tt0052018", "name": "Vlastimil Brodský" },
+        { "id": "tt0052018", "name": "Felix Le Breux" },
+        { "id": "tt0052018", "name": "Bohus Záhorský" }
+      ]
+    },
+    {
+      "id": "tt5296610",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzE3MWJjODUtNzJmNS00YjU0LWFkNjktMzkxZjAxNzFlNzk1XkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_Ratio0.7041_AL_.jpg",
+      "title": "The Limited Supernatural Train Powers",
+      "description": "(2015 TV Movie)",
+      "runtimeStr": "60 min",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": "Yûsuke Noda, Mahiru Konno, Keiji Mutô, Mei Nagano, Taiga Nakano",
+      "starList": [
+        { "id": "tt5296610", "name": "Yûsuke Noda" },
+        { "id": "tt5296610", "name": "Mahiru Konno" },
+        { "id": "tt5296610", "name": "Keiji Mutô" },
+        { "id": "tt5296610", "name": "Mei Nagano" },
+        { "id": "tt5296610", "name": "Taiga Nakano" }
+      ]
+    },
+    {
+      "id": "tt26230898",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWJkY2FhMTctMDVjYS00MWUyLTkzMzItZTUxZTk4OThmOWExXkEyXkFqcGdeQXVyMjEyMTg2Mzg@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Regional Cook's the Calling: A Supernatural Faith-Based Suspense Thriller",
+      "description": "",
+      "runtimeStr": null,
+      "genres": "Thriller",
+      "genreList": [{ "key": "Thriller", "value": "Thriller" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt3762140",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAxMDc3MTE4MV5BMl5BanBnXkFtZTgwOTQzNjg5MTE@._V1_Ratio0.7857_AL_.jpg",
+      "title": "True Supernatural",
+      "description": "(2014– )",
+      "runtimeStr": "44 min",
+      "genres": "Documentary, Mystery",
+      "genreList": [
+        { "key": "Documentary", "value": "Documentary" },
+        { "key": "Mystery", "value": "Mystery" }
+      ],
+      "contentRating": null,
+      "imDbRating": "5.3",
+      "imDbRatingVotes": "39",
+      "metacriticRating": null,
+      "plot": "Aliens, demon wolves, Bigfoot, vampiric beasts, chupacabras, and krakens are just a few of the mysteries explored in TRUE SUPERNATURAL. Scientists, physicists and anthropologists sift ... See full summary",
+      "stars": "Bill Ross, Kathleen Marden, Ken Storch, Larry Love",
+      "starList": [
+        { "id": "tt3762140", "name": "Bill Ross" },
+        { "id": "tt3762140", "name": "Kathleen Marden" },
+        { "id": "tt3762140", "name": "Ken Storch" },
+        { "id": "tt3762140", "name": "Larry Love" }
+      ]
+    },
+    {
+      "id": "tt1506848",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTczODU2MjUtMzU0Yy00MmMzLTlhNDgtYzM5YTY0NDVlOGNiXkEyXkFqcGdeQXVyODUwNTQ3MTc@._V1_Ratio0.9490_AL_.jpg",
+      "title": "Supernatural Investigator",
+      "description": "(2008– )",
+      "runtimeStr": null,
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": null,
+      "imDbRating": "4.7",
+      "imDbRatingVotes": "10",
+      "metacriticRating": null,
+      "plot": "Takes a critical yet balanced look at a variety of otherworldly phenomena, including remote viewing, UFOs, reincarnation, crystal skulls, precognition, astrology, alien life, black magic, and the occult.",
+      "stars": "Robert J. Sawyer, Ben Mehl, Cindy Sampson, Lauretta Ryan",
+      "starList": [
+        { "id": "tt1506848", "name": "Robert J. Sawyer" },
+        { "id": "tt1506848", "name": "Ben Mehl" },
+        { "id": "tt1506848", "name": "Cindy Sampson" },
+        { "id": "tt1506848", "name": "Lauretta Ryan" }
+      ]
+    },
+    {
+      "id": "tt0475946",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Criss Angel Supernatural",
+      "description": "(2003 TV Movie)",
+      "runtimeStr": null,
+      "genres": "Fantasy",
+      "genreList": [{ "key": "Fantasy", "value": "Fantasy" }],
+      "contentRating": null,
+      "imDbRating": "7.9",
+      "imDbRatingVotes": "45",
+      "metacriticRating": null,
+      "plot": null,
+      "stars": "Dave Harding, Criss Angel",
+      "starList": [
+        { "id": "tt0475946", "name": "Dave Harding" },
+        { "id": "tt0475946", "name": "Criss Angel" }
+      ]
+    },
+    {
+      "id": "tt1067250",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Supernatural File",
+      "description": "(2007 TV Movie)",
+      "runtimeStr": null,
+      "genres": "Drama, Fantasy, Horror",
+      "genreList": [
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Fantasy", "value": "Fantasy" },
+        { "key": "Horror", "value": "Horror" }
+      ],
+      "contentRating": null,
+      "imDbRating": "9.3",
+      "imDbRatingVotes": "70",
+      "metacriticRating": null,
+      "plot": null,
+      "stars": "Jensen Ackles, Steve Bacic, Michael Bardach, Jim Beaver",
+      "starList": [
+        { "id": "tt1067250", "name": "Jensen Ackles" },
+        { "id": "tt1067250", "name": "Steve Bacic" },
+        { "id": "tt1067250", "name": "Michael Bardach" },
+        { "id": "tt1067250", "name": "Jim Beaver" }
+      ]
+    },
+    {
+      "id": "tt8967850",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Supernature: Esalen and the Human Potential - The Inkblot Institute",
+      "description": "(2018 TV Movie)",
+      "runtimeStr": "37 min",
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": "Beyond reason. Beyond belief. A documentary series about the legendary Esalen Institute and the Human Potential Movement it spawned.",
+      "stars": "Scott Hulan Jones",
+      "starList": [{ "id": "tt8967850", "name": "Scott Hulan Jones" }]
+    },
+    {
+      "id": "tt20231314",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Lukas + Olivia: Supernatural Assassins",
+      "description": "",
+      "runtimeStr": null,
+      "genres": "Action, Horror",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Horror", "value": "Horror" }
+      ],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt0796593",
+      "image": "https://imdb-api.com/images/original/nopicture.jpg",
+      "title": "Divine Magic: The World of the Supernatural - Messengers of the Gods",
+      "description": "(1996 TV Movie)",
+      "runtimeStr": "45 min",
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": "What's the role of angels in several religions, especially Judaism, Christanity and Islam?",
+      "stars": "James Hawes, Stephen Rea",
+      "starList": [
+        { "id": "tt0796593", "name": "James Hawes" },
+        { "id": "tt0796593", "name": "Stephen Rea" }
+      ]
+    }
+  ],
+  "errorMessage": null
+}

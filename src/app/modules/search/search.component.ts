@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { MovieService } from '../../shared/services/movie.service';
 import { scrollToTop } from '../../shared/helpers/dom.helper';
 import { capitalizeText, listGenres } from '../../shared/helpers/options.helper';
@@ -47,7 +47,8 @@ export class SearchComponent implements OnInit, OnDestroy {
 	constructor(
 		private route: ActivatedRoute,
 		private movieService: MovieService,
-		private readonly breakpointObserver: BreakpointObserver
+		private readonly breakpointObserver: BreakpointObserver,
+		private readonly router: Router
 	) {
 		breakpointObserver
 			.observe([Breakpoints.HandsetPortrait])
@@ -148,6 +149,11 @@ export class SearchComponent implements OnInit, OnDestroy {
 		}
 	}
 
+	async navigateToDetails(result: MovieGeneric) {
+		this.movieService.movieDetails = result;
+		await this.router.navigate(['/details', result?.id]);
+	}
+
 	private advancedSearch(title?: string, genre?: string, type?: 'tv_movie' | 'tv_series') {
 		this.movieService
 			.getAdvancedSearch(title, genre, type)
@@ -159,7 +165,6 @@ export class SearchComponent implements OnInit, OnDestroy {
 						this.notResults = true;
 					}
 				},
-				error: () => (this.results = []),
 			});
 	}
 

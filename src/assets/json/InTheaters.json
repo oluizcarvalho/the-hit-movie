@@ -1,0 +1,1077 @@
+{
+  "items": [
+    {
+      "id": "tt10366206",
+      "title": "John Wick: Chapter 4",
+      "fullTitle": "John Wick: Chapter 4 (2023)",
+      "year": "2023",
+      "releaseState": "24 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "169",
+      "runtimeStr": "169 mins",
+      "plot": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+      "contentRating": "R",
+      "imDbRating": "8.3",
+      "imDbRatingCount": "97951",
+      "metacriticRating": "78",
+      "genres": "Action, Crime, Thriller",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "directors": "Chad Stahelski",
+      "directorList": [{ "id": "nm0821432", "name": "Chad Stahelski" }],
+      "stars": "Keanu Reeves, Laurence Fishburne, George Georgiou, Lance Reddick",
+      "starList": [
+        { "id": "nm0000206", "name": "Keanu Reeves" },
+        { "id": "nm0000401", "name": "Laurence Fishburne" },
+        { "id": "nm1745190", "name": "George Georgiou" },
+        { "id": "nm0714698", "name": "Lance Reddick" }
+      ]
+    },
+    {
+      "id": "tt2906216",
+      "title": "Dungeons & Dragons: Honor Among Thieves",
+      "fullTitle": "Dungeons & Dragons: Honor Among Thieves (2023)",
+      "year": "2023",
+      "releaseState": "31 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjAyMGMwYTEtNDk4ZS00YmY0LThhZjUtOWI4ZjFmZmU4N2I3XkEyXkFqcGdeQXVyMTEyNzQ1MTk0._V1_Ratio0.6794_AL_.jpg",
+      "runtimeMins": "134",
+      "runtimeStr": "134 mins",
+      "plot": "A charming thief and a band of unlikely adventurers embark on an epic quest to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
+      "contentRating": "PG-13",
+      "imDbRating": "7.6",
+      "imDbRatingCount": "29715",
+      "metacriticRating": "72",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "directors": "John Francis Daley, Jonathan Goldstein",
+      "directorList": [
+        { "id": "nm0197855", "name": "John Francis Daley" },
+        { "id": "nm0326246", "name": "Jonathan Goldstein" }
+      ],
+      "stars": "Chris Pine, Michelle Rodriguez, Regé-Jean Page, Justice Smith",
+      "starList": [
+        { "id": "nm1517976", "name": "Chris Pine" },
+        { "id": "nm0735442", "name": "Michelle Rodriguez" },
+        { "id": "nm2074546", "name": "Regé-Jean Page" },
+        { "id": "nm6819854", "name": "Justice Smith" }
+      ]
+    },
+    {
+      "id": "tt1630029",
+      "title": "Avatar: The Way of Water",
+      "fullTitle": "Avatar: The Way of Water (2022)",
+      "year": "2022",
+      "releaseState": "16 Dec 2022",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_Ratio0.6986_AL_.jpg",
+      "runtimeMins": "192",
+      "runtimeStr": "192 mins",
+      "plot": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+      "contentRating": "PG-13",
+      "imDbRating": "7.7",
+      "imDbRatingCount": "344436",
+      "metacriticRating": "67",
+      "genres": "Action, Adventure, Fantasy",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Fantasy", "value": "Fantasy" }
+      ],
+      "directors": "James Cameron",
+      "directorList": [{ "id": "nm0000116", "name": "James Cameron" }],
+      "stars": "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+      "starList": [
+        { "id": "nm0941777", "name": "Sam Worthington" },
+        { "id": "nm0757855", "name": "Zoe Saldana" },
+        { "id": "nm0000244", "name": "Sigourney Weaver" },
+        { "id": "nm0002332", "name": "Stephen Lang" }
+      ]
+    },
+    {
+      "id": "tt6710474",
+      "title": "Everything Everywhere All at Once",
+      "fullTitle": "Everything Everywhere All at Once (2022)",
+      "year": "2022",
+      "releaseState": "08 Apr 2022",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_Ratio0.6890_AL_.jpg",
+      "runtimeMins": "139",
+      "runtimeStr": "139 mins",
+      "plot": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+      "contentRating": "R",
+      "imDbRating": "7.9",
+      "imDbRatingCount": "419181",
+      "metacriticRating": "81",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "directors": "Daniel Kwan, Daniel Scheinert",
+      "directorList": [
+        { "id": "nm3453283", "name": "Daniel Kwan" },
+        { "id": "nm3215397", "name": "Daniel Scheinert" }
+      ],
+      "stars": "Michelle Yeoh, Stephanie Hsu, Jamie Lee Curtis, Ke Huy Quan",
+      "starList": [
+        { "id": "nm0000706", "name": "Michelle Yeoh" },
+        { "id": "nm3513533", "name": "Stephanie Hsu" },
+        { "id": "nm0000130", "name": "Jamie Lee Curtis" },
+        { "id": "nm0702841", "name": "Ke Huy Quan" }
+      ]
+    },
+    {
+      "id": "tt10151854",
+      "title": "Shazam! Fury of the Gods",
+      "fullTitle": "Shazam! Fury of the Gods (2023)",
+      "year": "2023",
+      "releaseState": "17 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzJlM2NmZTItOGQyYS00MmE2LTkwZGUtNDFkNmJmZjRjZjcxXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "130",
+      "runtimeStr": "130 mins",
+      "plot": "The film continues the story of teenage Billy Batson who, upon reciting the magic word \"SHAZAM!\" is transformed into his adult Super Hero alter ego, Shazam.",
+      "contentRating": "PG-13",
+      "imDbRating": "6.4",
+      "imDbRatingCount": "33129",
+      "metacriticRating": "47",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "directors": "David F. Sandberg",
+      "directorList": [{ "id": "nm2497546", "name": "David F. Sandberg" }],
+      "stars": "Zachary Levi, Asher Angel, Jack Dylan Grazer, Rachel Zegler",
+      "starList": [
+        { "id": "nm1157048", "name": "Zachary Levi" },
+        { "id": "nm4755508", "name": "Asher Angel" },
+        { "id": "nm6244013", "name": "Jack Dylan Grazer" },
+        { "id": "nm10399505", "name": "Rachel Zegler" }
+      ]
+    },
+    {
+      "id": "tt17663992",
+      "title": "Scream VI",
+      "fullTitle": "Scream VI (2023)",
+      "year": "2023",
+      "releaseState": "10 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BODBjM2M4YTQtNmJlMS00MGU2LWI4ZGYtZTA1MzdmZDAyMjFkXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "122",
+      "runtimeStr": "122 mins",
+      "plot": "In the next installment, the survivors of the Ghostface killings leave Woodsboro behind and start a fresh chapter in New York City.",
+      "contentRating": "R",
+      "imDbRating": "7.1",
+      "imDbRatingCount": "39598",
+      "metacriticRating": "61",
+      "genres": "Horror, Mystery, Thriller",
+      "genreList": [
+        { "key": "Horror", "value": "Horror" },
+        { "key": "Mystery", "value": "Mystery" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "directors": "Matt Bettinelli-Olpin, Tyler Gillett",
+      "directorList": [
+        { "id": "nm2366012", "name": "Matt Bettinelli-Olpin" },
+        { "id": "nm2419470", "name": "Tyler Gillett" }
+      ],
+      "stars": "Courteney Cox, Melissa Barrera, Jenna Ortega, Jasmin Savoy Brown",
+      "starList": [
+        { "id": "nm0001073", "name": "Courteney Cox" },
+        { "id": "nm4574440", "name": "Melissa Barrera" },
+        { "id": "nm4911194", "name": "Jenna Ortega" },
+        { "id": "nm5506401", "name": "Jasmin Savoy Brown" }
+      ]
+    },
+    {
+      "id": "tt14209916",
+      "title": "Cocaine Bear",
+      "fullTitle": "Cocaine Bear (2023)",
+      "year": "2023",
+      "releaseState": "24 Feb 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BODAwZDQ5ZjEtZDI1My00MTFiLTg0ZjUtOGE2YTBkOTdjODFhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "95",
+      "runtimeStr": "95 mins",
+      "plot": "An oddball group of cops, criminals, tourists and teens converge on a Georgia forest where a huge black bear goes on a murderous rampage after unintentionally ingesting cocaine.",
+      "contentRating": "R",
+      "imDbRating": "6",
+      "imDbRatingCount": "48332",
+      "metacriticRating": "54",
+      "genres": "Comedy, Thriller",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "directors": "Elizabeth Banks",
+      "directorList": [{ "id": "nm0006969", "name": "Elizabeth Banks" }],
+      "stars": "Keri Russell, Alden Ehrenreich, O'Shea Jackson Jr., Ray Liotta",
+      "starList": [
+        { "id": "nm0005392", "name": "Keri Russell" },
+        { "id": "nm2403277", "name": "Alden Ehrenreich" },
+        { "id": "nm6578009", "name": "O'Shea Jackson Jr." },
+        { "id": "nm0000501", "name": "Ray Liotta" }
+      ]
+    },
+    {
+      "id": "tt6718170",
+      "title": "The Super Mario Bros. Movie",
+      "fullTitle": "The Super Mario Bros. Movie (2023)",
+      "year": "2023",
+      "releaseState": "05 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTJhNzlmNzctNTU5Yy00N2YwLThhMjQtZDM0YjEzN2Y0ZjNhXkEyXkFqcGdeQXVyMTEwMTQ4MzU5._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "92",
+      "runtimeStr": "92 mins",
+      "plot": "The story of The Super Mario Bros. on their journey through the Mushroom Kingdom.",
+      "contentRating": "PG",
+      "imDbRating": "7.4",
+      "imDbRatingCount": "20408",
+      "metacriticRating": "47",
+      "genres": "Animation, Adventure, Comedy",
+      "genreList": [
+        { "key": "Animation", "value": "Animation" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "directors": "Aaron Horvath, Michael Jelenic, Pierre Leduc, Fabien Polack",
+      "directorList": [
+        { "id": "nm1739338", "name": "Aaron Horvath" },
+        { "id": "nm2398585", "name": "Michael Jelenic" },
+        { "id": "nm2966857", "name": "Pierre Leduc" },
+        { "id": "nm6042133", "name": "Fabien Polack" }
+      ],
+      "stars": "Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black",
+      "starList": [
+        { "id": "nm0695435", "name": "Chris Pratt" },
+        { "id": "nm5896355", "name": "Anya Taylor-Joy" },
+        { "id": "nm0206359", "name": "Charlie Day" },
+        { "id": "nm0085312", "name": "Jack Black" }
+      ]
+    },
+    {
+      "id": "tt16419074",
+      "title": "Air",
+      "fullTitle": "Air (2023)",
+      "year": "2023",
+      "releaseState": "05 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmNlOTNlYjUtM2U3Yy00M2ZjLTkxZDQtN2NiNGZiZDI0ZjE3XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "111",
+      "runtimeStr": "111 mins",
+      "plot": "Follows the history of shoe salesman Sonny Vaccaro, and how he led Nike in its pursuit of the greatest athlete in the history of basketball, Michael Jordan.",
+      "contentRating": "R",
+      "imDbRating": "7.8",
+      "imDbRatingCount": "5938",
+      "metacriticRating": "75",
+      "genres": "Drama, Sport",
+      "genreList": [
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Sport", "value": "Sport" }
+      ],
+      "directors": "Ben Affleck",
+      "directorList": [{ "id": "nm0000255", "name": "Ben Affleck" }],
+      "stars": "Matt Damon, Jason Bateman, Ben Affleck, Chris Messina",
+      "starList": [
+        { "id": "nm0000354", "name": "Matt Damon" },
+        { "id": "nm0000867", "name": "Jason Bateman" },
+        { "id": "nm0000255", "name": "Ben Affleck" },
+        { "id": "nm0582149", "name": "Chris Messina" }
+      ]
+    },
+    {
+      "id": "tt11145118",
+      "title": "Creed III",
+      "fullTitle": "Creed III (2023)",
+      "year": "2023",
+      "releaseState": "03 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BYWY1ZDY4MmQtYjhiYS00N2QwLTk1NzgtOWI2YzUwZThjNDYwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "116",
+      "runtimeStr": "116 mins",
+      "plot": "Adonis has been thriving in both his career and family life, but when a childhood friend and former boxing prodigy resurfaces, the face-off is more than just a fight.",
+      "contentRating": "PG-13",
+      "imDbRating": "7.1",
+      "imDbRatingCount": "40440",
+      "metacriticRating": "73",
+      "genres": "Drama, Sport",
+      "genreList": [
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Sport", "value": "Sport" }
+      ],
+      "directors": "Michael B. Jordan",
+      "directorList": [{ "id": "nm0430107", "name": "Michael B. Jordan" }],
+      "stars": "Michael B. Jordan, Tessa Thompson, Jonathan Majors, Wood Harris",
+      "starList": [
+        { "id": "nm0430107", "name": "Michael B. Jordan" },
+        { "id": "nm1935086", "name": "Tessa Thompson" },
+        { "id": "nm3718007", "name": "Jonathan Majors" },
+        { "id": "nm0365445", "name": "Wood Harris" }
+      ]
+    },
+    {
+      "id": "tt15339570",
+      "title": "Champions",
+      "fullTitle": "Champions (2023)",
+      "year": "2023",
+      "releaseState": "10 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTYwMWJjZTgtMzJiNS00OGIzLWE1NDYtNjgwMDUwYjZiOTc5XkEyXkFqcGdeQXVyMTA2MDU0NjM5._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "124",
+      "runtimeStr": "124 mins",
+      "plot": "A former minor-league basketball coach is ordered by the court to manage a team of players with intellectual disabilities. He soon realizes that despite his doubts, together, this team can go further than they ever imagined.",
+      "contentRating": "PG-13",
+      "imDbRating": "6.7",
+      "imDbRatingCount": "5873",
+      "metacriticRating": "50",
+      "genres": "Comedy, Drama, Sport",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Sport", "value": "Sport" }
+      ],
+      "directors": "Bobby Farrelly",
+      "directorList": [{ "id": "nm0125803", "name": "Bobby Farrelly" }],
+      "stars": "Woody Harrelson, Kaitlin Olson, Matt Cook, Ernie Hudson",
+      "starList": [
+        { "id": "nm0000437", "name": "Woody Harrelson" },
+        { "id": "nm0647698", "name": "Kaitlin Olson" },
+        { "id": "nm3129512", "name": "Matt Cook" },
+        { "id": "nm0001368", "name": "Ernie Hudson" }
+      ]
+    },
+    {
+      "id": "tt12261776",
+      "title": "65",
+      "fullTitle": "65 (2023)",
+      "year": "2023",
+      "releaseState": "10 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzFhM2M1MDUtNDhmNC00YzEzLThiMzctYWYxZTc0MGJhNWYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio0.7943_AL_.jpg",
+      "runtimeMins": "93",
+      "runtimeStr": "93 mins",
+      "plot": "An astronaut crash lands on a mysterious planet only to discover he's not alone.",
+      "contentRating": "PG-13",
+      "imDbRating": "5.6",
+      "imDbRatingCount": "18412",
+      "metacriticRating": "40",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "Scott Beck, Bryan Woods",
+      "directorList": [
+        { "id": "nm1399714", "name": "Scott Beck" },
+        { "id": "nm1456816", "name": "Bryan Woods" }
+      ],
+      "stars": "Adam Driver, Ariana Greenblatt, Chloe Coleman, Nika King",
+      "starList": [
+        { "id": "nm3485845", "name": "Adam Driver" },
+        { "id": "nm7567556", "name": "Ariana Greenblatt" },
+        { "id": "nm5668548", "name": "Chloe Coleman" },
+        { "id": "nm1519739", "name": "Nika King" }
+      ]
+    },
+    {
+      "id": "tt14153080",
+      "title": "A Good Person",
+      "fullTitle": "A Good Person (2023)",
+      "year": "2023",
+      "releaseState": "24 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzBkZGYyM2QtNzgwYy00NmZjLTk2ZTItYzY3ZTdjY2M0YmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "128",
+      "runtimeStr": "128 mins",
+      "plot": "Follows Allison, whose life falls apart following her involvement in a fatal accident.",
+      "contentRating": "R",
+      "imDbRating": "7.3",
+      "imDbRatingCount": "1360",
+      "metacriticRating": "50",
+      "genres": "Drama",
+      "genreList": [{ "key": "Drama", "value": "Drama" }],
+      "directors": "Zach Braff",
+      "directorList": [{ "id": "nm0103785", "name": "Zach Braff" }],
+      "stars": "Florence Pugh, Morgan Freeman, Celeste O'Connor, Molly Shannon",
+      "starList": [
+        { "id": "nm6073955", "name": "Florence Pugh" },
+        { "id": "nm0000151", "name": "Morgan Freeman" },
+        { "id": "nm9305936", "name": "Celeste O'Connor" },
+        { "id": "nm0788340", "name": "Molly Shannon" }
+      ]
+    },
+    {
+      "id": "tt10954600",
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "fullTitle": "Ant-Man and the Wasp: Quantumania (2023)",
+      "year": "2023",
+      "releaseState": "17 Feb 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BODZhNzlmOGItMWUyYS00Y2Q5LWFlNzMtM2I2NDFkM2ZkYmE1XkEyXkFqcGdeQXVyMTU5OTA4NTIz._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "124",
+      "runtimeStr": "124 mins",
+      "plot": "Scott Lang and Hope Van Dyne, along with Hank Pym and Janet Van Dyne, explore the Quantum Realm, where they interact with strange creatures and embark on an adventure that goes beyond the limits of what they thought was possible.",
+      "contentRating": "PG-13",
+      "imDbRating": "6.4",
+      "imDbRatingCount": "95725",
+      "metacriticRating": "48",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Comedy", "value": "Comedy" }
+      ],
+      "directors": "Peyton Reed",
+      "directorList": [{ "id": "nm0715636", "name": "Peyton Reed" }],
+      "stars": "Paul Rudd, Evangeline Lilly, Michael Douglas, Michelle Pfeiffer",
+      "starList": [
+        { "id": "nm0748620", "name": "Paul Rudd" },
+        { "id": "nm1431940", "name": "Evangeline Lilly" },
+        { "id": "nm0000140", "name": "Michael Douglas" },
+        { "id": "nm0000201", "name": "Michelle Pfeiffer" }
+      ]
+    },
+    {
+      "id": "tt8277246",
+      "title": "His Only Son",
+      "fullTitle": "His Only Son (2023)",
+      "year": "2023",
+      "releaseState": "30 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTU5MTY4OGMtYTRiMS00ZTA1LThmMGQtOWQ4YzE4NThlYjljXkEyXkFqcGdeQXVyNzYzMjAyMzU@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "106",
+      "runtimeStr": "106 mins",
+      "plot": "After being called on by the Lord, Abraham's faith is tested on his three day journey to sacrifice his son.",
+      "contentRating": "PG-13",
+      "imDbRating": "6.5",
+      "imDbRatingCount": "706",
+      "metacriticRating": "",
+      "genres": "Drama, History",
+      "genreList": [
+        { "key": "Drama", "value": "Drama" },
+        { "key": "History", "value": "History" }
+      ],
+      "directors": "David Helling",
+      "directorList": [{ "id": "nm5278287", "name": "David Helling" }],
+      "stars": "Nicolas Mouawad, Sara Seyed, Daniel da Silva, Edaan Moskowitz",
+      "starList": [
+        { "id": "nm3369005", "name": "Nicolas Mouawad" },
+        { "id": "nm10211037", "name": "Sara Seyed" },
+        { "id": "nm4362629", "name": "Daniel da Silva" },
+        { "id": "nm7212956", "name": "Edaan Moskowitz" }
+      ]
+    },
+    {
+      "id": "tt10098448",
+      "title": "Jesus Revolution",
+      "fullTitle": "Jesus Revolution (2023)",
+      "year": "2023",
+      "releaseState": "24 Feb 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjQ4M2JiMTEtNDhiMi00OWM1LTkwMWEtODdjYTQxNWQyOTFiXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "120",
+      "runtimeStr": "120 mins",
+      "plot": "The true story of a national spiritual awakening in the early 1970s and its origins within a community of teenage hippies in Southern California.",
+      "contentRating": "PG-13",
+      "imDbRating": "7.7",
+      "imDbRatingCount": "4907",
+      "metacriticRating": "46",
+      "genres": "Drama",
+      "genreList": [{ "key": "Drama", "value": "Drama" }],
+      "directors": "Jon Erwin, Brent McCorkle",
+      "directorList": [
+        { "id": "nm2296528", "name": "Jon Erwin" },
+        { "id": "nm3634546", "name": "Brent McCorkle" }
+      ],
+      "stars": "Joel Courtney, Jonathan Roumie, Kimberly Williams-Paisley, Anna Grace Barlow",
+      "starList": [
+        { "id": "nm1525807", "name": "Joel Courtney" },
+        { "id": "nm0745751", "name": "Jonathan Roumie" },
+        { "id": "nm0931090", "name": "Kimberly Williams-Paisley" },
+        { "id": "nm2953809", "name": "Anna Grace Barlow" }
+      ]
+    },
+    {
+      "id": "tt12427158",
+      "title": "A Thousand and One",
+      "fullTitle": "A Thousand and One (2023)",
+      "year": "2023",
+      "releaseState": "31 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTZjNDQxYjctMmI0OS00MzZlLTg2MjEtMDAwNDY5OWRkYWQwXkEyXkFqcGdeQXVyMTA2MDU0NjM5._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "117",
+      "runtimeStr": "117 mins",
+      "plot": "After unapologetic and fiercely loyal Inez kidnaps her son Terry from the foster care system, mother and son set out to reclaim their sense of home, identity, and stability, in a rapidly changing New York City.",
+      "contentRating": "R",
+      "imDbRating": "7.5",
+      "imDbRatingCount": "752",
+      "metacriticRating": "80",
+      "genres": "Crime, Drama",
+      "genreList": [
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "A.V. Rockwell",
+      "directorList": [{ "id": "nm5690427", "name": "A.V. Rockwell" }],
+      "stars": "Teyana Taylor, Aaron Kingsley Adetola, Aven Courtney, Josiah Cross",
+      "starList": [
+        { "id": "nm3692520", "name": "Teyana Taylor" },
+        { "id": "nm11242885", "name": "Aaron Kingsley Adetola" },
+        { "id": "nm9300564", "name": "Aven Courtney" },
+        { "id": "nm8582283", "name": "Josiah Cross" }
+      ]
+    },
+    {
+      "id": "tt13421498",
+      "title": "The Lost King",
+      "fullTitle": "The Lost King (2022)",
+      "year": "2022",
+      "releaseState": "24 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTNiMWE2NWEtYjViMC00ZWI1LWJiMzgtNGU2ZmVkMGNkYTU2XkEyXkFqcGdeQXVyMTk5MTY4Nzg@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "108",
+      "runtimeStr": "108 mins",
+      "plot": "An amateur historian defies the stodgy academic establishment in her efforts to find King Richard III's remains, which were lost for over 500 years.",
+      "contentRating": "PG-13",
+      "imDbRating": "6.6",
+      "imDbRatingCount": "3537",
+      "metacriticRating": "64",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "Stephen Frears",
+      "directorList": [{ "id": "nm0001241", "name": "Stephen Frears" }],
+      "stars": "Sally Hawkins, Shonagh Price, Helen Katamba, Lewis Macleod",
+      "starList": [
+        { "id": "nm1020089", "name": "Sally Hawkins" },
+        { "id": "nm0697154", "name": "Shonagh Price" },
+        { "id": "nm9844932", "name": "Helen Katamba" },
+        { "id": "nm0533914", "name": "Lewis Macleod" }
+      ]
+    },
+    {
+      "id": "tt14472156",
+      "title": "Paint",
+      "fullTitle": "Paint (2023)",
+      "year": "2023",
+      "releaseState": "07 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWFmOTU2ZjctN2VhMS00Yzg4LWIyOGEtMTgwZTdjYTMyZjNkXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "96",
+      "runtimeStr": "96 mins",
+      "plot": "Carl Nargle, Vermont's #1 public television painter, is convinced he has it all: a signature perm, custom van, and fans hanging on his every stroke - until a younger, better artist steals everything (and everyone) Carl loves.",
+      "contentRating": "PG-13",
+      "imDbRating": "6.4",
+      "imDbRatingCount": "114",
+      "metacriticRating": "45",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "Brit McAdams",
+      "directorList": [{ "id": "nm2310934", "name": "Brit McAdams" }],
+      "stars": "Owen Wilson, Elisabeth Henry, Paul Kosopod, Sonia Darmei Lopes",
+      "starList": [
+        { "id": "nm0005562", "name": "Owen Wilson" },
+        { "id": "nm6393559", "name": "Elisabeth Henry" },
+        { "id": "nm6142986", "name": "Paul Kosopod" },
+        { "id": "nm0520208", "name": "Sonia Darmei Lopes" }
+      ]
+    },
+    {
+      "id": "tt15440322",
+      "title": "Dasara",
+      "fullTitle": "Dasara (2023)",
+      "year": "2023",
+      "releaseState": "31 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTBhMTQ3NGItMWM5Mi00NzlmLTk2YWEtMmIyOWIwMGM5ZGJmXkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "156",
+      "runtimeStr": "156 mins",
+      "plot": "Set in the backdrop of Singareni coal mines near Godavarikhani of Telangana.",
+      "contentRating": "",
+      "imDbRating": "7.6",
+      "imDbRatingCount": "4421",
+      "metacriticRating": "",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Adventure", "value": "Adventure" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "Srikanth Odela",
+      "directorList": [{ "id": "nm9577930", "name": "Srikanth Odela" }],
+      "stars": "Nani, Keerthy Suresh, Shine Tom Chacko, Dheekshith Shetty",
+      "starList": [
+        { "id": "nm3761004", "name": "Nani" },
+        { "id": "nm7146337", "name": "Keerthy Suresh" },
+        { "id": "nm3557375", "name": "Shine Tom Chacko" },
+        { "id": "nm11341642", "name": "Dheekshith Shetty" }
+      ]
+    },
+    {
+      "id": "tt0073629",
+      "title": "The Rocky Horror Picture Show",
+      "fullTitle": "The Rocky Horror Picture Show (1975)",
+      "year": "1975",
+      "releaseState": "31 Aug 1975",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGIzYjM3YzMtMjk5ZS00NDY2LTllMjEtNjYwZjhmMDNhMDBkXkEyXkFqcGdeQXVyODUzMjQxMTA@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "100",
+      "runtimeStr": "100 mins",
+      "plot": "A newly-engaged couple have a breakdown in an isolated area and must seek shelter at the bizarre residence of Dr. Frank-n-Furter.",
+      "contentRating": "R",
+      "imDbRating": "7.4",
+      "imDbRatingCount": "156780",
+      "metacriticRating": "65",
+      "genres": "Comedy, Horror, Musical",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Horror", "value": "Horror" },
+        { "key": "Musical", "value": "Musical" }
+      ],
+      "directors": "Jim Sharman",
+      "directorList": [{ "id": "nm0788940", "name": "Jim Sharman" }],
+      "stars": "Tim Curry, Susan Sarandon, Barry Bostwick, Richard O'Brien",
+      "starList": [
+        { "id": "nm0000347", "name": "Tim Curry" },
+        { "id": "nm0000215", "name": "Susan Sarandon" },
+        { "id": "nm0000960", "name": "Barry Bostwick" },
+        { "id": "nm0639782", "name": "Richard O'Brien" }
+      ]
+    },
+    {
+      "id": "tt11698800",
+      "title": "Enys Men",
+      "fullTitle": "Enys Men (2022)",
+      "year": "2022",
+      "releaseState": "18 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BOThmY2FlYmQtYTM4OS00MWM5LThiNGMtNjExYjQ2NjExZmViXkEyXkFqcGdeQXVyMTMwODM2ODM@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "91",
+      "runtimeStr": "91 mins",
+      "plot": "Set in 1973 on an uninhabited island off the Cornish coast, a wildlife volunteer's daily observations of a rare flower turn into a metaphysical journey that forces her as well as the viewer to question what is real and what is nightmare.",
+      "contentRating": "",
+      "imDbRating": "6.2",
+      "imDbRatingCount": "869",
+      "metacriticRating": "78",
+      "genres": "Horror",
+      "genreList": [{ "key": "Horror", "value": "Horror" }],
+      "directors": "Mark Jenkin",
+      "directorList": [{ "id": "nm1985490", "name": "Mark Jenkin" }],
+      "stars": "Mary Woodvine, Edward Rowe, Flo Crowe, John Woodvine",
+      "starList": [
+        { "id": "nm0940893", "name": "Mary Woodvine" },
+        { "id": "nm8196922", "name": "Edward Rowe" },
+        { "id": "nm13633116", "name": "Flo Crowe" },
+        { "id": "nm0940892", "name": "John Woodvine" }
+      ]
+    },
+    {
+      "id": "tt15488088",
+      "title": "Moving On (III)",
+      "fullTitle": "Moving On (III) (2022)",
+      "year": "2022",
+      "releaseState": "08 Jan 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzMyZDk0YWMtZmQ2OC00NTExLTgxM2ItZTkzM2I3YTBjMTM2XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_Ratio0.6794_AL_.jpg",
+      "runtimeMins": "85",
+      "runtimeStr": "85 mins",
+      "plot": "Two old friends reconnect at a funeral and decide to get revenge on the widower who messed with them decades before.",
+      "contentRating": "R",
+      "imDbRating": "6.3",
+      "imDbRatingCount": "365",
+      "metacriticRating": "60",
+      "genres": "Comedy",
+      "genreList": [{ "key": "Comedy", "value": "Comedy" }],
+      "directors": "Paul Weitz",
+      "directorList": [{ "id": "nm0919369", "name": "Paul Weitz" }],
+      "stars": "Jane Fonda, Malcolm McDowell, Lily Tomlin, Lauren Tom",
+      "starList": [
+        { "id": "nm0000404", "name": "Jane Fonda" },
+        { "id": "nm0000532", "name": "Malcolm McDowell" },
+        { "id": "nm0005499", "name": "Lily Tomlin" },
+        { "id": "nm0866300", "name": "Lauren Tom" }
+      ]
+    },
+    {
+      "id": "tt21440780",
+      "title": "How to Blow Up a Pipeline",
+      "fullTitle": "How to Blow Up a Pipeline (2022)",
+      "year": "2022",
+      "releaseState": "07 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BYmQyOGQxMGQtNzVjMy00ZmQ2LTg5NzAtZTNkNDMzODkyZDgzXkEyXkFqcGdeQXVyMTA2MDU0NjM5._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "103",
+      "runtimeStr": "103 mins",
+      "plot": "A crew of environmental activists plot a daring plan to disrupt an oil pipeline.",
+      "contentRating": "R",
+      "imDbRating": "7.4",
+      "imDbRatingCount": "362",
+      "metacriticRating": "76",
+      "genres": "Crime, Drama, Thriller",
+      "genreList": [
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Thriller", "value": "Thriller" }
+      ],
+      "directors": "Daniel Goldhaber",
+      "directorList": [{ "id": "nm3771823", "name": "Daniel Goldhaber" }],
+      "stars": "Ariela Barer, Kristine Froseth, Lukas Gage, Forrest Goodluck",
+      "starList": [
+        { "id": "nm2821733", "name": "Ariela Barer" },
+        { "id": "nm8109082", "name": "Kristine Froseth" },
+        { "id": "nm4965072", "name": "Lukas Gage" },
+        { "id": "nm5569442", "name": "Forrest Goodluck" }
+      ]
+    },
+    {
+      "id": "tt11396310",
+      "title": "Viduthalai Part-1",
+      "fullTitle": "Viduthalai Part-1 (2023)",
+      "year": "2023",
+      "releaseState": "31 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BYThhYzA0ZDktNTkzOC00Mjk1LTg0ZmYtYzFhNGI0ZjEyM2U0XkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_Ratio0.6986_AL_.jpg",
+      "runtimeMins": "150",
+      "runtimeStr": "150 mins",
+      "plot": "A police officer is recruited to capture the leader of a separatist group.",
+      "contentRating": "",
+      "imDbRating": "8.7",
+      "imDbRatingCount": "2490",
+      "metacriticRating": "",
+      "genres": "Action, Crime, Drama",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "Vetrimaaran",
+      "directorList": [{ "id": "nm4274575", "name": "Vetrimaaran" }],
+      "stars": "Soori, Vijay Sethupathi, Bhavani Sre, Chetan",
+      "starList": [
+        { "id": "nm4262344", "name": "Soori" },
+        { "id": "nm4043111", "name": "Vijay Sethupathi" },
+        { "id": "nm11424386", "name": "Bhavani Sre" },
+        { "id": "nm4742589", "name": "Chetan" }
+      ]
+    },
+    {
+      "id": "tt19719836",
+      "title": "Return to Seoul",
+      "fullTitle": "Return to Seoul (2022)",
+      "year": "2022",
+      "releaseState": "18 Nov 2022",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2I0ZTc5MjktMDllYi00MTNhLTg5YzMtZmQxYWNkYzUzYTAyXkEyXkFqcGdeQXVyMTQyODg5MjQw._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "119",
+      "runtimeStr": "119 mins",
+      "plot": "A twenty-five-year-old French woman returns to Korea, the country she was born in before being adopted by a French couple, for the very first time. She decides to track down her biological parents, but her journey takes a surprising turn.",
+      "contentRating": "R",
+      "imDbRating": "7.1",
+      "imDbRatingCount": "1455",
+      "metacriticRating": "87",
+      "genres": "Drama",
+      "genreList": [{ "key": "Drama", "value": "Drama" }],
+      "directors": "Davy Chou",
+      "directorList": [{ "id": "nm1976187", "name": "Davy Chou" }],
+      "stars": "Park Ji-min, Oh Kwang-rok, Guka Han, Kim Sun-young",
+      "starList": [
+        { "id": "nm13973657", "name": "Park Ji-min" },
+        { "id": "nm1059108", "name": "Oh Kwang-rok" },
+        { "id": "nm13580099", "name": "Guka Han" },
+        { "id": "nm6728658", "name": "Kim Sun-young" }
+      ]
+    },
+    {
+      "id": "tt15430628",
+      "title": "Ride On",
+      "fullTitle": "Ride On (2023)",
+      "year": "2023",
+      "releaseState": "07 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzVhZDU0MTQtNzkzOS00NjRlLWE5NGEtYWQ2YWJjZWZlYTkzXkEyXkFqcGdeQXVyMTUzMDA3Mjc2._V1_Ratio0.6890_AL_.jpg",
+      "runtimeMins": "126",
+      "runtimeStr": "126 mins",
+      "plot": "A washed-up stuntman and his stunt horse become an overnight social media sensation when their real-life fight with debt collectors goes viral.",
+      "contentRating": "",
+      "imDbRating": "6.7",
+      "imDbRatingCount": "28",
+      "metacriticRating": "",
+      "genres": "Action, Comedy, Drama",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "Larry Yang",
+      "directorList": [{ "id": "nm6225858", "name": "Larry Yang" }],
+      "stars": "Jackie Chan, Haocun Liu, Kevin Guo, Yueting Lang",
+      "starList": [
+        { "id": "nm0000329", "name": "Jackie Chan" },
+        { "id": "nm11654704", "name": "Haocun Liu" },
+        { "id": "nm8750925", "name": "Kevin Guo" },
+        { "id": "nm6887859", "name": "Yueting Lang" }
+      ]
+    },
+    {
+      "id": "tt13483866",
+      "title": "Linoleum",
+      "fullTitle": "Linoleum (2022)",
+      "year": "2022",
+      "releaseState": "27 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDY4NmYxODMtMzNhMi00M2YxLTgwNDEtYjA2OTQ1YTEzYjYxXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "101",
+      "runtimeStr": "101 mins",
+      "plot": "When the host of a failing children's science show tries to fulfill his childhood dream of becoming an astronaut by building a rocket ship in his garage, a series of bizarre events occur that cause him to question his own reality.",
+      "contentRating": "",
+      "imDbRating": "7",
+      "imDbRatingCount": "380",
+      "metacriticRating": "80",
+      "genres": "Comedy, Drama, Sci-Fi",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" },
+        { "key": "Sci-Fi", "value": "Sci-Fi" }
+      ],
+      "directors": "Colin West",
+      "directorList": [{ "id": "nm4518474", "name": "Colin West" }],
+      "stars": "Jim Gaffigan, Rhea Seehorn, Katelyn Nacon, Gabriel Rush",
+      "starList": [
+        { "id": "nm0300712", "name": "Jim Gaffigan" },
+        { "id": "nm0781533", "name": "Rhea Seehorn" },
+        { "id": "nm5393649", "name": "Katelyn Nacon" },
+        { "id": "nm3513522", "name": "Gabriel Rush" }
+      ]
+    },
+    {
+      "id": "tt16301792",
+      "title": "La Usurpadora: The Musical",
+      "fullTitle": "La Usurpadora: The Musical (2023)",
+      "year": "2023",
+      "releaseState": "12 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGEzNjAxODctMTJkZC00YjNlLWFiNmYtODA3YTA2NmM3ZGFhXkEyXkFqcGdeQXVyMTAwMTI1Njk4._V1_Ratio0.6794_AL_.jpg",
+      "runtimeMins": "115",
+      "runtimeStr": "115 mins",
+      "plot": "Two identical twin sisters, separated at birth, one truly decent but humble, the other ultra rich, conniving, and truly destructive. They soon find themselves hopelessly intertwined in each other's lives.",
+      "contentRating": "PG-13",
+      "imDbRating": "7.6",
+      "imDbRatingCount": "10",
+      "metacriticRating": "",
+      "genres": "Comedy, Crime, Musical",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Musical", "value": "Musical" }
+      ],
+      "directors": "Santiago Limón",
+      "directorList": [{ "id": "nm2759628", "name": "Santiago Limón" }],
+      "stars": "Isabella Castillo, Alan Estrada, Cecilia Toussaint, Susana Zabaleta",
+      "starList": [
+        { "id": "nm4378173", "name": "Isabella Castillo" },
+        { "id": "nm2828782", "name": "Alan Estrada" },
+        { "id": "nm0869732", "name": "Cecilia Toussaint" },
+        { "id": "nm0951365", "name": "Susana Zabaleta" }
+      ]
+    },
+    {
+      "id": "tt13693964",
+      "title": "What the Hell Happened to Blood, Sweat & Tears?",
+      "fullTitle": "What the Hell Happened to Blood, Sweat & Tears? (2023)",
+      "year": "2023",
+      "releaseState": "24 Mar 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTM5NjBlMjEtOTBkZC00YTgyLTgwOTctY2I3ZTFmYzc4ZTg1XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "112",
+      "runtimeStr": "112 mins",
+      "plot": "In 1970, Blood, Sweat and Tears was one of the biggest bands in the world. They had exploded on the scene with both daring and promise, selling millions of records, winning multiple Grammy ... See full summary",
+      "contentRating": "",
+      "imDbRating": "9.3",
+      "imDbRatingCount": "10",
+      "metacriticRating": "60",
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "directors": "John Scheinfeld",
+      "directorList": [{ "id": "nm0770643", "name": "John Scheinfeld" }],
+      "stars": "Clive Davis, David Clayton-Thomas, David Wild, Bobby Colomby",
+      "starList": [
+        { "id": "nm0004860", "name": "Clive Davis" },
+        { "id": "nm1045050", "name": "David Clayton-Thomas" },
+        { "id": "nm0928329", "name": "David Wild" },
+        { "id": "nm0173079", "name": "Bobby Colomby" }
+      ]
+    },
+    {
+      "id": "tt19719940",
+      "title": "Rodeo (I)",
+      "fullTitle": "Rodeo (I) (2022)",
+      "year": "2022",
+      "releaseState": "07 Sep 2022",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTk5ZmRmMjAtODQxMy00NzAwLWFlNTgtZjNmOTA3YjEyMGRjXkEyXkFqcGdeQXVyNDU0NjMyNTQ@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "105",
+      "runtimeStr": "105 mins",
+      "plot": "Julia, a young misfit who is passionate about riding, meets a crew of dirt riders who fly along at full speed and perform stunts. She sets about infiltrating their male-dominated world, but an accident jeopardizes her ability to fit in.",
+      "contentRating": "",
+      "imDbRating": "6.1",
+      "imDbRatingCount": "368",
+      "metacriticRating": "69",
+      "genres": "Drama",
+      "genreList": [{ "key": "Drama", "value": "Drama" }],
+      "directors": "Lola Quivoron",
+      "directorList": [{ "id": "nm7472737", "name": "Lola Quivoron" }],
+      "stars": "Julie Ledru, Yannis Lafki, Antonia Buresi, Cody Schroeder",
+      "starList": [
+        { "id": "nm5435135", "name": "Julie Ledru" },
+        { "id": "nm13580166", "name": "Yannis Lafki" },
+        { "id": "nm5232400", "name": "Antonia Buresi" },
+        { "id": "nm13669595", "name": "Cody Schroeder" }
+      ]
+    },
+    {
+      "id": "tt18690030",
+      "title": "Post Truth",
+      "fullTitle": "Post Truth (2022)",
+      "year": "2022",
+      "releaseState": "31 Dec 2022",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTIwMTBhMGUtMjcyZS00N2IxLWI0YjQtMWFkNjFjODczODIyXkEyXkFqcGdeQXVyMTI5ODA1OTU0._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "112",
+      "runtimeStr": "112 mins",
+      "plot": "A cemetery salesman is slandered by rumors and his cemetery is facing demolition.",
+      "contentRating": "",
+      "imDbRating": "7",
+      "imDbRatingCount": "125",
+      "metacriticRating": "",
+      "genres": "Comedy, Drama",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "Chengpeng Dong",
+      "directorList": [{ "id": "nm3934959", "name": "Chengpeng Dong" }],
+      "stars": "Chengpeng Dong, Xueqin Li, Zheng Yin, Xun Wang",
+      "starList": [
+        { "id": "nm3934959", "name": "Chengpeng Dong" },
+        { "id": "nm11766159", "name": "Xueqin Li" },
+        { "id": "nm7613069", "name": "Zheng Yin" },
+        { "id": "nm2355740", "name": "Xun Wang" }
+      ]
+    },
+    {
+      "id": "tt15816190",
+      "title": "Ravanasura",
+      "fullTitle": "Ravanasura (2023)",
+      "year": "2023",
+      "releaseState": "07 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmRlNGYwMWUtZGMzMS00NmEyLTk0YjAtM2M1NDJmM2VkMTg4XkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_Ratio0.6794_AL_.jpg",
+      "runtimeMins": "141",
+      "runtimeStr": "141 mins",
+      "plot": "Ravanasura is an upcoming Indian Telugu language psychological action thriller film directed by Sudheer Varma from a story written by Srikanth Vissa.",
+      "contentRating": "",
+      "imDbRating": "7.6",
+      "imDbRatingCount": "472",
+      "metacriticRating": "",
+      "genres": "Action, Crime, Drama",
+      "genreList": [
+        { "key": "Action", "value": "Action" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Drama", "value": "Drama" }
+      ],
+      "directors": "Sudheer Varma",
+      "directorList": [{ "id": "nm5567731", "name": "Sudheer Varma" }],
+      "stars": "Faria Abdullah, Megha Akash, Jahid D'cruz, Anu Emmanuel",
+      "starList": [
+        { "id": "nm12260942", "name": "Faria Abdullah" },
+        { "id": "nm8306579", "name": "Megha Akash" },
+        { "id": "nm14560741", "name": "Jahid D'cruz" },
+        { "id": "nm5245022", "name": "Anu Emmanuel" }
+      ]
+    },
+    {
+      "id": "tt27079328",
+      "title": "Es Jahano Door Kitte Chal Jindiye",
+      "fullTitle": "Es Jahano Door Kitte Chal Jindiye (2023)",
+      "year": "2023",
+      "releaseState": "07 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjliNTliNmUtNDYwYS00NWRhLWFlMjgtZTU2OTcxMWY2YTBmXkEyXkFqcGdeQXVyMTYxNzk0Mzcy._V1_Ratio0.7943_AL_.jpg",
+      "runtimeMins": "134",
+      "runtimeStr": "134 mins",
+      "plot": "Depicts how different waves of migration have hit individuals who once left their homes with big dreams but are now only faced with challenges to returning home",
+      "contentRating": "",
+      "imDbRating": "8.4",
+      "imDbRatingCount": "7",
+      "metacriticRating": "",
+      "genres": "Drama",
+      "genreList": [{ "key": "Drama", "value": "Drama" }],
+      "directors": "Uday Pratap Singh",
+      "directorList": [{ "id": "nm1598332", "name": "Uday Pratap Singh" }],
+      "stars": "Jass Bajwa, Neeru Bajwa, Kulwinder Billa, Gurpreet Ghuggi",
+      "starList": [
+        { "id": "nm9132188", "name": "Jass Bajwa" },
+        { "id": "nm1263093", "name": "Neeru Bajwa" },
+        { "id": "nm9449729", "name": "Kulwinder Billa" },
+        { "id": "nm1836657", "name": "Gurpreet Ghuggi" }
+      ]
+    },
+    {
+      "id": "tt4490654",
+      "title": "You're Killing Me",
+      "fullTitle": "You're Killing Me (2015)",
+      "year": "2015",
+      "releaseState": "24 Feb 2017",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTkyODExMDgyNF5BMl5BanBnXkFtZTgwOTcyNjk4NTE@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "88",
+      "runtimeStr": "88 mins",
+      "plot": "A gay mixture of \"Dexter\" and \"Gilmore Girls\" blending witty banter, pop culture, reference and good old-fashioned murder!",
+      "contentRating": "Unrated",
+      "imDbRating": "5.2",
+      "imDbRatingCount": "453",
+      "metacriticRating": "",
+      "genres": "Comedy, Crime, Horror",
+      "genreList": [
+        { "key": "Comedy", "value": "Comedy" },
+        { "key": "Crime", "value": "Crime" },
+        { "key": "Horror", "value": "Horror" }
+      ],
+      "directors": "Jim Hansen",
+      "directorList": [{ "id": "nm0360887", "name": "Jim Hansen" }],
+      "stars": "Jeffery Self, Matthew McKelligon, Bryan Safi, Edi Patterson",
+      "starList": [
+        { "id": "nm2821559", "name": "Jeffery Self" },
+        { "id": "nm4307643", "name": "Matthew McKelligon" },
+        { "id": "nm2043855", "name": "Bryan Safi" },
+        { "id": "nm0666198", "name": "Edi Patterson" }
+      ]
+    },
+    {
+      "id": "tt10646310",
+      "title": "Wings Over Water",
+      "fullTitle": "Wings Over Water (2022)",
+      "year": "2022",
+      "releaseState": "02 Jan 2022",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTI0OTk5ZGQtOWNkZC00M2NkLTlkNjQtMTc0ZDM2ZGFjNjlmXkEyXkFqcGdeQXVyMTczMDYzMjA@._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "45",
+      "runtimeStr": "45 mins",
+      "plot": "A documentary filmed in stunning 3D high definition for IMAX. This film will showcase millions of migratory birds, the importance the wetlands of the upper midwest play in their lives, and ... See full summary",
+      "contentRating": "",
+      "imDbRating": "8.7",
+      "imDbRatingCount": "30",
+      "metacriticRating": "",
+      "genres": "Documentary",
+      "genreList": [{ "key": "Documentary", "value": "Documentary" }],
+      "directors": "Andrew Young",
+      "directorList": [{ "id": "nm0949255", "name": "Andrew Young" }],
+      "stars": "Michael Keaton",
+      "starList": [{ "id": "nm0000474", "name": "Michael Keaton" }]
+    },
+    {
+      "id": "tt27429209",
+      "title": "UFC 287: Pereira vs. Adesanya 2",
+      "fullTitle": "UFC 287: Pereira vs. Adesanya 2 (2023)",
+      "year": "2023",
+      "releaseState": "08 Apr 2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzM2YWMxZTYtYjhjMC00MzI3LThjODUtMjgwMTY5MzQzODdkXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_Ratio0.6699_AL_.jpg",
+      "runtimeMins": "180",
+      "runtimeStr": "180 mins",
+      "plot": "Add a Plot",
+      "contentRating": "",
+      "imDbRating": "0",
+      "imDbRatingCount": "0",
+      "metacriticRating": "",
+      "genres": "",
+      "genreList": [],
+      "directors": "",
+      "directorList": [],
+      "stars": "",
+      "starList": []
+    }
+  ],
+  "errorMessage": ""
+}

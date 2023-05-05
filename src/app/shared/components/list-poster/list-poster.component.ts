@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { MovieGeneric } from '../../models/movie.model';
 import SwiperCore, { Navigation, Mousewheel, SwiperOptions } from 'swiper';
 
@@ -15,6 +15,7 @@ export class ListPosterComponent {
 	@Input() isLoading = true;
 	@Input() countPosters: number = 5;
 	@Input() widthSkeletonImages: number = 100;
+	@Output() navigateEvent = new EventEmitter<MovieGeneric>();
 
 	public config: SwiperOptions = {
 		initialSlide: 0,
@@ -33,5 +34,9 @@ export class ListPosterComponent {
 
 	trackByFn(index: number) {
 		return index;
+	}
+
+	navigateChange(movie: MovieGeneric): void {
+		this.navigateEvent.next(movie);
 	}
 }

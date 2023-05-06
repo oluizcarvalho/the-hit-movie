@@ -3,6 +3,15 @@
 #people {
 	padding-top: 24px;
 
+	.descriptions {
+		p {
+			font-family: $font-text-semi-bold;
+			font-size: 18px;
+			line-height: 22px;
+			color: $white-darker;
+		}
+	}
+
 	h1 {
 		font-size: 40px;
 		letter-spacing: 0.05em;
@@ -21,5 +30,14 @@
 		font-size: 18px;
 		line-height: 22px;
 		color: $white;
+	}
+
+	img {
+		max-height: 450px;
+		object-fit: contain;
+
+		@media (min-width: 600px) {
+			object-fit: cover;
+		}
 	}
 }

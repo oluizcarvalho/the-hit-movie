@@ -16,6 +16,26 @@
 				}"
 				appearance="line"
 			></ngx-skeleton-loader>
+			<div *ngIf="!isLoading" class="descriptions">
+				<p *ngIf="peopleDetails.role">Role: {{ peopleDetails.role }}</p>
+				<p *ngIf="peopleDetails.birthDate" class="pb-2">Birth date: {{ peopleDetails.birthDate }}</p>
+				<p *ngIf="peopleDetails.deathDate">Death date: {{ peopleDetails.deathDate }}</p>
+			</div>
+			<ngx-skeleton-loader
+				*ngIf="isLoading"
+				[count]="2"
+				[theme]="{
+					width: '20%	',
+					height: '18px',
+					margin: 0,
+					'margin-bottom': '4px',
+					'background-color': '#0b0c1a',
+					border: '1px solid #0b0c1a',
+					'animation-duration': '2s',
+					display: 'block'
+				}"
+				appearance="line"
+			></ngx-skeleton-loader>
 		</div>
 		<div class="col-12 col-md-4 col-xl-3 d-flex justify-content-start mb-5 offset-md-1">
 			<img
@@ -41,42 +61,58 @@
 			></ngx-skeleton-loader>
 		</div>
 		<div class="col-12 col-md-6 col-xl-7">
-			<section class="d-flex flex-column w-100 pl-5">
-				<h2 class="mb-3">Summary</h2>
-				<p *ngIf="!isLoading">
-					{{ peopleDetails.summary || peopleDetails.summary }}
-				</p>
-				<ngx-skeleton-loader
-					*ngIf="isLoading"
-					[count]="1"
-					[theme]="{
-						width: '100%',
-						height: '150px',
-						margin: 0,
-						'background-color': '#0b0c1a',
-						border: '1px solid #0b0c1a',
-						'margin-bottom': '4px',
-						'animation-duration': '2s'
-					}"
-					appearance="line"
-				></ngx-skeleton-loader>
-				<h2 class="my-3">Role</h2>
-				<p *ngIf="!isLoading">{{ peopleDetails.role || peopleDetails.role }}</p>
-				<ngx-skeleton-loader
-					*ngIf="isLoading"
-					[count]="1"
-					[theme]="{
-						width: '100%',
-						height: '18px',
-						margin: 0,
-						'background-color': '#0b0c1a',
-						border: '1px solid #0b0c1a',
-						'margin-bottom': '4px',
-						'animation-duration': '2s'
-					}"
-					appearance="line"
-				></ngx-skeleton-loader>
+			<section class="d-flex flex-column w-100 pl-md-5">
+				<section class="mb-3">
+					<h2 class="mb-3">Summary</h2>
+					<p *ngIf="!isLoading">
+						{{ peopleDetails.summary || peopleDetails.summary }}
+					</p>
+					<ngx-skeleton-loader
+						*ngIf="isLoading"
+						[count]="1"
+						[theme]="{
+							width: '100%',
+							height: '150px',
+							margin: 0,
+							'background-color': '#0b0c1a',
+							border: '1px solid #0b0c1a',
+							'margin-bottom': '4px',
+							'animation-duration': '2s'
+						}"
+						appearance="line"
+					></ngx-skeleton-loader>
+				</section>
+				<section class="mb-3">
+					<h2 class="my-3">Awards</h2>
+					<p *ngIf="!isLoading">{{ peopleDetails.awards }}</p>
+					<ngx-skeleton-loader
+						*ngIf="isLoading"
+						[count]="1"
+						[theme]="{
+							width: '100%',
+							height: '18px',
+							margin: 0,
+							'background-color': '#0b0c1a',
+							border: '1px solid #0b0c1a',
+							'margin-bottom': '4px',
+							'animation-duration': '2s'
+						}"
+						appearance="line"
+					></ngx-skeleton-loader>
+				</section>
 			</section>
 		</div>
+		<ng-container *ngIf="peopleDetails?.knownFor">
+			<div class="col-12 col-md-10 offset-md-1 mt-3 mb-4">
+				<h2 class="mb-3">Known For</h2>
+				<ng-container *ngIf="!isLoading && peopleDetails.knownFor">
+					<app-list-poster
+						[showRole]="true"
+						[listPoster]="peopleDetails.knownFor"
+						[isLoading]="isLoading"
+					></app-list-poster>
+				</ng-container>
+			</div>
+		</ng-container>
 	</div>
 </section>

@@ -15,6 +15,7 @@ export class ListPosterComponent {
 	@Input() isLoading = true;
 	@Input() countPosters: number = 5;
 	@Input() widthSkeletonImages: number = 100;
+	@Input() showRole: boolean = false;
 	@Output() navigateEvent = new EventEmitter<MovieGeneric>();
 
 	public config: SwiperOptions = {

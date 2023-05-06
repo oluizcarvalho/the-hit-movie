@@ -4,7 +4,7 @@
 	</div>
 	<swiper *ngIf="!isLoading" [config]="config">
 		<ng-template swiperSlide *ngFor="let movie of listPoster; trackBy: trackByFn">
-			<div class="poster">
+			<div class="poster" [class.-role]="showRole">
 				<img
 					loading="lazy"
 					(click)="navigateChange(movie)"
@@ -12,6 +12,9 @@
 					[src]="movie?.image | resizeImage : '360x470'"
 					[alt]="movie?.title"
 				/>
+				<div *ngIf="showRole && movie.role" class="role d-flex flex-column">
+					<strong>{{ movie.role }}</strong>
+				</div>
 				<ng-container *ngIf="movie.imDbRating">
 					<div class="rating">
 						<span>{{ movie.imDbRating }}</span>

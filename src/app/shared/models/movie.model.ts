@@ -42,6 +42,7 @@ export interface MovieGeneric extends Partial<Movie> {
 	description?: string;
 	genres?: string;
 	genreList?: GenreList[];
+	role?: string;
 	imDbRatingVotes?: string;
 }
 

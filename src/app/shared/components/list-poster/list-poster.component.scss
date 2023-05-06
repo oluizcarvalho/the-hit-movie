@@ -15,6 +15,18 @@ section {
 		width: 220px;
 		height: 315px;
 
+		&.-role {
+			height: 320px;
+
+			img {
+				height: calc(100% - 20px) !important;
+			}
+		}
+
+		.role {
+			padding: 0 4px;
+		}
+
 		.rating {
 			position: absolute;
 			z-index: 2;

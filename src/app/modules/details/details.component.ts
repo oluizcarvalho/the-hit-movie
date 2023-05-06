@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { MovieService } from '../../shared/services/movie.service';
 import { finalize, takeUntil } from 'rxjs/operators';
 import { DetailsModel } from '../../shared/models/details.model';
@@ -7,6 +7,7 @@ import { SwiperOptions } from 'swiper';
 import { scrollToTop } from '../../shared/helpers/dom.helper';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Subject } from 'rxjs';
+import { MovieGeneric } from '../../shared/models/movie.model';
 
 @Component({
 	selector: 'app-details',
@@ -37,7 +38,8 @@ export class DetailsComponent implements OnInit, OnDestroy {
 	constructor(
 		private route: ActivatedRoute,
 		private movieService: MovieService,
-		private readonly breakpointObserver: BreakpointObserver
+		private readonly breakpointObserver: BreakpointObserver,
+		private readonly router: Router
 	) {
 		breakpointObserver
 			.observe([Breakpoints.HandsetPortrait])
@@ -79,5 +81,10 @@ export class DetailsComponent implements OnInit, OnDestroy {
 	ngOnDestroy(): void {
 		this._destroyed.next();
 		this._destroyed.complete();
+	}
+
+	async navigateToDetails(movie: MovieGeneric) {
+		this.movieService.movieDetails = movie;
+		await this.router.navigate(['/details', movie?.id]);
 	}
 }

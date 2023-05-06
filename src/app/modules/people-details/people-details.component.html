@@ -65,7 +65,7 @@
 				<section class="mb-3">
 					<h2 class="mb-3">Summary</h2>
 					<p *ngIf="!isLoading">
-						{{ peopleDetails.summary || peopleDetails.summary }}
+						{{ peopleDetails.summary }}
 					</p>
 					<ngx-skeleton-loader
 						*ngIf="isLoading"
@@ -107,6 +107,7 @@
 				<h2 class="mb-3">Known For</h2>
 				<ng-container *ngIf="!isLoading && peopleDetails.knownFor">
 					<app-list-poster
+						(navigateEvent)="navigateToDetails($event)"
 						[showRole]="true"
 						[listPoster]="peopleDetails.knownFor"
 						[isLoading]="isLoading"

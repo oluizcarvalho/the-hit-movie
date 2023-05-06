@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { GetPeopleDetails } from '../../shared/models/people.model';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { MovieService } from '../../shared/services/movie.service';
 import { scrollToTop } from '../../shared/helpers/dom.helper';
 import { finalize } from 'rxjs/operators';
+import { MovieGeneric } from '../../shared/models/movie.model';
 
 @Component({
 	selector: 'app-people-details',
@@ -14,7 +15,7 @@ export class PeopleDetailsComponent implements OnInit {
 	peopleDetails!: GetPeopleDetails;
 	nm!: string;
 	isLoading = false;
-	constructor(private route: ActivatedRoute, private movieService: MovieService) {}
+	constructor(private route: ActivatedRoute, private movieService: MovieService, private readonly router: Router) {}
 
 	ngOnInit(): void {
 		this.route.paramMap.subscribe((params: ParamMap) => {
@@ -34,5 +35,10 @@ export class PeopleDetailsComponent implements OnInit {
 					this.peopleDetails = value;
 				},
 			});
+	}
+
+	async navigateToDetails(movie: MovieGeneric) {
+		this.movieService.movieDetails = movie;
+		await this.router.navigate(['/details', movie?.id]);
 	}
 }

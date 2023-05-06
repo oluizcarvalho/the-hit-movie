@@ -163,7 +163,11 @@
 			<div class="col-12 col-md-10 offset-md-1 mt-5 mb-4">
 				<h2 class="mb-3">Similar Titles</h2>
 				<ng-container *ngIf="!isLoading && details.similars">
-					<app-list-poster [listPoster]="details.similars" [isLoading]="isLoading"></app-list-poster>
+					<app-list-poster
+						(navigateEvent)="navigateToDetails($event)"
+						[listPoster]="details.similars"
+						[isLoading]="isLoading"
+					></app-list-poster>
 				</ng-container>
 			</div>
 		</ng-container>

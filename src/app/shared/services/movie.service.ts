@@ -77,7 +77,10 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 			observable$ = this.http
 				.get<GetAdvancedSearch>(this.baseUrl + `/AdvancedSearch/${this.apiKey.value}`, { params })
 				.pipe(
-					map(res => res.results?.filter(movie => !movie.image?.includes('nopicture'))),
+					map(res => {
+						if (res.errorMessage !== '') throw new Error('Sem resultados');
+						res.results?.filter(movie => !movie.image?.includes('nopicture'));
+					}),
 					shareReplay(1),
 					catchError(() => {
 						return this.getResultOnCache(title, genre);
@@ -93,7 +96,10 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		let observable$ = this.getValue(KEYS.InTheaters);
 		if (!observable$) {
 			observable$ = this.http.get<GetMovies>(this.baseUrl + `/InTheaters/${this.apiKey.value}`).pipe(
-				map(res => res.items),
+				map(res => {
+					if (res.items.length === 0) throw new Error('Sem resultados');
+					return res.items;
+				}),
 				shareReplay(1),
 				catchError(() => {
 					return this.getJson<GetMoviesGeneric>(KEYS.InTheaters, 'items');
@@ -108,7 +114,10 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		let observable$ = this.getValue(KEYS.ComingSoon);
 		if (!observable$) {
 			observable$ = this.http.get<GetMovies>(this.baseUrl + `/ComingSoon/${this.apiKey.value}`).pipe(
-				map(res => res.items?.filter(movie => !movie.image?.includes('nopicture'))),
+				map(res => {
+					if (res.items.length === 0) throw new Error('Sem resultados');
+					res.items?.filter(movie => !movie.image?.includes('nopicture'));
+				}),
 				shareReplay(1),
 				catchError(() => {
 					return this.getJson<GetMoviesGeneric>(KEYS.ComingSoon, 'items');
@@ -123,7 +132,10 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		let observable$ = this.getValue(KEYS.Top250Movies);
 		if (!observable$) {
 			observable$ = this.http.get<GetMoviesGeneric>(this.baseUrl + `/Top250Movies/${this.apiKey.value}`).pipe(
-				map(res => res.items),
+				map(res => {
+					if (res.items.length === 0) throw new Error('Sem resultados');
+					return res.items;
+				}),
 				shareReplay(1)
 			);
 			this.setValue(observable$, KEYS.Top250Movies);
@@ -135,7 +147,10 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		let observable$ = this.getValue(KEYS.Top250TVs);
 		if (!observable$) {
 			observable$ = this.http.get<GetMoviesGeneric>(this.baseUrl + `/Top250TVs/${this.apiKey.value}`).pipe(
-				map(res => res.items),
+				map(res => {
+					if (res.items.length === 0) throw new Error('Sem resultados');
+					return res.items;
+				}),
 				shareReplay(1)
 			);
 			this.setValue(observable$, KEYS.Top250TVs);
@@ -147,7 +162,10 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		let observable$ = this.getValue(KEYS.MostPopularMovies);
 		if (!observable$) {
 			observable$ = this.http.get<GetMoviesGeneric>(this.baseUrl + `/MostPopularMovies/${this.apiKey.value}`).pipe(
-				map(res => res.items),
+				map(res => {
+					if (res.items.length === 0) throw new Error('Sem resultados');
+					return res.items;
+				}),
 				shareReplay(1),
 				catchError(() => {
 					return this.getJson<GetMoviesGeneric>(KEYS.MostPopularMovies, 'items');
@@ -162,7 +180,10 @@ export class MovieService extends AbstractCacheService<MovieGeneric[]> {
 		let observable$ = this.getValue(KEYS.MostPopularTVs);
 		if (!observable$) {
 			observable$ = this.http.get<GetMoviesGeneric>(this.baseUrl + `/MostPopularTVs/${this.apiKey.value}`).pipe(
-				map(res => res.items),
+				map(res => {
+					if (res.items.length === 0) throw new Error('Sem resultados');
+					return res.items;
+				}),
 				shareReplay(1),
 				catchError(() => {
 					return this.getJson<GetMoviesGeneric>(KEYS.MostPopularTVs, 'items');

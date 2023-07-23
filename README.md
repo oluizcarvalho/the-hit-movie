@@ -89,7 +89,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [![Gmail Badge](https://img.shields.io/badge/-gabrielkayran@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabrielkayran@gmail.com)](mailto:gabrielkayran@gmail.com)
 
 <a href="https://www.linkedin.com/in/thaina-pereira/">
- <img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4E03AQG2GFw77KNffA/profile-displayphoto-shrink_400_400/0/1677801395088?e=1683763200&v=beta&t=LtYj-w6RpZcV58lyA5EVcr7JadZI9pWIkfQb7nBPPuo" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4E03AQG2GFw77KNffA/profile-displayphoto-shrink_200_200/0/1677801395088?e=1695859200&v=beta&t=EjoK5PHjUs0jmU9kk_u-6LuQrbOwwZul4Dzmi7BGRZE" width="100px;" alt=""/>
 </a>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Thaina%20Pereira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaina-pereira/)](https://www.linkedin.com/in/thaina-pereira/)

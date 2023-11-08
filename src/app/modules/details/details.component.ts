@@ -41,7 +41,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
 		private readonly breakpointObserver: BreakpointObserver,
 		private readonly router: Router
 	) {
-		breakpointObserver
+		this.breakpointObserver
 			.observe([Breakpoints.HandsetPortrait])
 			.pipe(takeUntil(this._destroyed))
 			.subscribe(result => {
@@ -69,13 +69,20 @@ export class DetailsComponent implements OnInit, OnDestroy {
 			.subscribe({
 				next: value => {
 					this.details = value;
-				},
-				error: () => {
-					if (this.movieService.movieDetails) {
-						this.details = <DetailsModel>this.movieService.movieDetails;
+					if (this.details.errorMessage) {
+						this.errorCallbackDetails();
 					}
 				},
+				error: () => {
+					this.errorCallbackDetails();
+				},
 			});
+	}
+
+	private errorCallbackDetails(): void {
+		if (this.movieService.movieDetails) {
+			this.details = <DetailsModel>this.movieService.movieDetails;
+		}
 	}
 
 	ngOnDestroy(): void {
